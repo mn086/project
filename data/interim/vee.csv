@@ -1,0 +1,539 @@
+,landkreis_id,landkreis,vee
+0,0,Deutschland,23595
+1,1,  Schleswig-Holstein,23995
+2,1001,"      Flensburg, kreisfreie Stadt",19384
+3,1002,"      Kiel, kreisfreie Stadt",20216
+4,1003,"      Lübeck, kreisfreie Stadt, Hansestadt",21164
+5,1004,"      Neumünster, kreisfreie Stadt",20133
+6,1051,"      Dithmarschen, Kreis",24015
+7,1053,"      Herzogtum Lauenburg, Kreis",24577
+8,1054,"      Nordfriesland, Kreis",27412
+9,1055,"      Ostholstein, Kreis",24767
+10,1056,"      Pinneberg, Kreis",25576
+11,1057,"      Plön, Kreis",24390
+12,1058,"      Rendsburg-Eckernförde, Kreis",24968
+13,1059,"      Schleswig-Flensburg, Kreis",23782
+14,1060,"      Segeberg, Kreis",24417
+15,1061,"      Steinburg, Kreis",23128
+16,1062,"      Stormarn, Kreis",26692
+17,2,  Hamburg,25340
+18,3,  Niedersachsen,22799
+19,31,"    Braunschweig, Statistische Region",22951
+20,3101,"      Braunschweig, kreisfreie Stadt",23306
+21,3102,"      Salzgitter, kreisfreie Stadt",20388
+22,3103,"      Wolfsburg, kreisfreie Stadt",25296
+23,3151,"      Gifhorn, Landkreis",24564
+24,3152,"      Göttingen, Landkreis",0
+25,3153,"      Goslar, Landkreis",21889
+26,3154,"      Helmstedt, Landkreis",24035
+27,3155,"      Northeim, Landkreis",23006
+28,3156,"      Osterode am Harz, Landkreis",0
+29,3157,"      Peine, Landkreis",23076
+30,3158,"      Wolfenbüttel, Landkreis",23319
+31,3159,"      Göttingen, Landkreis",21673
+32,32,"    Hannover, Statistische Region",22565
+33,3241,"      Region Hannover, Landkreis",22325
+34,3241001,"      Hannover, Landeshauptstadt",21860
+35,3251,"      Diepholz, Landkreis",24495
+36,3252,"      Hameln-Pyrmont, Landkreis",22691
+37,3254,"      Hildesheim, Landkreis",22177
+38,3255,"      Holzminden, Landkreis",22013
+39,3256,"      Nienburg (Weser), Landkreis",22123
+40,3257,"      Schaumburg, Landkreis",22827
+41,33,"    Lüneburg, Statistische Region",23521
+42,3351,"      Celle, Landkreis",21812
+43,3352,"      Cuxhaven, Landkreis",22819
+44,3353,"      Harburg, Landkreis",26483
+45,3354,"      Lüchow-Dannenberg, Landkreis",21792
+46,3355,"      Lüneburg, Landkreis",22041
+47,3356,"      Osterholz, Landkreis",24082
+48,3357,"      Rotenburg (Wümme), Landkreis",23845
+49,3358,      Heidekreis,21926
+50,3359,"      Stade, Landkreis",24033
+51,3360,"      Uelzen, Landkreis",22382
+52,3361,"      Verden, Landkreis",24672
+53,34,"    Weser-Ems, Statistische Region",22412
+54,3401,"      Delmenhorst, kreisfreie Stadt",19755
+55,3402,"      Emden, kreisfreie Stadt",19340
+56,3403,"      Oldenburg (Oldenburg), kreisfreie Stadt",21000
+57,3404,"      Osnabrück, kreisfreie Stadt",21795
+58,3405,"      Wilhelmshaven, kreisfreie Stadt",19076
+59,3451,"      Ammerland, Landkreis",23520
+60,3452,"      Aurich, Landkreis",21539
+61,3453,"      Cloppenburg, Landkreis",22731
+62,3454,"      Emsland, Landkreis",23224
+63,3455,"      Friesland, Landkreis",22286
+64,3456,"      Grafschaft Bentheim, Landkreis",21955
+65,3457,"      Leer, Landkreis",20824
+66,3458,"      Oldenburg, Landkreis",24562
+67,3459,"      Osnabrück, Landkreis",23721
+68,3460,"      Vechta, Landkreis",24081
+69,3461,"      Wesermarsch, Landkreis",22779
+70,3462,"      Wittmund, Landkreis",22230
+71,4,  Bremen,21930
+72,4011,"      Bremen, kreisfreie Stadt",22588
+73,4012,"      Bremerhaven, kreisfreie Stadt",18640
+74,5,  Nordrhein-Westfalen,22910
+75,51,"    Düsseldorf, Regierungsbezirk",22901
+76,5111,"      Düsseldorf, kreisfreie Stadt",26736
+77,5112,"      Duisburg, kreisfreie Stadt",17797
+78,5113,"      Essen, kreisfreie Stadt",21061
+79,5114,"      Krefeld, kreisfreie Stadt",21983
+80,5116,"      Mönchengladbach, kreisfreie Stadt",21422
+81,5117,"      Mülheim an der Ruhr, kreisfreie Stadt",23762
+82,5119,"      Oberhausen, kreisfreie Stadt",19304
+83,5120,"      Remscheid, kreisfreie Stadt",22649
+84,5122,"      Solingen, kreisfreie Stadt",23761
+85,5124,"      Wuppertal, kreisfreie Stadt",21304
+86,5154,"      Kleve, Kreis",21973
+87,5158,"      Mettmann, Kreis",25973
+88,5162,      Rhein-Kreis Neuss,25721
+89,5166,"      Viersen, Kreis",24163
+90,5170,"      Wesel, Kreis",23005
+91,53,"    Köln, Regierungsbezirk",23288
+92,5314,"      Bonn, kreisfreie Stadt",23661
+93,5315,"      Köln, kreisfreie Stadt",23316
+94,5316,"      Leverkusen, kreisfreie Stadt",22549
+95,5334,"      Städteregion Aachen, Kreis",21151
+96,5334002,"      Aachen, kreisfreie Stadt",0
+97,5354,"      Aachen, Kreis",0
+98,5358,"      Düren, Kreis",22081
+99,5362,      Rhein-Erft-Kreis,23461
+100,5366,"      Euskirchen, Kreis",22607
+101,5370,"      Heinsberg, Kreis",21599
+102,5374,      Oberbergischer Kreis,23617
+103,5378,      Rheinisch-Bergischer Kreis,26935
+104,5382,      Rhein-Sieg-Kreis,24674
+105,55,"    Münster, Regierungsbezirk",22517
+106,5512,"      Bottrop, kreisfreie Stadt",21262
+107,5513,"      Gelsenkirchen, kreisfreie Stadt",17001
+108,5515,"      Münster, kreisfreie Stadt",23620
+109,5554,"      Borken, Kreis",23958
+110,5558,"      Coesfeld, Kreis",24894
+111,5562,"      Recklinghausen, Kreis",21222
+112,5566,"      Steinfurt, Kreis",23568
+113,5570,"      Warendorf, Kreis",24320
+114,57,"    Detmold, Regierungsbezirk",23548
+115,5711,"      Bielefeld, kreisfreie Stadt",22271
+116,5754,"      Gütersloh, Kreis",25949
+117,5758,"      Herford, Kreis",23636
+118,5762,"      Höxter, Kreis",23146
+119,5766,"      Lippe, Kreis",23185
+120,5770,"      Minden-Lübbecke, Kreis",23511
+121,5774,"      Paderborn, Kreis",22648
+122,59,"    Arnsberg, Regierungsbezirk",22376
+123,5911,"      Bochum, kreisfreie Stadt",20794
+124,5913,"      Dortmund, kreisfreie Stadt",20074
+125,5914,"      Hagen, kreisfreie Stadt",19977
+126,5915,"      Hamm, kreisfreie Stadt",19245
+127,5916,"      Herne, kreisfreie Stadt",18425
+128,5954,      Ennepe-Ruhr-Kreis,24636
+129,5958,      Hochsauerlandkreis,25126
+130,5962,      Märkischer Kreis,24351
+131,5966,"      Olpe, Kreis",26679
+132,5970,"      Siegen-Wittgenstein, Kreis",24230
+133,5974,"      Soest, Kreis",23616
+134,5978,"      Unna, Kreis",21956
+135,6,  Hessen,24248
+136,64,"    Darmstadt, Regierungsbezirk",25208
+137,6411,"      Darmstadt, kreisfreie Stadt, Wissenschaftsstadt",23450
+138,6412,"      Frankfurt am Main, kreisfreie Stadt",24207
+139,6413,"      Offenbach am Main, kreisfreie Stadt",19790
+140,6414,"      Wiesbaden, kreisfreie Stadt, Landeshauptstadt",25132
+141,6431,"      Bergstraße, Landkreis",25251
+142,6432,"      Darmstadt-Dieburg, Landkreis",25447
+143,6433,"      Groß-Gerau, Landkreis",22437
+144,6434,      Hochtaunuskreis,32434
+145,6435,      Main-Kinzig-Kreis,24982
+146,6436,      Main-Taunus-Kreis,28897
+147,6437,      Odenwaldkreis,22726
+148,6438,"      Offenbach, Landkreis",25126
+149,6439,      Rheingau-Taunus-Kreis,26461
+150,6440,      Wetteraukreis,25156
+151,65,"    Gießen, Regierungsbezirk",22541
+152,6531,"      Gießen, Landkreis",21609
+153,6532,      Lahn-Dill-Kreis,23294
+154,6533,"      Limburg-Weilburg, Landkreis",23502
+155,6534,"      Marburg-Biedenkopf, Landkreis",22065
+156,6535,      Vogelsbergkreis,22658
+157,66,"    Kassel, Regierungsbezirk",22555
+158,6611,"      Kassel, kreisfreie Stadt, documenta-Stadt",20365
+159,6631,"      Fulda, Landkreis",23528
+160,6632,"      Hersfeld-Rotenburg, Landkreis",22454
+161,6633,"      Kassel, Landkreis",23479
+162,6634,      Schwalm-Eder-Kreis,22858
+163,6635,"      Waldeck-Frankenberg, Landkreis",23124
+164,6636,      Werra-Meißner-Kreis,21319
+165,7,  Rheinland-Pfalz,23405
+166,71,"    Koblenz, Statistische Region",23243
+167,7111,"      Koblenz, kreisfreie Stadt",21630
+168,7131,"      Ahrweiler, Landkreis",24102
+169,7132,"      Altenkirchen (Westerwald), Landkreis",22622
+170,7133,"      Bad Kreuznach, Landkreis",22574
+171,7134,"      Birkenfeld, Landkreis",22159
+172,7135,"      Cochem-Zell, Landkreis",23076
+173,7137,"      Mayen-Koblenz, Landkreis",22992
+174,7138,"      Neuwied, Landkreis",23678
+175,7140,      Rhein-Hunsrück-Kreis,24428
+176,7141,      Rhein-Lahn-Kreis,22707
+177,7143,      Westerwaldkreis,24601
+178,72,"    Trier, Statistische Region",22927
+179,7211,"      Trier, kreisfreie Stadt",21546
+180,7231,"      Bernkastel-Wittlich, Landkreis",23272
+181,7232,      Eifelkreis Bitburg-Prüm,22609
+182,7233,"      Vulkaneifel, Landkreis",22925
+183,7235,"      Trier-Saarburg, Landkreis",23909
+184,73,"    Rheinhessen-Pfalz, Statistische Region",23645
+185,7311,"      Frankenthal (Pfalz), kreisfreie Stadt",22429
+186,7312,"      Kaiserslautern, kreisfreie Stadt",19872
+187,7313,"      Landau in der Pfalz, kreisfreie Stadt",22013
+188,7314,"      Ludwigshafen am Rhein, kreisfreie Stadt",19877
+189,7315,"      Mainz, kreisfreie Stadt",22994
+190,7316,"      Neustadt an der Weinstraße, kreisfreie Stadt",26900
+191,7317,"      Pirmasens, kreisfreie Stadt",20268
+192,7318,"      Speyer, kreisfreie Stadt",24936
+193,7319,"      Worms, kreisfreie Stadt",22281
+194,7320,"      Zweibrücken, kreisfreie Stadt",20942
+195,7331,"      Alzey-Worms, Landkreis",23726
+196,7332,"      Bad Dürkheim, Landkreis",27069
+197,7333,      Donnersbergkreis,22548
+198,7334,"      Germersheim, Landkreis",24083
+199,7335,"      Kaiserslautern, Landkreis",22101
+200,7336,"      Kusel, Landkreis",21992
+201,7337,"      Südliche Weinstraße, Landkreis",24979
+202,7338,      Rhein-Pfalz-Kreis,27213
+203,7339,"      Mainz-Bingen, Landkreis",26173
+204,7340,"      Südwestpfalz, Landkreis",23804
+205,8,  Baden-Württemberg,25493
+206,81,"    Stuttgart, Regierungsbezirk",26077
+207,8111,"      Stuttgart, Stadtkreis",26125
+208,8115,"      Böblingen, Landkreis",26594
+209,8116,"      Esslingen, Landkreis",26372
+210,8117,"      Göppingen, Landkreis",25261
+211,8118,"      Ludwigsburg, Landkreis",26921
+212,8119,"      Rems-Murr-Kreis, Landkreis",26101
+213,8121,"      Heilbronn, Stadtkreis",29438
+214,8125,"      Heilbronn, Landkreis",25809
+215,8126,"      Hohenlohekreis, Landkreis",25655
+216,8127,"      Schwäbisch Hall, Landkreis",24693
+217,8128,"      Main-Tauber-Kreis, Landkreis",24229
+218,8135,"      Heidenheim, Landkreis",23885
+219,8136,"      Ostalbkreis, Landkreis",25667
+220,82,"    Karlsruhe, Regierungsbezirk",24776
+221,8211,"      Baden-Baden, Stadtkreis",31316
+222,8212,"      Karlsruhe, Stadtkreis",23053
+223,8215,"      Karlsruhe, Landkreis",25023
+224,8216,"      Rastatt, Landkreis",24661
+225,8221,"      Heidelberg, Stadtkreis",23961
+226,8222,"      Mannheim, Stadtkreis",22488
+227,8225,"      Neckar-Odenwald-Kreis, Landkreis",23344
+228,8226,"      Rhein-Neckar-Kreis, Landkreis",26184
+229,8231,"      Pforzheim, Stadtkreis",23358
+230,8235,"      Calw, Landkreis",25116
+231,8236,"      Enzkreis, Landkreis",26667
+232,8237,"      Freudenstadt, Landkreis",25774
+233,83,"    Freiburg, Regierungsbezirk",25329
+234,8311,"      Freiburg im Breisgau, Stadtkreis",22653
+235,8315,"      Breisgau-Hochschwarzwald, Landkreis",25729
+236,8316,"      Emmendingen, Landkreis",24664
+237,8317,"      Ortenaukreis, Landkreis",24532
+238,8325,"      Rottweil, Landkreis",26174
+239,8326,"      Schwarzwald-Baar-Kreis, Landkreis",25619
+240,8327,"      Tuttlingen, Landkreis",27065
+241,8335,"      Konstanz, Landkreis",25582
+242,8336,"      Lörrach, Landkreis",27260
+243,8337,"      Waldshut, Landkreis",25499
+244,84,"    Tübingen, Regierungsbezirk",25472
+245,8415,"      Reutlingen, Landkreis",25385
+246,8416,"      Tübingen, Landkreis",24284
+247,8417,"      Zollernalbkreis, Landkreis",26261
+248,8421,"      Ulm, Stadtkreis",26665
+249,8425,"      Alb-Donau-Kreis, Landkreis",25042
+250,8426,"      Biberach, Landkreis",25431
+251,8435,"      Bodenseekreis, Landkreis",27418
+252,8436,"      Ravensburg, Landkreis",25013
+253,8437,"      Sigmaringen, Landkreis",23918
+254,9,  Bayern,26079
+255,91,"    Oberbayern, Regierungsbezirk",29138
+256,9161,"      Ingolstadt, kreisfreie Stadt",24467
+257,9162,"      München, kreisfreie Stadt",33026
+258,9163,"      Rosenheim, kreisfreie Stadt",23440
+259,9171,"      Altötting, Landkreis",24314
+260,9172,"      Berchtesgadener Land, Landkreis",24242
+261,9173,"      Bad Tölz-Wolfratshausen, Landkreis",27148
+262,9174,"      Dachau, Landkreis",26586
+263,9175,"      Ebersberg, Landkreis",28671
+264,9176,"      Eichstätt, Landkreis",25196
+265,9177,"      Erding, Landkreis",26348
+266,9178,"      Freising, Landkreis",25431
+267,9179,"      Fürstenfeldbruck, Landkreis",27234
+268,9180,"      Garmisch-Partenkirchen, Landkreis",26013
+269,9181,"      Landsberg am Lech, Landkreis",27292
+270,9182,"      Miesbach, Landkreis",31492
+271,9183,"      Mühldorf a.Inn, Landkreis",24731
+272,9184,"      München, Landkreis",32819
+273,9185,"      Neuburg-Schrobenhausen, Landkreis",24543
+274,9186,"      Pfaffenhofen a.d.Ilm, Landkreis",26393
+275,9187,"      Rosenheim, Landkreis",26382
+276,9188,"      Starnberg, Landkreis",36546
+277,9189,"      Traunstein, Landkreis",25634
+278,9190,"      Weilheim-Schongau, Landkreis",26400
+279,92,"    Niederbayern, Regierungsbezirk",24343
+280,9261,"      Landshut, kreisfreie Stadt",26021
+281,9262,"      Passau, kreisfreie Stadt",21778
+282,9263,"      Straubing, kreisfreie Stadt",23852
+283,9271,"      Deggendorf, Landkreis",24655
+284,9272,"      Freyung-Grafenau, Landkreis",23107
+285,9273,"      Kelheim, Landkreis",24684
+286,9274,"      Landshut, Landkreis",25256
+287,9275,"      Passau, Landkreis",23498
+288,9276,"      Regen, Landkreis",23138
+289,9277,"      Rottal-Inn, Landkreis",24650
+290,9278,"      Straubing-Bogen, Landkreis",24570
+291,9279,"      Dingolfing-Landau, Landkreis",25427
+292,93,"    Oberpfalz, Regierungsbezirk",23918
+293,9361,"      Amberg, kreisfreie Stadt",23172
+294,9362,"      Regensburg, kreisfreie Stadt",23749
+295,9363,"      Weiden i.d.OPf., kreisfreie Stadt",22484
+296,9371,"      Amberg-Sulzbach, Landkreis",24038
+297,9372,"      Cham, Landkreis",23560
+298,9373,"      Neumarkt i.d.OPf., Landkreis",24923
+299,9374,"      Neustadt a.d.Waldnaab, Landkreis",23054
+300,9375,"      Regensburg, Landkreis",24944
+301,9376,"      Schwandorf, Landkreis",23450
+302,9377,"      Tirschenreuth, Landkreis",23484
+303,94,"    Oberfranken, Regierungsbezirk",23649
+304,9461,"      Bamberg, kreisfreie Stadt",23298
+305,9462,"      Bayreuth, kreisfreie Stadt",21791
+306,9463,"      Coburg, kreisfreie Stadt",25213
+307,9464,"      Hof, kreisfreie Stadt",20825
+308,9471,"      Bamberg, Landkreis",23794
+309,9472,"      Bayreuth, Landkreis",23428
+310,9473,"      Coburg, Landkreis",23959
+311,9474,"      Forchheim, Landkreis",25135
+312,9475,"      Hof, Landkreis",22701
+313,9476,"      Kronach, Landkreis",23522
+314,9477,"      Kulmbach, Landkreis",24575
+315,9478,"      Lichtenfels, Landkreis",23372
+316,9479,"      Wunsiedel i.Fichtelgebirge, Landkreis",24806
+317,95,"    Mittelfranken, Regierungsbezirk",24687
+318,9561,"      Ansbach, kreisfreie Stadt",22301
+319,9562,"      Erlangen, kreisfreie Stadt",25347
+320,9563,"      Fürth, kreisfreie Stadt",23924
+321,9564,"      Nürnberg, kreisfreie Stadt",22880
+322,9565,"      Schwabach, kreisfreie Stadt",27403
+323,9571,"      Ansbach, Landkreis",24521
+324,9572,"      Erlangen-Höchstadt, Landkreis",28371
+325,9573,"      Fürth, Landkreis",26442
+326,9574,"      Nürnberger Land, Landkreis",26644
+327,9575,"      Neustadt a.d.Aisch-Bad Windsheim, Landkreis",24114
+328,9576,"      Roth, Landkreis",25481
+329,9577,"      Weißenburg-Gunzenhausen, Landkreis",23548
+330,96,"    Unterfranken, Regierungsbezirk",24162
+331,9661,"      Aschaffenburg, kreisfreie Stadt",24945
+332,9662,"      Schweinfurt, kreisfreie Stadt",22155
+333,9663,"      Würzburg, kreisfreie Stadt",24042
+334,9671,"      Aschaffenburg, Landkreis",25314
+335,9672,"      Bad Kissingen, Landkreis",24223
+336,9673,"      Rhön-Grabfeld, Landkreis",23729
+337,9674,"      Haßberge, Landkreis",23162
+338,9675,"      Kitzingen, Landkreis",24397
+339,9676,"      Miltenberg, Landkreis",23818
+340,9677,"      Main-Spessart, Landkreis",24222
+341,9678,"      Schweinfurt, Landkreis",23561
+342,9679,"      Würzburg, Landkreis",24560
+343,97,"    Schwaben, Regierungsbezirk",24899
+344,9761,"      Augsburg, kreisfreie Stadt",21046
+345,9762,"      Kaufbeuren, kreisfreie Stadt",24234
+346,9763,"      Kempten (Allgäu), kreisfreie Stadt",23166
+347,9764,"      Memmingen, kreisfreie Stadt",26973
+348,9771,"      Aichach-Friedberg, Landkreis",26475
+349,9772,"      Augsburg, Landkreis",25710
+350,9773,"      Dillingen a.d.Donau, Landkreis",25717
+351,9774,"      Günzburg, Landkreis",25434
+352,9775,"      Neu-Ulm, Landkreis",25106
+353,9776,"      Lindau (Bodensee), Landkreis",26269
+354,9777,"      Ostallgäu, Landkreis",25033
+355,9778,"      Unterallgäu, Landkreis",25966
+356,9779,"      Donau-Ries, Landkreis",26021
+357,9780,"      Oberallgäu, Landkreis",25954
+358,10,  Saarland,21635
+359,10041,"      Saarbrücken, Regionalverband",21138
+360,10041100,"      Saarbrücken, Landeshauptstadt",0
+361,10042,"      Merzig-Wadern, Landkreis",19975
+362,10043,"      Neunkirchen, Landkreis",20786
+363,10044,"      Saarlouis, Landkreis",22117
+364,10045,      Saarpfalz-Kreis,23319
+365,10046,"      St. Wendel, Landkreis",22933
+366,11,  Berlin,21502
+367,11001001,      Berlin-Mitte,0
+368,11002002,      Berlin-Friedrichshain-Kreuzberg,0
+369,11003003,      Berlin-Pankow,0
+370,11004004,      Berlin-Charlottenburg-Wilmersdorf,0
+371,11005005,      Berlin-Spandau,0
+372,11006006,      Berlin-Steglitz-Zehlendorf,0
+373,11007007,      Berlin-Tempelhof-Schöneberg,0
+374,11008008,      Berlin-Neukölln,0
+375,11009009,      Berlin-Treptow-Köpenick,0
+376,11010010,      Berlin-Marzahn-Hellersdorf,0
+377,11011011,      Berlin-Lichtenberg,0
+378,11012012,      Berlin-Reinickendorf,0
+379,12,  Brandenburg,21713
+380,12051,"      Brandenburg an der Havel, kreisfreie Stadt",19546
+381,12052,"      Cottbus, kreisfreie Stadt",20040
+382,12053,"      Frankfurt (Oder), kreisfreie Stadt",19000
+383,12054,"      Potsdam, kreisfreie Stadt",21918
+384,12060,"      Barnim, Landkreis",22153
+385,12061,"      Dahme-Spreewald, Landkreis",22779
+386,12062,"      Elbe-Elster, Landkreis",20208
+387,12063,"      Havelland, Landkreis",22044
+388,12064,"      Märkisch-Oderland, Landkreis",21931
+389,12065,"      Oberhavel, Landkreis",22817
+390,12066,"      Oberspreewald-Lausitz, Landkreis",20858
+391,12067,"      Oder-Spree, Landkreis",21886
+392,12068,"      Ostprignitz-Ruppin, Landkreis",20379
+393,12069,"      Potsdam-Mittelmark, Landkreis",24316
+394,12070,"      Prignitz, Landkreis",20609
+395,12071,"      Spree-Neiße, Landkreis",21348
+396,12072,"      Teltow-Fläming, Landkreis",21693
+397,12073,"      Uckermark, Landkreis",19779
+398,13,  Mecklenburg-Vorpommern,20812
+399,13001,"      Greifswald, Hansestadt, kreisfreie Stadt",0
+400,13002,"      Neubrandenburg, Stadt,  kreisfreie Stadt",0
+401,13003,"      Rostock, kreisfreie Stadt",20129
+402,13004,"      Schwerin, kreisfreie Stadt",20710
+403,13005,"      Stralsund, Hansestadt,  kreisfreie Stadt",0
+404,13006,"      Wismar, Hansestadt,  kreisfreie Stadt",0
+405,13051,"      Bad Doberan, Landkreis",0
+406,13052,      Landkreis Demmin,0
+407,13053,"      Güstrow, Landkreis",0
+408,13054,      Landkreis Ludwigslust,0
+409,13055,"      Mecklenburg-Strelitz, Landkreis",0
+410,13056,      Landkreis Müritz,0
+411,13057,"      Nordvorpommern, Landkreis",0
+412,13058,      Landkreis Nordwestmecklenburg,0
+413,13059,"      Ostvorpommern, Landkreis",0
+414,13060,      Landkreis Parchim,0
+415,13061,"      Rügen, Landkreis",0
+416,13062,      Landkreis Uecker-Randow,0
+417,13071,"      Mecklenburgische Seenplatte, Landkreis",20497
+418,13072,      Landkreis Rostock,21911
+419,13073,"      Vorpommern-Rügen, Landkreis",20951
+420,13074,"      Nordwestmecklenburg, Landkreis",21164
+421,13075,"      Vorpommern-Greifswald, Landkreis",19667
+422,13076,"      Ludwigslust-Parchim, Landkreis",21663
+423,14,  Sachsen,21163
+424,141,"    Chemnitz, Regierungsbezirk",0
+425,14161,"      Chemnitz, kreisfreie Stadt",0
+426,14166,"      Plauen, kreisfreie Stadt",0
+427,14167,"      Zwickau, kreisfreie Stadt",0
+428,14171,"      Annaberg, Landkreis",0
+429,14173,"      Chemnitzer Land, Landkreis",0
+430,14177,"      Freiberg, Landkreis",0
+431,14178,      Vogtlandkreis,0
+432,14181,      Mittlerer Erzgebirgskreis,0
+433,14182,"      Mittweida, Landkreis",0
+434,14188,"      Stollberg, Landkreis",0
+435,14191,"      Aue-Schwarzenberg, Landkreis",0
+436,14193,"      Zwickauer Land, Landkreis",0
+437,142,"    Dresden, Regierungsbezirk",0
+438,14262,"      Dresden, kreisfreie Stadt",0
+439,14263,"      Görlitz, kreisfreie Stadt",0
+440,14264,"      Hoyerswerda, kreisfreie Stadt",0
+441,14272,"      Bautzen, Landkreis",0
+442,14280,"      Meißen, Landkreis",0
+443,14284,      Niederschlesischer Oberlausitzkreis,0
+444,14285,"      Riesa-Großenhain, Landkreis",0
+445,14286,"      Löbau-Zittau, Landkreis",0
+446,14287,"      Sächsische Schweiz, Landkreis",0
+447,14290,      Weißeritzkreis,0
+448,14292,"      Kamenz, Landkreis",0
+449,143,"    Leipzig, Regierungsbezirk",0
+450,14365,"      Leipzig, kreisfreie Stadt",0
+451,14374,"      Delitzsch, Landkreis",0
+452,14375,"      Döbeln, Landkreis",0
+453,14379,"      Leipziger Land, Landkreis",0
+454,14383,      Muldentalkreis,0
+455,14389,"      Torgau-Oschatz, Landkreis",0
+456,145,"    Chemnitz, Statistische Region",21191
+457,14511,"      Chemnitz, kreisfreie Stadt",20918
+458,14521,      Erzgebirgskreis,20972
+459,14522,"      Mittelsachsen, Landkreis",21232
+460,14523,      Vogtlandkreis,21060
+461,14524,"      Zwickau, Landkreis",21691
+462,146,"    Dresden, Statistische Region",21248
+463,14612,"      Dresden, kreisfreie Stadt",21075
+464,14625,"      Bautzen, Landkreis",21431
+465,14626,"      Görlitz, Landkreis",20038
+466,14627,"      Meißen, Landkreis",22159
+467,14628,"      Sächsische Schweiz-Osterzgebirge, Landkreis",21770
+468,147,"    Leipzig, Statistische Region",20993
+469,14713,"      Leipzig, kreisfreie Stadt",19963
+470,14729,"      Leipzig, Landkreis",22645
+471,14730,"      Nordsachsen, Landkreis",21916
+472,15,  Sachsen-Anhalt,20505
+473,15001,"      Dessau-Roßlau, kreisfreie Stadt",20858
+474,15002,"      Halle (Saale), kreisfreie Stadt",18832
+475,15003,"      Magdeburg, kreisfreie Stadt, Landeshauptstadt",19810
+476,15081,      Altmarkkreis Salzwedel,21108
+477,15082,"      Anhalt-Bitterfeld, Landkreis",20659
+478,15083,"      Börde, Landkreis",21671
+479,15084,      Burgenlandkreis,20571
+480,15085,"      Harz, Landkreis",20892
+481,15086,"      Jerichower Land, Landkreis",21673
+482,15087,"      Mansfeld-Südharz, Landkreis",19958
+483,15088,      Saalekreis,21637
+484,15089,      Salzlandkreis,19914
+485,15090,"      Stendal, Landkreis",20050
+486,15091,"      Wittenberg, Landkreis",21227
+487,151,"    Dessau, Statistische Region",0
+488,15101,"      Dessau, kreisfreie Stadt",0
+489,15151,"      Anhalt-Zerbst, Kreis",0
+490,15153,"      Bernburg, Kreis",0
+491,15154,"      Bitterfeld, Kreis",0
+492,15159,"      Köthen, Kreis",0
+493,15171,"      Wittenberg, Kreis",0
+494,152,"    Halle, Statistische Region",0
+495,15202,"      Halle (Saale), kreisfreie Stadt",0
+496,15256,      Burgenlandkreis,0
+497,15260,"      Mansfelder Land, Kreis",0
+498,15261,"      Merseburg-Querfurt, Kreis",0
+499,15265,      Saalkreis,0
+500,15266,"      Sangerhausen, Kreis",0
+501,15268,"      Weißenfels, Kreis",0
+502,153,"    Magdeburg, Statistische Region",0
+503,15303,"      Magdeburg, kreisfreie Stadt",0
+504,15352,"      Aschersleben-Staßfurt, Kreis",0
+505,15355,      Bördekreis,0
+506,15357,"      Halberstadt, Kreis",0
+507,15358,"      Jerichower Land, Kreis",0
+508,15362,      Ohrekreis,0
+509,15363,"      Stendal, Kreis",0
+510,15364,"      Quedlinburg, Kreis",0
+511,15367,"      Schönebeck, Kreis",0
+512,15369,"      Wernigerode, Kreis",0
+513,15370,"      Altmarkkreis Salzwedel, Kreis",0
+514,16,  Thüringen,20780
+515,16051,"      Erfurt, kreisfreie Stadt",20415
+516,16052,"      Gera, kreisfreie Stadt",20362
+517,16053,"      Jena, kreisfreie Stadt",20516
+518,16054,"      Suhl, kreisfreie Stadt",22736
+519,16055,"      Weimar, kreisfreie Stadt",20075
+520,16056,"      Eisenach, kreisfreie Stadt",20126
+521,16061,"      Eichsfeld, Landkreis",21273
+522,16062,"      Nordhausen, Landkreis",19955
+523,16063,      Wartburgkreis,21390
+524,16064,      Unstrut-Hainich-Kreis,19996
+525,16065,      Kyffhäuserkreis,19528
+526,16066,"      Schmalkalden-Meiningen, Landkreis",21629
+527,16067,"      Gotha, Landkreis",20603
+528,16068,"      Sömmerda, Landkreis",20486
+529,16069,"      Hildburghausen, Landkreis",21539
+530,16070,      Ilm-Kreis,20366
+531,16071,"      Weimarer Land, Landkreis",20988
+532,16072,"      Sonneberg, Landkreis",21523
+533,16073,"      Saalfeld-Rudolstadt, Landkreis",21061
+534,16074,      Saale-Holzland-Kreis,21300
+535,16075,      Saale-Orla-Kreis,20725
+536,16076,"      Greiz, Landkreis",21454
+537,16077,"      Altenburger Land, Landkreis",20952
