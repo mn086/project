@@ -1,5 +1,5 @@
 ,landkreis_id,landkreis,vee
-0,0,Deutschland,23595
+0,DG,Deutschland,23595
 1,1,  Schleswig-Holstein,23995
 2,1001,"      Flensburg, kreisfreie Stadt",19384
 3,1002,"      Kiel, kreisfreie Stadt",20216
@@ -23,11 +23,11 @@
 21,3102,"      Salzgitter, kreisfreie Stadt",20388
 22,3103,"      Wolfsburg, kreisfreie Stadt",25296
 23,3151,"      Gifhorn, Landkreis",24564
-24,3152,"      Göttingen, Landkreis",0
+24,3152,"      Göttingen, Landkreis",
 25,3153,"      Goslar, Landkreis",21889
 26,3154,"      Helmstedt, Landkreis",24035
 27,3155,"      Northeim, Landkreis",23006
-28,3156,"      Osterode am Harz, Landkreis",0
+28,3156,"      Osterode am Harz, Landkreis",
 29,3157,"      Peine, Landkreis",23076
 30,3158,"      Wolfenbüttel, Landkreis",23319
 31,3159,"      Göttingen, Landkreis",21673
@@ -95,8 +95,8 @@
 93,5315,"      Köln, kreisfreie Stadt",23316
 94,5316,"      Leverkusen, kreisfreie Stadt",22549
 95,5334,"      Städteregion Aachen, Kreis",21151
-96,5334002,"      Aachen, kreisfreie Stadt",0
-97,5354,"      Aachen, Kreis",0
+96,5334002,"      Aachen, kreisfreie Stadt",
+97,5354,"      Aachen, Kreis",
 98,5358,"      Düren, Kreis",22081
 99,5362,      Rhein-Erft-Kreis,23461
 100,5366,"      Euskirchen, Kreis",22607
@@ -359,25 +359,25 @@
 357,9780,"      Oberallgäu, Landkreis",25954
 358,10,  Saarland,21635
 359,10041,"      Saarbrücken, Regionalverband",21138
-360,10041100,"      Saarbrücken, Landeshauptstadt",0
+360,10041100,"      Saarbrücken, Landeshauptstadt",
 361,10042,"      Merzig-Wadern, Landkreis",19975
 362,10043,"      Neunkirchen, Landkreis",20786
 363,10044,"      Saarlouis, Landkreis",22117
 364,10045,      Saarpfalz-Kreis,23319
 365,10046,"      St. Wendel, Landkreis",22933
 366,11,  Berlin,21502
-367,11001001,      Berlin-Mitte,0
-368,11002002,      Berlin-Friedrichshain-Kreuzberg,0
-369,11003003,      Berlin-Pankow,0
-370,11004004,      Berlin-Charlottenburg-Wilmersdorf,0
-371,11005005,      Berlin-Spandau,0
-372,11006006,      Berlin-Steglitz-Zehlendorf,0
-373,11007007,      Berlin-Tempelhof-Schöneberg,0
-374,11008008,      Berlin-Neukölln,0
-375,11009009,      Berlin-Treptow-Köpenick,0
-376,11010010,      Berlin-Marzahn-Hellersdorf,0
-377,11011011,      Berlin-Lichtenberg,0
-378,11012012,      Berlin-Reinickendorf,0
+367,11001001,      Berlin-Mitte,
+368,11002002,      Berlin-Friedrichshain-Kreuzberg,
+369,11003003,      Berlin-Pankow,
+370,11004004,      Berlin-Charlottenburg-Wilmersdorf,
+371,11005005,      Berlin-Spandau,
+372,11006006,      Berlin-Steglitz-Zehlendorf,
+373,11007007,      Berlin-Tempelhof-Schöneberg,
+374,11008008,      Berlin-Neukölln,
+375,11009009,      Berlin-Treptow-Köpenick,
+376,11010010,      Berlin-Marzahn-Hellersdorf,
+377,11011011,      Berlin-Lichtenberg,
+378,11012012,      Berlin-Reinickendorf,
 379,12,  Brandenburg,21713
 380,12051,"      Brandenburg an der Havel, kreisfreie Stadt",19546
 381,12052,"      Cottbus, kreisfreie Stadt",20040
@@ -398,24 +398,24 @@
 396,12072,"      Teltow-Fläming, Landkreis",21693
 397,12073,"      Uckermark, Landkreis",19779
 398,13,  Mecklenburg-Vorpommern,20812
-399,13001,"      Greifswald, Hansestadt, kreisfreie Stadt",0
-400,13002,"      Neubrandenburg, Stadt,  kreisfreie Stadt",0
+399,13001,"      Greifswald, Hansestadt, kreisfreie Stadt",
+400,13002,"      Neubrandenburg, Stadt,  kreisfreie Stadt",
 401,13003,"      Rostock, kreisfreie Stadt",20129
 402,13004,"      Schwerin, kreisfreie Stadt",20710
-403,13005,"      Stralsund, Hansestadt,  kreisfreie Stadt",0
-404,13006,"      Wismar, Hansestadt,  kreisfreie Stadt",0
-405,13051,"      Bad Doberan, Landkreis",0
-406,13052,      Landkreis Demmin,0
-407,13053,"      Güstrow, Landkreis",0
-408,13054,      Landkreis Ludwigslust,0
-409,13055,"      Mecklenburg-Strelitz, Landkreis",0
-410,13056,      Landkreis Müritz,0
-411,13057,"      Nordvorpommern, Landkreis",0
-412,13058,      Landkreis Nordwestmecklenburg,0
-413,13059,"      Ostvorpommern, Landkreis",0
-414,13060,      Landkreis Parchim,0
-415,13061,"      Rügen, Landkreis",0
-416,13062,      Landkreis Uecker-Randow,0
+403,13005,"      Stralsund, Hansestadt,  kreisfreie Stadt",
+404,13006,"      Wismar, Hansestadt,  kreisfreie Stadt",
+405,13051,"      Bad Doberan, Landkreis",
+406,13052,      Landkreis Demmin,
+407,13053,"      Güstrow, Landkreis",
+408,13054,      Landkreis Ludwigslust,
+409,13055,"      Mecklenburg-Strelitz, Landkreis",
+410,13056,      Landkreis Müritz,
+411,13057,"      Nordvorpommern, Landkreis",
+412,13058,      Landkreis Nordwestmecklenburg,
+413,13059,"      Ostvorpommern, Landkreis",
+414,13060,      Landkreis Parchim,
+415,13061,"      Rügen, Landkreis",
+416,13062,      Landkreis Uecker-Randow,
 417,13071,"      Mecklenburgische Seenplatte, Landkreis",20497
 418,13072,      Landkreis Rostock,21911
 419,13073,"      Vorpommern-Rügen, Landkreis",20951
@@ -423,38 +423,38 @@
 421,13075,"      Vorpommern-Greifswald, Landkreis",19667
 422,13076,"      Ludwigslust-Parchim, Landkreis",21663
 423,14,  Sachsen,21163
-424,141,"    Chemnitz, Regierungsbezirk",0
-425,14161,"      Chemnitz, kreisfreie Stadt",0
-426,14166,"      Plauen, kreisfreie Stadt",0
-427,14167,"      Zwickau, kreisfreie Stadt",0
-428,14171,"      Annaberg, Landkreis",0
-429,14173,"      Chemnitzer Land, Landkreis",0
-430,14177,"      Freiberg, Landkreis",0
-431,14178,      Vogtlandkreis,0
-432,14181,      Mittlerer Erzgebirgskreis,0
-433,14182,"      Mittweida, Landkreis",0
-434,14188,"      Stollberg, Landkreis",0
-435,14191,"      Aue-Schwarzenberg, Landkreis",0
-436,14193,"      Zwickauer Land, Landkreis",0
-437,142,"    Dresden, Regierungsbezirk",0
-438,14262,"      Dresden, kreisfreie Stadt",0
-439,14263,"      Görlitz, kreisfreie Stadt",0
-440,14264,"      Hoyerswerda, kreisfreie Stadt",0
-441,14272,"      Bautzen, Landkreis",0
-442,14280,"      Meißen, Landkreis",0
-443,14284,      Niederschlesischer Oberlausitzkreis,0
-444,14285,"      Riesa-Großenhain, Landkreis",0
-445,14286,"      Löbau-Zittau, Landkreis",0
-446,14287,"      Sächsische Schweiz, Landkreis",0
-447,14290,      Weißeritzkreis,0
-448,14292,"      Kamenz, Landkreis",0
-449,143,"    Leipzig, Regierungsbezirk",0
-450,14365,"      Leipzig, kreisfreie Stadt",0
-451,14374,"      Delitzsch, Landkreis",0
-452,14375,"      Döbeln, Landkreis",0
-453,14379,"      Leipziger Land, Landkreis",0
-454,14383,      Muldentalkreis,0
-455,14389,"      Torgau-Oschatz, Landkreis",0
+424,141,"    Chemnitz, Regierungsbezirk",
+425,14161,"      Chemnitz, kreisfreie Stadt",
+426,14166,"      Plauen, kreisfreie Stadt",
+427,14167,"      Zwickau, kreisfreie Stadt",
+428,14171,"      Annaberg, Landkreis",
+429,14173,"      Chemnitzer Land, Landkreis",
+430,14177,"      Freiberg, Landkreis",
+431,14178,      Vogtlandkreis,
+432,14181,      Mittlerer Erzgebirgskreis,
+433,14182,"      Mittweida, Landkreis",
+434,14188,"      Stollberg, Landkreis",
+435,14191,"      Aue-Schwarzenberg, Landkreis",
+436,14193,"      Zwickauer Land, Landkreis",
+437,142,"    Dresden, Regierungsbezirk",
+438,14262,"      Dresden, kreisfreie Stadt",
+439,14263,"      Görlitz, kreisfreie Stadt",
+440,14264,"      Hoyerswerda, kreisfreie Stadt",
+441,14272,"      Bautzen, Landkreis",
+442,14280,"      Meißen, Landkreis",
+443,14284,      Niederschlesischer Oberlausitzkreis,
+444,14285,"      Riesa-Großenhain, Landkreis",
+445,14286,"      Löbau-Zittau, Landkreis",
+446,14287,"      Sächsische Schweiz, Landkreis",
+447,14290,      Weißeritzkreis,
+448,14292,"      Kamenz, Landkreis",
+449,143,"    Leipzig, Regierungsbezirk",
+450,14365,"      Leipzig, kreisfreie Stadt",
+451,14374,"      Delitzsch, Landkreis",
+452,14375,"      Döbeln, Landkreis",
+453,14379,"      Leipziger Land, Landkreis",
+454,14383,      Muldentalkreis,
+455,14389,"      Torgau-Oschatz, Landkreis",
 456,145,"    Chemnitz, Statistische Region",21191
 457,14511,"      Chemnitz, kreisfreie Stadt",20918
 458,14521,      Erzgebirgskreis,20972
@@ -486,33 +486,33 @@
 484,15089,      Salzlandkreis,19914
 485,15090,"      Stendal, Landkreis",20050
 486,15091,"      Wittenberg, Landkreis",21227
-487,151,"    Dessau, Statistische Region",0
-488,15101,"      Dessau, kreisfreie Stadt",0
-489,15151,"      Anhalt-Zerbst, Kreis",0
-490,15153,"      Bernburg, Kreis",0
-491,15154,"      Bitterfeld, Kreis",0
-492,15159,"      Köthen, Kreis",0
-493,15171,"      Wittenberg, Kreis",0
-494,152,"    Halle, Statistische Region",0
-495,15202,"      Halle (Saale), kreisfreie Stadt",0
-496,15256,      Burgenlandkreis,0
-497,15260,"      Mansfelder Land, Kreis",0
-498,15261,"      Merseburg-Querfurt, Kreis",0
-499,15265,      Saalkreis,0
-500,15266,"      Sangerhausen, Kreis",0
-501,15268,"      Weißenfels, Kreis",0
-502,153,"    Magdeburg, Statistische Region",0
-503,15303,"      Magdeburg, kreisfreie Stadt",0
-504,15352,"      Aschersleben-Staßfurt, Kreis",0
-505,15355,      Bördekreis,0
-506,15357,"      Halberstadt, Kreis",0
-507,15358,"      Jerichower Land, Kreis",0
-508,15362,      Ohrekreis,0
-509,15363,"      Stendal, Kreis",0
-510,15364,"      Quedlinburg, Kreis",0
-511,15367,"      Schönebeck, Kreis",0
-512,15369,"      Wernigerode, Kreis",0
-513,15370,"      Altmarkkreis Salzwedel, Kreis",0
+487,151,"    Dessau, Statistische Region",
+488,15101,"      Dessau, kreisfreie Stadt",
+489,15151,"      Anhalt-Zerbst, Kreis",
+490,15153,"      Bernburg, Kreis",
+491,15154,"      Bitterfeld, Kreis",
+492,15159,"      Köthen, Kreis",
+493,15171,"      Wittenberg, Kreis",
+494,152,"    Halle, Statistische Region",
+495,15202,"      Halle (Saale), kreisfreie Stadt",
+496,15256,      Burgenlandkreis,
+497,15260,"      Mansfelder Land, Kreis",
+498,15261,"      Merseburg-Querfurt, Kreis",
+499,15265,      Saalkreis,
+500,15266,"      Sangerhausen, Kreis",
+501,15268,"      Weißenfels, Kreis",
+502,153,"    Magdeburg, Statistische Region",
+503,15303,"      Magdeburg, kreisfreie Stadt",
+504,15352,"      Aschersleben-Staßfurt, Kreis",
+505,15355,      Bördekreis,
+506,15357,"      Halberstadt, Kreis",
+507,15358,"      Jerichower Land, Kreis",
+508,15362,      Ohrekreis,
+509,15363,"      Stendal, Kreis",
+510,15364,"      Quedlinburg, Kreis",
+511,15367,"      Schönebeck, Kreis",
+512,15369,"      Wernigerode, Kreis",
+513,15370,"      Altmarkkreis Salzwedel, Kreis",
 514,16,  Thüringen,20780
 515,16051,"      Erfurt, kreisfreie Stadt",20415
 516,16052,"      Gera, kreisfreie Stadt",20362

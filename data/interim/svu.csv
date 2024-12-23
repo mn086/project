@@ -1,0 +1,461 @@
+,landkreis_id,landkreis,unfaelle_je_10k_kfz
+0,DG,Deutschland,66.2
+1,1,  Schleswig-Holstein,71.1
+2,1001,"      Flensburg, kreisfreie Stadt",83.2
+3,1002,"      Kiel, kreisfreie Stadt",97.3
+4,1003,"      Lübeck, kreisfreie Stadt, Hansestadt",117.4
+5,1004,"      Neumünster, kreisfreie Stadt",87.3
+6,1051,"      Dithmarschen, Kreis",61.2
+7,1053,"      Herzogtum Lauenburg, Kreis",57.1
+8,1054,"      Nordfriesland, Kreis",83.2
+9,1055,"      Ostholstein, Kreis",74.9
+10,1056,"      Pinneberg, Kreis",72.1
+11,1057,"      Plön, Kreis",55.7
+12,1058,"      Rendsburg-Eckernförde, Kreis",60.4
+13,1059,"      Schleswig-Flensburg, Kreis",56.8
+14,1060,"      Segeberg, Kreis",64.1
+15,1061,"      Steinburg, Kreis",53.3
+16,1062,"      Stormarn, Kreis",69.4
+17,2,  Hamburg,103.5
+18,3,  Niedersachsen,65.5
+19,31,"    Braunschweig, Statistische Region",58.7
+20,3101,"      Braunschweig, kreisfreie Stadt",76.9
+21,3102,"      Salzgitter, kreisfreie Stadt",73.0
+22,3103,"      Wolfsburg, kreisfreie Stadt",33.8
+23,3151,"      Gifhorn, Landkreis",57.2
+24,3153,"      Goslar, Landkreis",63.1
+25,3154,"      Helmstedt, Landkreis",60.0
+26,3155,"      Northeim, Landkreis",50.3
+27,3157,"      Peine, Landkreis",52.5
+28,3158,"      Wolfenbüttel, Landkreis",54.4
+29,3159,"      Göttingen, Landkreis",65.2
+30,32,"    Hannover, Statistische Region",70.5
+31,3241,"      Region Hannover, Landkreis",80.8
+32,3241001,"      Hannover, Landeshauptstadt",119.6
+33,3251,"      Diepholz, Landkreis",64.5
+34,3252,"      Hameln-Pyrmont, Landkreis",61.0
+35,3254,"      Hildesheim, Landkreis",61.7
+36,3255,"      Holzminden, Landkreis",51.6
+37,3256,"      Nienburg (Weser), Landkreis",52.6
+38,3257,"      Schaumburg, Landkreis",66.2
+39,33,"    Lüneburg, Statistische Region",61.3
+40,3351,"      Celle, Landkreis",55.1
+41,3352,"      Cuxhaven, Landkreis",52.3
+42,3353,"      Harburg, Landkreis",54.6
+43,3354,"      Lüchow-Dannenberg, Landkreis",55.3
+44,3355,"      Lüneburg, Landkreis",75.6
+45,3356,"      Osterholz, Landkreis",60.9
+46,3357,"      Rotenburg (Wümme), Landkreis",64.2
+47,3358,      Heidekreis,81.0
+48,3359,"      Stade, Landkreis",54.7
+49,3360,"      Uelzen, Landkreis",56.5
+50,3361,"      Verden, Landkreis",69.9
+51,34,"    Weser-Ems, Statistische Region",69.0
+52,3401,"      Delmenhorst, kreisfreie Stadt",71.8
+53,3402,"      Emden, kreisfreie Stadt",70.8
+54,3403,"      Oldenburg (Oldenburg), kreisfreie Stadt",99.2
+55,3404,"      Osnabrück, kreisfreie Stadt",102.7
+56,3405,"      Wilhelmshaven, kreisfreie Stadt",101.3
+57,3451,"      Ammerland, Landkreis",68.3
+58,3452,"      Aurich, Landkreis",68.3
+59,3453,"      Cloppenburg, Landkreis",68.2
+60,3454,"      Emsland, Landkreis",63.2
+61,3455,"      Friesland, Landkreis",64.0
+62,3456,"      Grafschaft Bentheim, Landkreis",75.8
+63,3457,"      Leer, Landkreis",61.2
+64,3458,"      Oldenburg, Landkreis",58.9
+65,3459,"      Osnabrück, Landkreis",59.4
+66,3460,"      Vechta, Landkreis",58.7
+67,3461,"      Wesermarsch, Landkreis",61.6
+68,3462,"      Wittmund, Landkreis",62.6
+69,4,  Bremen,112.6
+70,4011,"      Bremen, kreisfreie Stadt",111.2
+71,4012,"      Bremerhaven, kreisfreie Stadt",119.2
+72,5,  Nordrhein-Westfalen,64.2
+73,51,"    Düsseldorf, Regierungsbezirk",65.2
+74,5111,"      Düsseldorf, kreisfreie Stadt",86.8
+75,5112,"      Duisburg, kreisfreie Stadt",74.2
+76,5113,"      Essen, kreisfreie Stadt",65.2
+77,5114,"      Krefeld, kreisfreie Stadt",73.0
+78,5116,"      Mönchengladbach, kreisfreie Stadt",71.1
+79,5117,"      Mülheim an der Ruhr, kreisfreie Stadt",51.5
+80,5119,"      Oberhausen, kreisfreie Stadt",63.6
+81,5120,"      Remscheid, kreisfreie Stadt",49.6
+82,5122,"      Solingen, kreisfreie Stadt",50.7
+83,5124,"      Wuppertal, kreisfreie Stadt",58.6
+84,5154,"      Kleve, Kreis",61.6
+85,5158,"      Mettmann, Kreis",67.4
+86,5162,      Rhein-Kreis Neuss,61.2
+87,5166,"      Viersen, Kreis",53.6
+88,5170,"      Wesel, Kreis",58.0
+89,53,"    Köln, Regierungsbezirk",68.3
+90,5314,"      Bonn, kreisfreie Stadt",57.4
+91,5315,"      Köln, kreisfreie Stadt",107.1
+92,5316,"      Leverkusen, kreisfreie Stadt",70.9
+93,5334,"      Städteregion Aachen, Kreis",74.8
+94,5334002,"      Aachen, kreisfreie Stadt",99.4
+95,5358,"      Düren, Kreis",75.4
+96,5362,      Rhein-Erft-Kreis,52.5
+97,5366,"      Euskirchen, Kreis",52.9
+98,5370,"      Heinsberg, Kreis",56.8
+99,5374,      Oberbergischer Kreis,55.2
+100,5378,      Rheinisch-Bergischer Kreis,54.3
+101,5382,      Rhein-Sieg-Kreis,51.4
+102,55,"    Münster, Regierungsbezirk",66.4
+103,5512,"      Bottrop, kreisfreie Stadt",57.3
+104,5513,"      Gelsenkirchen, kreisfreie Stadt",78.4
+105,5515,"      Münster, kreisfreie Stadt",94.8
+106,5554,"      Borken, Kreis",63.9
+107,5558,"      Coesfeld, Kreis",58.5
+108,5562,"      Recklinghausen, Kreis",58.3
+109,5566,"      Steinfurt, Kreis",65.9
+110,5570,"      Warendorf, Kreis",65.6
+111,57,"    Detmold, Regierungsbezirk",62.4
+112,5711,"      Bielefeld, kreisfreie Stadt",86.3
+113,5754,"      Gütersloh, Kreis",67.8
+114,5758,"      Herford, Kreis",59.2
+115,5762,"      Höxter, Kreis",52.0
+116,5766,"      Lippe, Kreis",49.7
+117,5770,"      Minden-Lübbecke, Kreis",55.0
+118,5774,"      Paderborn, Kreis",65.2
+119,59,"    Arnsberg, Regierungsbezirk",57.0
+120,5911,"      Bochum, kreisfreie Stadt",57.5
+121,5913,"      Dortmund, kreisfreie Stadt",68.4
+122,5914,"      Hagen, kreisfreie Stadt",64.2
+123,5915,"      Hamm, kreisfreie Stadt",76.3
+124,5916,"      Herne, kreisfreie Stadt",61.9
+125,5954,      Ennepe-Ruhr-Kreis,45.0
+126,5958,      Hochsauerlandkreis,57.4
+127,5962,      Märkischer Kreis,49.1
+128,5966,"      Olpe, Kreis",60.5
+129,5970,"      Siegen-Wittgenstein, Kreis",45.2
+130,5974,"      Soest, Kreis",51.0
+131,5978,"      Unna, Kreis",61.3
+132,6,  Hessen,65.6
+133,64,"    Darmstadt, Regierungsbezirk",69.4
+134,6411,"      Darmstadt, kreisfreie Stadt, Wissenschaftsstadt",122.9
+135,6412,"      Frankfurt am Main, kreisfreie Stadt",97.2
+136,6413,"      Offenbach am Main, kreisfreie Stadt",90.0
+137,6414,"      Wiesbaden, kreisfreie Stadt, Landeshauptstadt",80.4
+138,6431,"      Bergstraße, Landkreis",67.6
+139,6432,"      Darmstadt-Dieburg, Landkreis",71.5
+140,6433,"      Groß-Gerau, Landkreis",92.7
+141,6434,      Hochtaunuskreis,55.0
+142,6435,      Main-Kinzig-Kreis,56.9
+143,6436,      Main-Taunus-Kreis,40.8
+144,6437,      Odenwaldkreis,64.7
+145,6438,"      Offenbach, Landkreis",56.3
+146,6439,      Rheingau-Taunus-Kreis,48.4
+147,6440,      Wetteraukreis,54.4
+148,65,"    Gießen, Regierungsbezirk",58.8
+149,6531,"      Gießen, Landkreis",67.8
+150,6532,      Lahn-Dill-Kreis,54.3
+151,6533,"      Limburg-Weilburg, Landkreis",63.9
+152,6534,"      Marburg-Biedenkopf, Landkreis",54.2
+153,6535,      Vogelsbergkreis,52.0
+154,66,"    Kassel, Regierungsbezirk",59.7
+155,6611,"      Kassel, kreisfreie Stadt, documenta-Stadt",109.8
+156,6631,"      Fulda, Landkreis",53.6
+157,6632,"      Hersfeld-Rotenburg, Landkreis",60.6
+158,6633,"      Kassel, Landkreis",50.5
+159,6634,      Schwalm-Eder-Kreis,55.5
+160,6635,"      Waldeck-Frankenberg, Landkreis",51.8
+161,6636,      Werra-Meißner-Kreis,48.6
+162,7,  Rheinland-Pfalz,68.0
+163,71,"    Koblenz, Statistische Region",69.4
+164,7111,"      Koblenz, kreisfreie Stadt",117.3
+165,7131,"      Ahrweiler, Landkreis",82.3
+166,7132,"      Altenkirchen (Westerwald), Landkreis",66.5
+167,7133,"      Bad Kreuznach, Landkreis",54.9
+168,7134,"      Birkenfeld, Landkreis",60.1
+169,7135,"      Cochem-Zell, Landkreis",65.2
+170,7137,"      Mayen-Koblenz, Landkreis",68.5
+171,7138,"      Neuwied, Landkreis",72.5
+172,7140,      Rhein-Hunsrück-Kreis,55.4
+173,7141,      Rhein-Lahn-Kreis,56.7
+174,7143,      Westerwaldkreis,70.5
+175,72,"    Trier, Statistische Region",65.5
+176,7211,"      Trier, kreisfreie Stadt",99.8
+177,7231,"      Bernkastel-Wittlich, Landkreis",63.8
+178,7232,      Eifelkreis Bitburg-Prüm,61.6
+179,7233,"      Vulkaneifel, Landkreis",64.3
+180,7235,"      Trier-Saarburg, Landkreis",53.1
+181,73,"    Rheinhessen-Pfalz, Statistische Region",67.6
+182,7311,"      Frankenthal (Pfalz), kreisfreie Stadt",103.1
+183,7312,"      Kaiserslautern, kreisfreie Stadt",99.2
+184,7313,"      Landau in der Pfalz, kreisfreie Stadt",102.6
+185,7314,"      Ludwigshafen am Rhein, kreisfreie Stadt",109.4
+186,7315,"      Mainz, kreisfreie Stadt",89.6
+187,7316,"      Neustadt an der Weinstraße, kreisfreie Stadt",73.3
+188,7317,"      Pirmasens, kreisfreie Stadt",84.6
+189,7318,"      Speyer, kreisfreie Stadt",107.5
+190,7319,"      Worms, kreisfreie Stadt",91.3
+191,7320,"      Zweibrücken, kreisfreie Stadt",75.3
+192,7331,"      Alzey-Worms, Landkreis",47.1
+193,7332,"      Bad Dürkheim, Landkreis",62.6
+194,7333,      Donnersbergkreis,51.8
+195,7334,"      Germersheim, Landkreis",65.2
+196,7335,"      Kaiserslautern, Landkreis",62.0
+197,7336,"      Kusel, Landkreis",41.2
+198,7337,"      Südliche Weinstraße, Landkreis",58.0
+199,7338,      Rhein-Pfalz-Kreis,52.8
+200,7339,"      Mainz-Bingen, Landkreis",47.5
+201,7340,"      Südwestpfalz, Landkreis",42.6
+202,8,  Baden-Württemberg,61.0
+203,81,"    Stuttgart, Regierungsbezirk",59.8
+204,8111,"      Stuttgart, Stadtkreis",74.8
+205,8115,"      Böblingen, Landkreis",66.7
+206,8116,"      Esslingen, Landkreis",55.9
+207,8117,"      Göppingen, Landkreis",58.4
+208,8118,"      Ludwigsburg, Landkreis",57.7
+209,8119,"      Rems-Murr-Kreis, Landkreis",53.8
+210,8121,"      Heilbronn, Stadtkreis",97.4
+211,8125,"      Heilbronn, Landkreis",51.0
+212,8126,"      Hohenlohekreis, Landkreis",52.3
+213,8127,"      Schwäbisch Hall, Landkreis",56.1
+214,8128,"      Main-Tauber-Kreis, Landkreis",57.0
+215,8135,"      Heidenheim, Landkreis",64.4
+216,8136,"      Ostalbkreis, Landkreis",53.1
+217,82,"    Karlsruhe, Regierungsbezirk",64.1
+218,8211,"      Baden-Baden, Stadtkreis",76.1
+219,8212,"      Karlsruhe, Stadtkreis",96.4
+220,8215,"      Karlsruhe, Landkreis",56.3
+221,8216,"      Rastatt, Landkreis",55.7
+222,8221,"      Heidelberg, Stadtkreis",118.9
+223,8222,"      Mannheim, Stadtkreis",82.3
+224,8225,"      Neckar-Odenwald-Kreis, Landkreis",47.9
+225,8226,"      Rhein-Neckar-Kreis, Landkreis",53.4
+226,8231,"      Pforzheim, Stadtkreis",107.6
+227,8235,"      Calw, Landkreis",44.9
+228,8236,"      Enzkreis, Landkreis",51.7
+229,8237,"      Freudenstadt, Landkreis",53.2
+230,83,"    Freiburg, Regierungsbezirk",64.1
+231,8311,"      Freiburg im Breisgau, Stadtkreis",122.5
+232,8315,"      Breisgau-Hochschwarzwald, Landkreis",55.2
+233,8316,"      Emmendingen, Landkreis",55.1
+234,8317,"      Ortenaukreis, Landkreis",65.1
+235,8325,"      Rottweil, Landkreis",50.0
+236,8326,"      Schwarzwald-Baar-Kreis, Landkreis",55.5
+237,8327,"      Tuttlingen, Landkreis",46.7
+238,8335,"      Konstanz, Landkreis",72.5
+239,8336,"      Lörrach, Landkreis",68.5
+240,8337,"      Waldshut, Landkreis",55.1
+241,84,"    Tübingen, Regierungsbezirk",55.7
+242,8415,"      Reutlingen, Landkreis",56.5
+243,8416,"      Tübingen, Landkreis",59.1
+244,8417,"      Zollernalbkreis, Landkreis",46.7
+245,8421,"      Ulm, Stadtkreis",81.0
+246,8425,"      Alb-Donau-Kreis, Landkreis",47.3
+247,8426,"      Biberach, Landkreis",47.3
+248,8435,"      Bodenseekreis, Landkreis",60.8
+249,8436,"      Ravensburg, Landkreis",60.4
+250,8437,"      Sigmaringen, Landkreis",51.9
+251,9,  Bayern,60.5
+252,91,"    Oberbayern, Regierungsbezirk",63.8
+253,9161,"      Ingolstadt, kreisfreie Stadt",77.0
+254,9162,"      München, kreisfreie Stadt",72.7
+255,9163,"      Rosenheim, kreisfreie Stadt",106.0
+256,9171,"      Altötting, Landkreis",62.3
+257,9172,"      Berchtesgadener Land, Landkreis",76.2
+258,9173,"      Bad Tölz-Wolfratshausen, Landkreis",66.5
+259,9174,"      Dachau, Landkreis",64.7
+260,9175,"      Ebersberg, Landkreis",53.2
+261,9176,"      Eichstätt, Landkreis",59.0
+262,9177,"      Erding, Landkreis",56.0
+263,9178,"      Freising, Landkreis",61.4
+264,9179,"      Fürstenfeldbruck, Landkreis",55.5
+265,9180,"      Garmisch-Partenkirchen, Landkreis",69.5
+266,9181,"      Landsberg am Lech, Landkreis",61.5
+267,9182,"      Miesbach, Landkreis",71.7
+268,9183,"      Mühldorf a.Inn, Landkreis",52.6
+269,9184,"      München, Landkreis",46.6
+270,9185,"      Neuburg-Schrobenhausen, Landkreis",50.2
+271,9186,"      Pfaffenhofen a.d.Ilm, Landkreis",66.3
+272,9187,"      Rosenheim, Landkreis",59.6
+273,9188,"      Starnberg, Landkreis",61.5
+274,9189,"      Traunstein, Landkreis",65.1
+275,9190,"      Weilheim-Schongau, Landkreis",56.0
+276,92,"    Niederbayern, Regierungsbezirk",54.3
+277,9261,"      Landshut, kreisfreie Stadt",110.7
+278,9262,"      Passau, kreisfreie Stadt",81.3
+279,9263,"      Straubing, kreisfreie Stadt",80.1
+280,9271,"      Deggendorf, Landkreis",62.5
+281,9272,"      Freyung-Grafenau, Landkreis",35.7
+282,9273,"      Kelheim, Landkreis",55.8
+283,9274,"      Landshut, Landkreis",55.0
+284,9275,"      Passau, Landkreis",49.7
+285,9276,"      Regen, Landkreis",51.6
+286,9277,"      Rottal-Inn, Landkreis",43.6
+287,9278,"      Straubing-Bogen, Landkreis",43.2
+288,9279,"      Dingolfing-Landau, Landkreis",46.5
+289,93,"    Oberpfalz, Regierungsbezirk",53.8
+290,9361,"      Amberg, kreisfreie Stadt",77.6
+291,9362,"      Regensburg, kreisfreie Stadt",80.1
+292,9363,"      Weiden i.d.OPf., kreisfreie Stadt",92.2
+293,9371,"      Amberg-Sulzbach, Landkreis",43.6
+294,9372,"      Cham, Landkreis",43.1
+295,9373,"      Neumarkt i.d.OPf., Landkreis",52.0
+296,9374,"      Neustadt a.d.Waldnaab, Landkreis",48.3
+297,9375,"      Regensburg, Landkreis",46.3
+298,9376,"      Schwandorf, Landkreis",52.6
+299,9377,"      Tirschenreuth, Landkreis",45.8
+300,94,"    Oberfranken, Regierungsbezirk",59.9
+301,9461,"      Bamberg, kreisfreie Stadt",96.6
+302,9462,"      Bayreuth, kreisfreie Stadt",82.2
+303,9463,"      Coburg, kreisfreie Stadt",75.0
+304,9464,"      Hof, kreisfreie Stadt",95.3
+305,9471,"      Bamberg, Landkreis",52.6
+306,9472,"      Bayreuth, Landkreis",57.5
+307,9473,"      Coburg, Landkreis",47.6
+308,9474,"      Forchheim, Landkreis",55.3
+309,9475,"      Hof, Landkreis",61.9
+310,9476,"      Kronach, Landkreis",37.4
+311,9477,"      Kulmbach, Landkreis",56.3
+312,9478,"      Lichtenfels, Landkreis",54.3
+313,9479,"      Wunsiedel i.Fichtelgebirge, Landkreis",57.7
+314,95,"    Mittelfranken, Regierungsbezirk",63.9
+315,9561,"      Ansbach, kreisfreie Stadt",82.8
+316,9562,"      Erlangen, kreisfreie Stadt",112.8
+317,9563,"      Fürth, kreisfreie Stadt",62.8
+318,9564,"      Nürnberg, kreisfreie Stadt",80.6
+319,9565,"      Schwabach, kreisfreie Stadt",69.3
+320,9571,"      Ansbach, Landkreis",53.4
+321,9572,"      Erlangen-Höchstadt, Landkreis",57.1
+322,9573,"      Fürth, Landkreis",36.7
+323,9574,"      Nürnberger Land, Landkreis",58.8
+324,9575,"      Neustadt a.d.Aisch-Bad Windsheim, Landkreis",47.1
+325,9576,"      Roth, Landkreis",59.6
+326,9577,"      Weißenburg-Gunzenhausen, Landkreis",54.1
+327,96,"    Unterfranken, Regierungsbezirk",54.5
+328,9661,"      Aschaffenburg, kreisfreie Stadt",65.7
+329,9662,"      Schweinfurt, kreisfreie Stadt",108.9
+330,9663,"      Würzburg, kreisfreie Stadt",90.9
+331,9671,"      Aschaffenburg, Landkreis",50.7
+332,9672,"      Bad Kissingen, Landkreis",60.4
+333,9673,"      Rhön-Grabfeld, Landkreis",50.1
+334,9674,"      Haßberge, Landkreis",46.0
+335,9675,"      Kitzingen, Landkreis",52.6
+336,9676,"      Miltenberg, Landkreis",49.2
+337,9677,"      Main-Spessart, Landkreis",45.4
+338,9678,"      Schweinfurt, Landkreis",46.7
+339,9679,"      Würzburg, Landkreis",41.2
+340,97,"    Schwaben, Regierungsbezirk",63.8
+341,9761,"      Augsburg, kreisfreie Stadt",107.8
+342,9762,"      Kaufbeuren, kreisfreie Stadt",78.7
+343,9763,"      Kempten (Allgäu), kreisfreie Stadt",84.5
+344,9764,"      Memmingen, kreisfreie Stadt",99.8
+345,9771,"      Aichach-Friedberg, Landkreis",58.1
+346,9772,"      Augsburg, Landkreis",51.2
+347,9773,"      Dillingen a.d.Donau, Landkreis",44.2
+348,9774,"      Günzburg, Landkreis",54.4
+349,9775,"      Neu-Ulm, Landkreis",68.2
+350,9776,"      Lindau (Bodensee), Landkreis",63.1
+351,9777,"      Ostallgäu, Landkreis",57.6
+352,9778,"      Unterallgäu, Landkreis",50.5
+353,9779,"      Donau-Ries, Landkreis",51.7
+354,9780,"      Oberallgäu, Landkreis",63.3
+355,10,  Saarland,70.4
+356,10041,"      Saarbrücken, Regionalverband",84.4
+357,10041100,"      Saarbrücken, Landeshauptstadt",101.1
+358,10042,"      Merzig-Wadern, Landkreis",62.0
+359,10043,"      Neunkirchen, Landkreis",64.8
+360,10044,"      Saarlouis, Landkreis",62.7
+361,10045,      Saarpfalz-Kreis,70.7
+362,10046,"      St. Wendel, Landkreis",61.5
+363,11,  Berlin,116.4
+364,11001001,      Berlin-Mitte,
+365,11002002,      Berlin-Friedrichshain-Kreuzberg,
+366,11003003,      Berlin-Pankow,
+367,11004004,      Berlin-Charlottenburg-Wilmersdorf,
+368,11005005,      Berlin-Spandau,
+369,11006006,      Berlin-Steglitz-Zehlendorf,
+370,11007007,      Berlin-Tempelhof-Schöneberg,
+371,11008008,      Berlin-Neukölln,
+372,11009009,      Berlin-Treptow-Köpenick,
+373,11010010,      Berlin-Marzahn-Hellersdorf,
+374,11011011,      Berlin-Lichtenberg,
+375,11012012,      Berlin-Reinickendorf,
+376,12,  Brandenburg,69.2
+377,12051,"      Brandenburg an der Havel, kreisfreie Stadt",83.7
+378,12052,"      Cottbus, kreisfreie Stadt",72.0
+379,12053,"      Frankfurt (Oder), kreisfreie Stadt",58.3
+380,12054,"      Potsdam, kreisfreie Stadt",100.1
+381,12060,"      Barnim, Landkreis",85.1
+382,12061,"      Dahme-Spreewald, Landkreis",79.2
+383,12062,"      Elbe-Elster, Landkreis",47.7
+384,12063,"      Havelland, Landkreis",64.3
+385,12064,"      Märkisch-Oderland, Landkreis",59.1
+386,12065,"      Oberhavel, Landkreis",74.6
+387,12066,"      Oberspreewald-Lausitz, Landkreis",62.0
+388,12067,"      Oder-Spree, Landkreis",55.5
+389,12068,"      Ostprignitz-Ruppin, Landkreis",70.5
+390,12069,"      Potsdam-Mittelmark, Landkreis",73.8
+391,12070,"      Prignitz, Landkreis",60.2
+392,12071,"      Spree-Neiße, Landkreis",57.5
+393,12072,"      Teltow-Fläming, Landkreis",71.4
+394,12073,"      Uckermark, Landkreis",61.7
+395,13,  Mecklenburg-Vorpommern,65.9
+396,13003,"      Rostock, kreisfreie Stadt",76.2
+397,13004,"      Schwerin, kreisfreie Stadt",81.8
+398,13071,"      Mecklenburgische Seenplatte, Landkreis",56.3
+399,13072,      Landkreis Rostock,59.5
+400,13073,"      Vorpommern-Rügen, Landkreis",70.8
+401,13074,"      Nordwestmecklenburg, Landkreis",64.8
+402,13075,"      Vorpommern-Greifswald, Landkreis",74.3
+403,13076,"      Ludwigslust-Parchim, Landkreis",59.7
+404,14,  Sachsen,67.8
+405,145,"    Chemnitz, Statistische Region",60.1
+406,14511,"      Chemnitz, kreisfreie Stadt",82.9
+407,14521,      Erzgebirgskreis,53.3
+408,14522,"      Mittelsachsen, Landkreis",59.2
+409,14523,      Vogtlandkreis,57.3
+410,14524,"      Zwickau, Landkreis",56.2
+411,146,"    Dresden, Statistische Region",72.1
+412,14612,"      Dresden, kreisfreie Stadt",102.5
+413,14625,"      Bautzen, Landkreis",61.4
+414,14626,"      Görlitz, Landkreis",61.7
+415,14627,"      Meißen, Landkreis",62.4
+416,14628,"      Sächsische Schweiz-Osterzgebirge, Landkreis",59.8
+417,147,"    Leipzig, Statistische Region",73.3
+418,14713,"      Leipzig, kreisfreie Stadt",91.4
+419,14729,"      Leipzig, Landkreis",56.1
+420,14730,"      Nordsachsen, Landkreis",62.9
+421,15,  Sachsen-Anhalt,64.9
+422,15001,"      Dessau-Roßlau, kreisfreie Stadt",61.1
+423,15002,"      Halle (Saale), kreisfreie Stadt",94.3
+424,15003,"      Magdeburg, kreisfreie Stadt, Landeshauptstadt",91.4
+425,15081,      Altmarkkreis Salzwedel,60.3
+426,15082,"      Anhalt-Bitterfeld, Landkreis",70.9
+427,15083,"      Börde, Landkreis",54.7
+428,15084,      Burgenlandkreis,69.9
+429,15085,"      Harz, Landkreis",59.6
+430,15086,"      Jerichower Land, Landkreis",56.2
+431,15087,"      Mansfeld-Südharz, Landkreis",56.2
+432,15088,      Saalekreis,62.1
+433,15089,      Salzlandkreis,53.4
+434,15090,"      Stendal, Landkreis",45.4
+435,15091,"      Wittenberg, Landkreis",61.4
+436,16,  Thüringen,56.8
+437,16051,"      Erfurt, kreisfreie Stadt",67.5
+438,16052,"      Gera, kreisfreie Stadt",66.4
+439,16053,"      Jena, kreisfreie Stadt",71.8
+440,16054,"      Suhl, kreisfreie Stadt",50.1
+441,16055,"      Weimar, kreisfreie Stadt",71.8
+442,16056,"      Eisenach, kreisfreie Stadt",79.4
+443,16061,"      Eichsfeld, Landkreis",49.9
+444,16062,"      Nordhausen, Landkreis",62.8
+445,16063,      Wartburgkreis,51.5
+446,16064,      Unstrut-Hainich-Kreis,51.8
+447,16065,      Kyffhäuserkreis,47.2
+448,16066,"      Schmalkalden-Meiningen, Landkreis",48.7
+449,16067,"      Gotha, Landkreis",56.8
+450,16068,"      Sömmerda, Landkreis",45.6
+451,16069,"      Hildburghausen, Landkreis",50.8
+452,16070,      Ilm-Kreis,51.1
+453,16071,"      Weimarer Land, Landkreis",64.5
+454,16072,"      Sonneberg, Landkreis",54.3
+455,16073,"      Saalfeld-Rudolstadt, Landkreis",47.4
+456,16074,      Saale-Holzland-Kreis,73.7
+457,16075,      Saale-Orla-Kreis,71.7
+458,16076,"      Greiz, Landkreis",45.0
+459,16077,"      Altenburger Land, Landkreis",47.8
