@@ -1,0 +1,400 @@
+landkreis,benzin,diesel,elektro,gas,hybrid,pih,sonstigeantriebe
+"Flensburg, kreisfreie Stadt",27143,16446,144,283,408,117,15
+"Kiel, kreisfreie Stadt",73130,35472,352,754,1123,267,18
+"Lübeck, kreisfreie Stadt",67344,30211,310,845,754,187,16
+"Neumünster, kreisfreie Stadt",27532,14002,71,362,385,59,5
+"Regionalverband Saarbrücken, Landkreis",130676,57153,384,814,2236,318,28
+"Merzig-Wadern, Landkreis",44525,25778,101,270,644,81,5
+"Neunkirchen, Landkreis",60153,24360,126,463,888,178,28
+"Saarlouis, Landkreis",92129,39504,201,529,1032,151,38
+Saarpfalz-Kreis,66335,29824,207,534,970,136,32
+"Sankt Wendel, Landkreis",40999,19577,85,369,486,51,14
+"Dithmarschen, Landkreis",48868,31697,242,549,456,88,18
+"Herzogtum Lauenburg, Landkreis",75800,39371,320,1165,730,196,13
+"Nordfriesland, Landkreis",61129,40041,554,733,552,230,35
+"Ostholstein, Landkreis",84216,40321,269,958,582,168,20
+"Pinneberg, Landkreis",120945,52537,479,1242,1667,357,29
+"Plön, Landkreis",51886,26973,210,508,501,94,13
+"Rendsburg-Eckernförde, Landkreis",104810,65736,466,1286,1212,244,22
+"Schleswig-Flensburg, Landkreis",72079,53672,350,1023,606,168,27
+"Segeberg, Landkreis",108455,55792,505,1341,1347,330,31
+"Steinburg, Landkreis",51295,28751,169,666,447,91,16
+"Stormarn, Landkreis",99169,49470,486,1138,1320,302,31
+"Berlin, kreisfreie Stadt",886950,288648,4886,15215,21811,3538,385
+"Brandenburg an der Havel, kreisfreie Stadt",25205,8557,53,220,375,51,15
+"Cottbus, kreisfreie Stadt",36060,11733,60,335,536,49,23
+"Frankfurt (Oder), kreisfreie Stadt",21315,6161,35,317,261,40,16
+"Potsdam, kreisfreie Stadt",52739,20877,256,811,811,201,34
+"Barnim, Landkreis",75111,27689,201,1318,1006,160,34
+"Dahme-Spreewald, Landkreis",70534,30073,208,1347,1209,182,36
+"Elbe-Elster, Landkreis",43448,18423,89,592,506,46,35
+"Havelland, Landkreis",65470,25884,187,1013,1139,129,32
+"Märkisch-Oderland, Landkreis",82958,30996,162,1376,1136,171,45
+"Oberhavel, Landkreis",86831,32432,252,1559,1291,176,34
+"Oberspreewald-Lausitz, Landkreis",45744,18724,45,533,570,52,32
+"Oder-Spree, Landkreis",75154,29550,140,1123,782,119,32
+"Ostprignitz-Ruppin, Landkreis",38473,18688,76,637,284,60,19
+"Potsdam-Mittelmark, Landkreis",85393,39990,340,1288,979,244,39
+"Prignitz, Landkreis",30277,14577,43,358,261,33,14
+"Spree-Neiße, Landkreis",51027,18502,96,528,415,61,28
+"Teltow-Fläming, Landkreis",69862,30528,187,1221,790,185,30
+"Uckermark, Landkreis",48724,18339,91,588,570,60,23
+"Rostock, kreisfreie Stadt",59682,23838,140,692,820,111,38
+"Schwerin, kreisfreie Stadt",30044,13108,69,394,459,65,24
+"Mecklenburgische Seenplatte, Landkreis",94893,46919,129,970,1060,122,42
+"Rostock, Landkreis",79097,44400,168,920,870,173,48
+"Vorpommern-Rügen, Landkreis",81072,39676,154,802,929,127,34
+"Nordwestmecklenburg, Landkreis",58210,30374,121,909,451,84,19
+"Vorpommern-Greifswald, Landkreis",85320,37566,117,891,952,100,44
+"Ludwigslust-Parchim, Landkreis",80214,45389,105,1227,637,91,53
+"Chemnitz, kreisfreie Stadt",89883,33624,238,821,1231,166,59
+Erzgebirgskreis,145239,54549,167,1104,1080,194,67
+"Mittelsachsen, Landkreis",125440,51290,179,1472,1048,147,75
+Vogtlandkreis,98197,37065,142,747,968,119,40
+"Zwickau, Landkreis",135041,47744,267,1193,1305,207,75
+"Dresden, kreisfreie Stadt",157940,64264,629,1831,3236,421,98
+"Bautzen, Landkreis",128342,49404,207,1385,1267,172,90
+"Görlitz, Landkreis",107301,34039,139,1047,743,115,82
+"Meißen, Landkreis",96092,39011,185,976,1321,123,67
+"Sächsische Schweiz-Osterzgebirge, Landkreis",101443,38554,191,1026,1310,162,66
+"Leipzig, kreisfreie Stadt",165623,58036,743,2235,2954,376,107
+"Leipzig, Landkreis",106157,43675,250,1459,1049,205,65
+"Nordsachsen, Landkreis",80670,33005,101,868,696,113,34
+"Dessau-Roßlau, kreisfreie Stadt",31102,10054,68,362,450,45,27
+"Halle (Saale), kreisfreie Stadt",70293,21800,97,814,1032,135,58
+"Magdeburg, kreisfreie Stadt",80353,28884,265,777,922,191,43
+Altmarkkreis Salzwedel,31763,18311,57,408,269,43,18
+"Anhalt-Bitterfeld, Landkreis",67778,23791,83,488,589,68,42
+"Börde, Landkreis",71412,33002,125,803,433,104,33
+Burgenlandkreis,73296,27037,105,901,628,124,63
+"Harz, Landkreis",83829,37091,102,1088,741,136,55
+"Jerichower Land, Landkreis",37128,16657,55,348,376,42,23
+"Mansfeld-Südharz, Landkreis",56062,22631,71,413,537,53,31
+Saalekreis,81127,31072,121,884,1007,143,50
+Salzlandkreis,75804,27809,60,829,788,63,65
+"Stendal, Landkreis",41319,21398,55,456,410,46,15
+"Wittenberg, Landkreis",54386,19605,68,573,631,64,33
+"Erfurt, kreisfreie Stadt",66449,28790,260,719,835,228,31
+"Gera, kreisfreie Stadt",32770,12196,47,323,403,48,12
+"Jena, kreisfreie Stadt",30253,13843,102,297,583,93,18
+"Suhl, kreisfreie Stadt",13743,6161,15,133,277,21,9
+"Weimar, kreisfreie Stadt",20088,8716,1552,208,296,62,13
+"Eichsfeld, Landkreis",38462,20717,63,558,239,76,13
+"Nordhausen, Landkreis",32946,13544,71,302,236,52,11
+Wartburgkreis,50000,22735,91,587,416,67,25
+Unstrut-Hainich-Kreis,38543,17263,69,425,379,88,11
+Kyffhäuserkreis,30985,12882,33,265,181,27,17
+"Schmalkalden-Meiningen, Landkreis",49974,25044,102,468,452,73,27
+"Gotha, Landkreis",52286,22588,195,493,446,83,32
+"Sömmerda, Landkreis",27340,12501,43,275,166,42,12
+"Hildburghausen, Landkreis",25254,13571,30,226,200,22,17
+Ilm-Kreis,39430,18291,171,423,417,59,16
+"Weimarer Land, Landkreis",32615,14915,74,328,345,64,12
+"Sonneberg, Landkreis",25064,9375,42,227,196,36,17
+"Saalfeld-Rudolstadt, Landkreis",41494,17905,58,397,413,62,17
+Saale-Holzland-Kreis,33440,15042,59,406,420,84,18
+Saale-Orla-Kreis,33577,16244,48,344,198,42,18
+"Greiz, Landkreis",41185,18136,47,435,425,50,18
+"Altenburger Land, Landkreis",37920,12741,56,396,254,34,18
+"Hamburg, kreisfreie Stadt",529621,250058,3395,5622,12851,2502,147
+"Braunschweig, kreisfreie Stadt",89064,49180,798,1399,1579,775,20
+"Salzgitter, kreisfreie Stadt",36983,17606,73,782,271,73,5
+"Wolfsburg, kreisfreie Stadt",82268,54481,2054,668,403,623,13
+"Gifhorn, Landkreis",66522,38920,176,1046,648,152,11
+"Goslar, Landkreis",53495,25231,112,761,522,102,15
+"Helmstedt, Landkreis",35950,18666,140,566,237,106,6
+"Northeim, Landkreis",58465,27506,157,836,340,77,21
+"Peine, Landkreis",56703,25653,168,1126,355,143,11
+"Wolfenbüttel, Landkreis",50349,22828,163,854,377,89,16
+"Göttingen, Landkreis",122267,57349,386,1753,1291,266,26
+"Region Hannover, Landkreis",395428,175030,1534,6434,5093,1119,134
+"Diepholz, Landkreis",91000,46418,297,1546,1048,180,32
+"Hameln-Pyrmont, Landkreis",63791,26285,198,995,586,143,17
+"Hildesheim, Landkreis",111134,46601,336,1539,1065,220,24
+"Holzminden, Landkreis",30701,13333,63,538,163,45,10
+"Nienburg (Weser), Landkreis",48851,26296,240,1036,710,100,15
+"Schaumburg, Landkreis",69427,29376,220,1252,699,123,20
+"Celle, Landkreis",70270,37054,202,1116,573,175,23
+"Cuxhaven, Landkreis",79007,43284,202,1760,885,133,23
+"Harburg, Landkreis",105368,56565,432,1527,1755,293,38
+"Lüchow-Dannenberg, Landkreis",18358,11547,51,692,127,36,3
+"Lüneburg, Landkreis",65450,36145,315,925,789,188,12
+"Osterholz, Landkreis",48141,22579,201,984,344,108,14
+"Rotenburg (Wümme), Landkreis",64144,46065,206,1220,724,135,17
+Heidekreis,53900,32216,144,1069,381,121,11
+"Stade, Landkreis",80518,42146,296,1042,1094,175,22
+"Uelzen, Landkreis",36774,18873,105,474,305,84,8
+"Verden, Landkreis",55882,28856,161,910,513,110,17
+"Delmenhorst, kreisfreie Stadt",29464,11733,70,552,473,51,8
+"Emden, kreisfreie Stadt",16673,7409,36,357,94,38,6
+"Oldenburg (Oldenburg), kreisfreie Stadt",55663,30305,264,1380,881,174,21
+"Osnabrück, kreisfreie Stadt",54991,27592,303,964,1059,262,11
+"Wilhelmshaven, kreisfreie Stadt",28623,10837,42,583,263,38,10
+"Ammerland, Landkreis",49160,28928,153,1125,415,93,26
+"Aurich, Landkreis",73920,39633,241,2196,544,147,14
+"Cloppenburg, Landkreis",50355,48331,136,1355,341,105,13
+"Emsland, Landkreis",105758,90539,288,2904,985,247,14
+"Friesland, Landkreis",41869,22104,124,1169,387,52,20
+"Grafschaft Bentheim, Landkreis",42411,38934,364,2000,506,137,11
+"Leer, Landkreis",62634,37750,173,2010,414,159,15
+"Oldenburg, Landkreis",50943,30355,176,1327,533,100,17
+"Osnabrück, Landkreis",145827,79458,418,2579,1461,341,31
+"Vechta, Landkreis",47524,38314,142,847,593,138,13
+"Wesermarsch, Landkreis",33163,18933,89,958,257,56,15
+"Wittmund, Landkreis",22518,12555,42,660,184,34,4
+"Bremen, kreisfreie Stadt",162202,75049,650,2609,2651,521,42
+"Bremerhaven, kreisfreie Stadt",34484,14959,102,587,604,72,15
+"Düsseldorf, kreisfreie Stadt",194909,108660,1144,3364,4725,1432,59
+"Duisburg, kreisfreie Stadt",167619,57412,278,5250,1875,308,38
+"Essen, kreisfreie Stadt",212064,70673,698,4659,2811,1092,46
+"Krefeld, kreisfreie Stadt",83204,32425,217,2309,1063,277,16
+"Mönchengladbach, kreisfreie Stadt",97261,37541,322,2641,1070,281,29
+"Mülheim an der Ruhr, kreisfreie Stadt",69683,22076,270,1275,940,215,8
+"Oberhausen, kreisfreie Stadt",84115,24482,135,2087,833,150,14
+"Remscheid, kreisfreie Stadt",44621,16002,130,709,591,132,11
+"Solingen, kreisfreie Stadt",69795,23105,263,1248,1066,194,14
+"Wuppertal, kreisfreie Stadt",124115,44961,536,2409,1712,497,43
+"Kleve, Landkreis",114663,71165,336,6150,1237,313,29
+"Mettmann, Landkreis",205164,82990,807,3644,3653,762,34
+Rhein-Kreis Neuss,189364,77418,741,3816,2858,565,58
+"Viersen, Landkreis",126667,55748,449,4762,1155,269,43
+"Wesel, Landkreis",197291,79835,537,6843,2079,490,42
+"Bonn, kreisfreie Stadt",104060,65927,490,1630,2513,602,27
+"Köln, kreisfreie Stadt",331016,143274,1547,5488,7731,1628,130
+"Leverkusen, kreisfreie Stadt",63939,24420,186,1177,1236,234,15
+"Städteregion Aachen, Landkreis",198927,84949,988,5929,2740,648,51
+"Düren, Landkreis",109495,48360,374,2590,1174,259,47
+Rhein-Erft-Kreis,196508,77182,569,3346,2522,468,94
+"Euskirchen, Landkreis",83618,43128,337,1932,1208,152,24
+"Heinsberg, Landkreis",101393,52971,309,5007,1310,215,26
+Oberbergischer Kreis,118028,55593,384,2042,1266,318,39
+Rheinisch-Bergischer Kreis,127406,48031,578,2142,2097,426,24
+Rhein-Sieg-Kreis,250688,106169,936,4989,3614,661,74
+"Bottrop, kreisfreie Stadt",52151,14676,115,1325,492,99,9
+"Gelsenkirchen, kreisfreie Stadt",91852,27211,214,2426,1102,211,12
+"Münster, kreisfreie Stadt",92648,50340,748,1834,1334,398,30
+"Borken, Landkreis",129638,88533,502,5159,1124,337,27
+"Coesfeld, Landkreis",86575,49848,357,2123,1215,179,14
+"Recklinghausen, Landkreis",260378,84434,578,5850,3070,520,67
+"Steinfurt, Landkreis",168376,98735,618,3793,1843,363,27
+"Warendorf, Landkreis",112320,56475,364,2092,1063,249,17
+"Bielefeld, kreisfreie Stadt",112838,54508,1051,1936,1650,355,25
+"Gütersloh, Landkreis",148866,75510,646,2355,1380,387,38
+"Herford, Landkreis",111447,47332,419,1800,1076,266,31
+"Höxter, Landkreis",57402,30090,178,1144,409,82,17
+"Lippe, Landkreis",143738,67728,523,2840,1208,366,47
+"Minden-Lübbecke, Landkreis",135697,62008,490,2313,1449,317,29
+"Paderborn, Landkreis",114781,62703,634,2582,1431,371,18
+"Bochum, kreisfreie Stadt",153156,44756,577,2695,1653,467,27
+"Dortmund, kreisfreie Stadt",207069,76283,746,3699,2580,752,41
+"Hagen, kreisfreie Stadt",71169,25200,222,1065,846,181,17
+"Hamm, kreisfreie Stadt",67648,27566,182,1153,715,133,13
+"Herne, kreisfreie Stadt",58963,16422,109,1452,599,108,16
+Ennepe-Ruhr-Kreis,144359,49280,493,2599,1611,445,30
+Hochsauerlandkreis,106506,57242,300,1459,983,206,25
+Märkischer Kreis,175741,71773,392,2615,2130,429,41
+"Olpe, Landkreis",58353,29547,182,570,562,157,19
+"Siegen-Wittgenstein, Landkreis",120069,52674,311,1132,1471,343,23
+"Soest, Landkreis",124620,61219,556,2288,1083,378,28
+"Unna, Landkreis",169670,64083,579,2988,1884,363,53
+"Darmstadt, kreisfreie Stadt",48298,22542,398,729,976,293,11
+"Frankfurt am Main, kreisfreie Stadt",201787,127784,1291,2380,5393,1591,69
+"Offenbach am Main, kreisfreie Stadt",36864,18299,171,512,829,129,23
+"Wiesbaden, kreisfreie Stadt",113096,46885,570,1197,1636,586,32
+"Bergstraße, Landkreis",119080,52039,537,1375,1649,377,29
+"Darmstadt-Dieburg, Landkreis",129528,53580,568,1996,2316,486,25
+"Groß-Gerau, Landkreis",108353,46921,620,1498,1338,385,22
+Hochtaunuskreis,111035,52613,753,1049,2606,624,51
+Main-Kinzig-Kreis,171999,80028,549,2022,3112,406,53
+Main-Taunus-Kreis,126238,60865,503,927,3339,560,28
+Odenwaldkreis,41568,19247,150,619,672,121,4
+"Offenbach, Landkreis",146714,62814,483,1736,2547,530,37
+Rheingau-Taunus-Kreis,82876,35743,425,999,1098,368,30
+Wetteraukreis,127659,59002,459,1388,1975,545,34
+"Gießen, Landkreis",100504,50088,448,1584,1574,313,35
+Lahn-Dill-Kreis,107546,52597,316,1249,1025,244,41
+"Limburg-Weilburg, Landkreis",72597,36149,286,1119,1020,210,26
+"Marburg-Biedenkopf, Landkreis",95818,43662,372,1237,971,161,21
+Vogelsbergkreis,46139,24182,114,579,564,67,17
+"Kassel, kreisfreie Stadt",59104,28793,288,1003,873,228,12
+"Fulda, Landkreis",90403,48879,292,1050,968,174,29
+"Hersfeld-Rotenburg, Landkreis",50772,26505,145,778,343,84,19
+"Kassel, Landkreis",102200,43909,367,1588,961,243,32
+Schwalm-Eder-Kreis,77711,37996,265,1484,660,143,24
+"Waldeck-Frankenberg, Landkreis",67480,34939,216,1191,509,113,17
+Werra-Meißner-Kreis,40737,20704,84,694,239,71,12
+"Koblenz, kreisfreie Stadt",40705,21704,135,461,527,174,8
+"Ahrweiler, Landkreis",56625,26742,152,1008,605,151,11
+"Altenkirchen (Westerwald), Landkreis",56177,26082,140,827,545,101,21
+"Bad Kreuznach, Landkreis",66823,31165,220,885,683,154,12
+"Birkenfeld, Landkreis",35374,15953,73,271,438,66,13
+"Cochem-Zell, Landkreis",24507,16081,64,420,152,37,6
+"Mayen-Koblenz, Landkreis",92475,43582,269,1125,887,201,21
+"Neuwied, Landkreis",78518,38472,242,1474,833,177,22
+Rhein-Hunsrück-Kreis,41206,27422,138,562,507,70,9
+Rhein-Lahn-Kreis,54152,24320,137,834,463,98,17
+Westerwaldkreis,87172,46883,254,1139,793,222,23
+"Trier, kreisfreie Stadt",93387,56213,363,509,1229,270,20
+"Bernkastel-Wittlich, Landkreis",44659,28875,127,330,473,85,8
+Eifelkreis Bitburg-Prüm,35411,29567,120,296,575,55,11
+"Vulkaneifel, Landkreis",23853,16506,54,298,231,57,9
+"Frankenthal (Pfalz), kreisfreie Stadt",18443,7870,52,208,306,70,4
+"Kaiserslautern, kreisfreie Stadt",34176,13869,138,383,652,95,10
+"Landau in der Pfalz, kreisfreie Stadt",18928,8023,85,209,257,64,4
+"Ludwigshafen am Rhein, kreisfreie Stadt",57604,23985,386,610,780,255,14
+"Mainz, kreisfreie Stadt",67403,30522,381,747,1002,333,15
+"Neustadt an der Weinstraße, kreisfreie Stadt",22419,9946,95,242,193,69,5
+"Pirmasens, kreisfreie Stadt",16012,6500,46,142,266,35,1
+"Speyer, kreisfreie Stadt",19938,8801,68,258,216,63,1
+"Worms, kreisfreie Stadt",31938,12924,105,315,479,189,8
+"Zweibrücken, kreisfreie Stadt",14415,6324,40,120,285,27,6
+"Alzey-Worms, Landkreis",55422,28222,210,694,511,149,16
+"Bad Dürkheim, Landkreis",61600,27457,240,775,549,165,16
+Donnersbergkreis,31974,17072,98,451,318,58,10
+"Germersheim, Landkreis",53958,27262,137,603,855,120,20
+"Kaiserslautern, Landkreis",46270,20876,126,476,651,64,13
+"Kusel, Landkreis",31855,14789,50,288,357,54,12
+"Südliche Weinstraße, Landkreis",51195,24020,180,504,540,104,15
+Rhein-Pfalz-Kreis,72250,27857,212,792,758,164,18
+"Mainz-Bingen, Landkreis",91847,46456,470,1192,1052,278,18
+"Südwestpfalz, Landkreis",44489,21419,76,455,516,74,29
+"Stuttgart, kreisfreie Stadt",207228,86990,2712,2235,5539,2597,66
+"Böblingen, Landkreis",167960,79564,1930,1444,4460,1551,61
+"Esslingen, Landkreis",225817,99591,1319,1977,3728,920,67
+"Göppingen, Landkreis",109504,53058,471,1293,1547,305,37
+"Ludwigsburg, Landkreis",233532,91756,1323,2189,3346,1022,72
+Rems-Murr-Kreis,183867,75590,973,1859,2360,709,49
+"Heilbronn, kreisfreie Stadt",45133,20976,219,501,735,187,9
+"Heilbronn, Landkreis",155801,82236,772,1562,3229,547,39
+Hohenlohekreis,45413,36388,260,607,741,150,11
+"Schwäbisch Hall, Landkreis",76673,49969,410,1153,866,250,24
+Main-Tauber-Kreis,53777,33466,180,711,998,160,18
+"Heidenheim, Landkreis",54326,28227,193,679,537,130,11
+Ostalbkreis,128957,72648,559,1296,1811,518,16
+"Baden-Baden, kreisfreie Stadt",22259,12003,144,153,415,111,7
+"Karlsruhe, kreisfreie Stadt",91260,46526,737,1240,1587,423,32
+"Karlsruhe, Landkreis",187591,86688,920,1962,2345,513,49
+"Rastatt, Landkreis",100301,48533,394,946,1389,248,23
+"Heidelberg, kreisfreie Stadt",39354,19741,290,400,763,148,23
+"Mannheim, kreisfreie Stadt",100483,48653,436,978,1863,404,17
+Neckar-Odenwald-Kreis,59285,33295,182,652,666,159,15
+Rhein-Neckar-Kreis,234233,110048,1215,2212,2911,2105,60
+"Pforzheim, kreisfreie Stadt",41673,19077,189,401,583,161,8
+"Calw, Landkreis",66110,36971,458,793,746,141,22
+Enzkreis,90204,39456,440,988,932,272,31
+"Freudenstadt, Landkreis",46213,29410,209,459,637,123,10
+"Freiburg im Breisgau, kreisfreie Stadt",57879,32925,461,805,960,285,25
+"Breisgau-Hochschwarzwald, Landkreis",102129,53427,653,993,1331,313,46
+"Emmendingen, Landkreis",66881,32253,332,667,759,171,16
+Ortenaukreis,177320,91622,714,1464,1592,476,46
+"Rottweil, Landkreis",58187,34213,198,516,631,143,17
+Schwarzwald-Baar-Kreis,84865,44385,304,738,1274,286,36
+"Tuttlingen, Landkreis",54971,32136,231,453,736,199,16
+"Konstanz, Landkreis",109782,46651,539,1266,1648,355,33
+"Lörrach, Landkreis",93036,40720,556,515,1475,293,37
+"Waldshut, Landkreis",71188,34469,384,409,811,222,32
+"Reutlingen, Landkreis",118385,57909,562,1419,1333,513,28
+"Tübingen, Landkreis",80542,42377,414,1298,1062,352,28
+Zollernalbkreis,83222,42385,318,875,1021,222,16
+"Ulm, kreisfreie Stadt",40423,24628,288,470,648,210,15
+Alb-Donau-Kreis,79952,45901,323,822,691,172,23
+"Biberach, Landkreis",79183,49995,368,778,786,167,13
+Bodenseekreis,89693,45330,493,854,1456,395,30
+"Ravensburg, Landkreis",110359,66575,619,1095,1018,320,36
+"Sigmaringen, Landkreis",52328,32152,171,664,901,126,13
+"Ingolstadt, kreisfreie Stadt",60391,31774,928,955,6085,660,14
+"München, kreisfreie Stadt",446481,264201,5695,3652,14494,5588,133
+"Rosenheim, kreisfreie Stadt",21807,12367,115,207,280,76,5
+"Altötting, Landkreis",44743,24933,222,374,637,127,10
+"Berchtesgadener Land, Landkreis",41802,22433,168,285,421,132,10
+"Bad Tölz-Wolfratshausen, Landkreis",48218,30276,279,474,711,222,17
+"Dachau, Landkreis",59266,31180,311,640,865,200,16
+"Ebersberg, Landkreis",52828,30004,399,467,826,274,14
+"Eichstätt, Landkreis",51151,31497,231,554,629,105,10
+"Erding, Landkreis",53638,33377,312,508,1181,171,17
+"Freising, Landkreis",64148,42372,629,750,964,221,19
+"Fürstenfeldbruck, Landkreis",80945,39343,438,769,1137,317,18
+"Garmisch-Partenkirchen, Landkreis",33046,17930,137,309,394,94,13
+"Landsberg am Lech, Landkreis",48836,30763,456,643,816,189,18
+"Miesbach, Landkreis",39917,24607,266,291,603,174,15
+"Mühldorf am Inn, Landkreis",45894,26970,232,388,747,116,8
+"München, Landkreis",145489,90587,1579,1053,3968,1796,41
+"Neuburg-Schrobenhausen, Landkreis",39528,24378,144,444,516,119,8
+"Pfaffenhofen an der Ilm, Landkreis",48979,32733,320,672,639,134,10
+"Rosenheim, Landkreis",105818,61595,720,988,1144,358,24
+"Starnberg, Landkreis",54448,30499,585,458,892,372,14
+"Traunstein, Landkreis",72298,41810,457,651,741,213,15
+"Weilheim-Schongau, Landkreis",54772,31384,306,623,586,198,9
+"Landshut, kreisfreie Stadt",23197,13386,128,242,400,114,9
+"Passau, kreisfreie Stadt",17934,9997,95,109,391,69,9
+"Straubing, kreisfreie Stadt",17568,9521,60,161,191,59,5
+"Deggendorf, Landkreis",46560,30332,173,564,374,131,10
+"Freyung-Grafenau, Landkreis",31123,20824,75,239,223,69,4
+"Kelheim, Landkreis",46402,32322,233,687,446,127,16
+"Landshut, Landkreis",61800,44152,346,788,968,264,13
+"Passau, Landkreis",81169,44679,310,519,714,188,32
+"Regen, Landkreis",29888,19275,156,248,289,66,5
+"Rottal-Inn, Landkreis",49745,31306,213,461,527,141,20
+"Straubing-Bogen, Landkreis",40980,26344,146,454,402,81,9
+"Dingolfing-Landau, Landkreis",39402,28753,266,466,261,221,4
+"Amberg, kreisfreie Stadt",16360,8217,108,129,285,62,5
+"Regensburg, kreisfreie Stadt",57040,33320,446,595,1032,328,17
+"Weiden in der Oberpfalz, kreisfreie Stadt",16845,8855,50,162,177,40,9
+"Amberg-Sulzbach, Landkreis",43725,25141,192,404,368,98,14
+"Cham, Landkreis",54384,32939,182,710,341,84,15
+"Neumarkt in der Oberpfalz, Landkreis",53646,33642,252,504,588,144,8
+"Neustadt an der Waldnaab, Landkreis",40424,23455,122,380,306,104,11
+"Regensburg, Landkreis",77626,45425,379,1082,896,234,27
+"Schwandorf, Landkreis",59394,38707,184,815,638,154,16
+"Tirschenreuth, Landkreis",31488,16700,76,237,193,41,7
+"Bamberg, kreisfreie Stadt",25704,14237,208,360,362,97,11
+"Bayreuth, kreisfreie Stadt",25577,13193,131,215,404,90,5
+"Coburg, kreisfreie Stadt",16412,8164,84,140,233,42,8
+"Hof, kreisfreie Stadt",18324,7191,69,126,193,43,6
+"Bamberg, Landkreis",63767,35757,258,665,457,119,19
+"Bayreuth, Landkreis",46011,24242,140,414,382,78,10
+"Coburg, Landkreis",39968,17417,148,444,320,89,5
+"Forchheim, Landkreis",50338,25958,284,453,507,160,14
+"Hof, Landkreis",42876,19789,104,435,292,71,12
+"Kronach, Landkreis",29968,14617,78,228,208,65,20
+"Kulmbach, Landkreis",32107,16336,107,342,397,81,9
+"Lichtenfels, Landkreis",29472,14392,94,245,127,54,15
+"Wunsiedel im Fichtelgebirge, Landkreis",32017,14401,85,218,270,68,16
+"Ansbach, kreisfreie Stadt",15973,8918,99,223,256,66,1
+"Erlangen, kreisfreie Stadt",35708,18524,221,354,581,177,7
+"Fürth, kreisfreie Stadt",42572,19501,208,401,638,151,11
+"Nürnberg, kreisfreie Stadt",157492,83383,798,1318,3192,625,37
+"Schwabach, kreisfreie Stadt",17684,7747,118,110,495,58,6
+"Ansbach, Landkreis",76638,45844,311,950,629,178,25
+"Erlangen-Höchstadt, Landkreis",57726,31676,384,551,667,363,26
+"Fürth, Landkreis",52590,22586,244,378,557,147,16
+"Nürnberger Land, Landkreis",72059,36215,379,564,1270,232,13
+"Neustadt an der Aisch-Bad Windsheim, Landkreis",39945,25696,250,505,407,156,21
+"Roth, Landkreis",53763,30683,258,431,782,133,16
+"Weißenburg-Gunzenhausen, Landkreis",38391,22478,211,449,383,94,12
+"Aschaffenburg, kreisfreie Stadt",28419,14008,120,372,402,94,8
+"Schweinfurt, kreisfreie Stadt",17276,10587,82,270,314,132,6
+"Würzburg, kreisfreie Stadt",40602,21761,267,698,712,194,14
+"Aschaffenburg, Landkreis",76854,38183,356,892,871,243,20
+"Bad Kissingen, Landkreis",41873,26983,248,654,328,89,14
+"Rhön-Grabfeld, Landkreis",30494,22446,397,504,305,85,16
+"Haßberge, Landkreis",33036,24017,159,639,223,79,14
+"Kitzingen, Landkreis",37880,22067,198,528,513,125,11
+"Miltenberg, Landkreis",52893,29678,161,642,964,175,15
+"Main-Spessart, Landkreis",52492,30820,201,822,650,137,14
+"Schweinfurt, Landkreis",49269,27372,291,777,450,143,24
+"Würzburg, Landkreis",68105,35273,397,1182,814,202,17
+"Augsburg, kreisfreie Stadt",91300,43170,373,1318,1891,317,27
+"Kaufbeuren, kreisfreie Stadt",16561,7991,67,185,267,41,1
+"Kempten (Allgäu), kreisfreie Stadt",24551,13950,134,227,396,92,6
+"Memmingen, kreisfreie Stadt",16477,9622,68,171,190,62,2
+"Aichach-Friedberg, Landkreis",55382,29283,250,676,788,145,10
+"Augsburg, Landkreis",109064,51937,470,1167,1790,329,25
+"Dillingen an der Donau, Landkreis",40950,22723,138,461,567,87,15
+"Günzburg, Landkreis",51453,31346,174,479,495,117,14
+"Neu-Ulm, Landkreis",72188,35868,284,712,729,151,21
+"Lindau (Bodensee), Landkreis",33701,17713,191,305,295,96,9
+"Ostallgäu, Landkreis",56938,32679,307,721,637,156,17
+"Unterallgäu, Landkreis",61084,35732,243,642,616,122,21
+"Donau-Ries, Landkreis",55637,33932,256,602,840,154,10
+"Oberallgäu, Landkreis",62982,36289,347,489,497,194,15
