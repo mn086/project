@@ -3,7 +3,7 @@ import os
 import pandas as pd
 
 sys.path.insert(0, os.path.abspath('..'))
-from src.data_exploration_utils import create_table_figure
+from data_exploration_utils import create_table_figure
 
 # absoluter Pfad zum Skriptverzeichnis und Datenordner
 script_dir = os.path.dirname(os.path.abspath(__file__))
