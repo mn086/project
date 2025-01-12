@@ -1,6 +1,9 @@
+import sys
 import os
 import pandas as pd
-import matplotlib.pyplot as plt
+
+sys.path.insert(0, os.path.abspath('..'))
+from src.data_exploration_utils import create_table_figure
 
 # absoluter Pfad zum Skriptverzeichnis und Datenordner
 script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -91,7 +94,7 @@ def add_description_column(info_df: pd.DataFrame, relevant_cols: list) -> pd.Dat
 
 def create_info_figure(df: pd.DataFrame, description: str = 'Beschreibung der Datenspalten') -> None:
     """
-    Erstellt eine Abbildung mit Informationen zu allen Spalten eines DataFrames.
+    Erstellt eine Übersichtstabelle mit Informationen zu allen Spalten eines DataFrames.
     
     Args:
         df: Der zu visualisierende DataFrame
@@ -99,40 +102,4 @@ def create_info_figure(df: pd.DataFrame, description: str = 'Beschreibung der Da
     """
     info_df = create_info_table(df)
     info_df = add_description_column(info_df, relevant_cols)
-    
-    # Reduzierter Faktor für die dynamische Höhenberechnung
-    fig_height = len(info_df) * 0.25
-    fig, ax = plt.subplots(figsize=(15, fig_height))  # Breite auf 15 erhöht
-    ax.axis('tight')
-    ax.axis('off')
-    
-    table = ax.table(cellText=info_df.values, 
-                    colLabels=info_df.columns,
-                    loc='center',
-                    cellLoc='left')
-    
-    # Setze die Schriftgröße der Tabelle auf 10
-    table.auto_set_font_size(False)
-    table.set_fontsize(10)
-    
-    # Optimierte Spaltenbreiten basierend auf Header und Inhalt
-    col_widths = {
-        'Spalte': 0.25,
-        'Datentyp': 0.1,
-        'Anzahl_Werte': 0.12,
-        'Anzahl_NULL': 0.12,
-        'Anzahl_Ausprägungen': 0.15,
-        'Beschreibung': 0.26
-    }
-    
-    # Passe die Spaltenbreite und Zelleneigenschaften an
-    for (row, col), cell in table.get_celld().items():
-        cell.set_width(col_widths[info_df.columns[col]])
-        cell.PAD = 0.01  # Noch kleinerer Innenabstand
-        cell.set_text_props(wrap=True)
-        if row == 0:  # Kopfzeile
-            cell.set_height(0.06)  # Höhere Kopfzeile für Umbrüche
-    
-    plt.tight_layout()
-    plt.figtext(0.5, 0.02, description, wrap=True, horizontalalignment='center', fontsize=10)
-    plt.show()
+    create_table_figure(info_df, description)
