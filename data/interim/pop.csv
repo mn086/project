@@ -1,171 +1,171 @@
-,landkreis_id,landkreis,alter_id,alter,geschlecht_id,geschlecht,anzahl_personen
-0,DG,Deutschland,,Insgesamt,,Insgesamt,81848
-15,1,  Schleswig-Holstein,,Insgesamt,,Insgesamt,2851
-30,1001,"      Flensburg, kreisfreie Stadt",,Insgesamt,,Insgesamt,88
-45,1002,"      Kiel, kreisfreie Stadt",,Insgesamt,,Insgesamt,241
-60,1003,"      Lübeck, kreisfreie Stadt, Hansestadt",,Insgesamt,,Insgesamt,210
-75,1004,"      Neumünster, kreisfreie Stadt",,Insgesamt,,Insgesamt,78
-90,1051,"      Dithmarschen, Kreis",,Insgesamt,,Insgesamt,131
-105,1053,"      Herzogtum Lauenburg, Kreis",,Insgesamt,,Insgesamt,195
-120,1054,"      Nordfriesland, Kreis",,Insgesamt,,Insgesamt,166
-135,1055,"      Ostholstein, Kreis",,Insgesamt,,Insgesamt,198
-150,1056,"      Pinneberg, Kreis",,Insgesamt,,Insgesamt,312
-165,1057,"      Plön, Kreis",,Insgesamt,,Insgesamt,126
-180,1058,"      Rendsburg-Eckernförde, Kreis",,Insgesamt,,Insgesamt,269
-195,1059,"      Schleswig-Flensburg, Kreis",,Insgesamt,,Insgesamt,197
-210,1060,"      Segeberg, Kreis",,Insgesamt,,Insgesamt,272
-225,1061,"      Steinburg, Kreis",,Insgesamt,,Insgesamt,130
-240,1062,"      Stormarn, Kreis",,Insgesamt,,Insgesamt,240
-255,2,  Hamburg,,Insgesamt,,Insgesamt,1827
-270,3,  Niedersachsen,,Insgesamt,,Insgesamt,7845
-285,31,"    Braunschweig, Statistische Region",,Insgesamt,,Insgesamt,1564
-300,3101,"      Braunschweig, kreisfreie Stadt",,Insgesamt,,Insgesamt,244
-315,3102,"      Salzgitter, kreisfreie Stadt",,Insgesamt,,Insgesamt,103
-330,3103,"      Wolfsburg, kreisfreie Stadt",,Insgesamt,,Insgesamt,122
-345,3151,"      Gifhorn, Landkreis",,Insgesamt,,Insgesamt,175
+,landkreis_id,landkreis,alter_id,alter,geschlecht_id,geschlecht,anzahl_personen_1000
+0,DG,Deutschland,,Insgesamt,,Insgesamt,81848.0
+15,1,  Schleswig-Holstein,,Insgesamt,,Insgesamt,2851.0
+30,1001,"      Flensburg, kreisfreie Stadt",,Insgesamt,,Insgesamt,88.0
+45,1002,"      Kiel, kreisfreie Stadt",,Insgesamt,,Insgesamt,241.0
+60,1003,"      Lübeck, kreisfreie Stadt, Hansestadt",,Insgesamt,,Insgesamt,210.0
+75,1004,"      Neumünster, kreisfreie Stadt",,Insgesamt,,Insgesamt,78.0
+90,1051,"      Dithmarschen, Kreis",,Insgesamt,,Insgesamt,131.0
+105,1053,"      Herzogtum Lauenburg, Kreis",,Insgesamt,,Insgesamt,195.0
+120,1054,"      Nordfriesland, Kreis",,Insgesamt,,Insgesamt,166.0
+135,1055,"      Ostholstein, Kreis",,Insgesamt,,Insgesamt,198.0
+150,1056,"      Pinneberg, Kreis",,Insgesamt,,Insgesamt,312.0
+165,1057,"      Plön, Kreis",,Insgesamt,,Insgesamt,126.0
+180,1058,"      Rendsburg-Eckernförde, Kreis",,Insgesamt,,Insgesamt,269.0
+195,1059,"      Schleswig-Flensburg, Kreis",,Insgesamt,,Insgesamt,197.0
+210,1060,"      Segeberg, Kreis",,Insgesamt,,Insgesamt,272.0
+225,1061,"      Steinburg, Kreis",,Insgesamt,,Insgesamt,130.0
+240,1062,"      Stormarn, Kreis",,Insgesamt,,Insgesamt,240.0
+255,2,  Hamburg,,Insgesamt,,Insgesamt,1827.0
+270,3,  Niedersachsen,,Insgesamt,,Insgesamt,7845.0
+285,31,"    Braunschweig, Statistische Region",,Insgesamt,,Insgesamt,1564.0
+300,3101,"      Braunschweig, kreisfreie Stadt",,Insgesamt,,Insgesamt,244.0
+315,3102,"      Salzgitter, kreisfreie Stadt",,Insgesamt,,Insgesamt,103.0
+330,3103,"      Wolfsburg, kreisfreie Stadt",,Insgesamt,,Insgesamt,122.0
+345,3151,"      Gifhorn, Landkreis",,Insgesamt,,Insgesamt,175.0
 360,3152,"      Göttingen, Landkreis",,Insgesamt,,Insgesamt,
-375,3153,"      Goslar, Landkreis",,Insgesamt,,Insgesamt,133
-390,3154,"      Helmstedt, Landkreis",,Insgesamt,,Insgesamt,87
-405,3155,"      Northeim, Landkreis",,Insgesamt,,Insgesamt,130
+375,3153,"      Goslar, Landkreis",,Insgesamt,,Insgesamt,133.0
+390,3154,"      Helmstedt, Landkreis",,Insgesamt,,Insgesamt,87.0
+405,3155,"      Northeim, Landkreis",,Insgesamt,,Insgesamt,130.0
 420,3156,"      Osterode am Harz, Landkreis",,Insgesamt,,Insgesamt,
-435,3157,"      Peine, Landkreis",,Insgesamt,,Insgesamt,130
-450,3158,"      Wolfenbüttel, Landkreis",,Insgesamt,,Insgesamt,118
-465,3159,"      Göttingen, Landkreis",,Insgesamt,,Insgesamt,321
-480,32,"    Hannover, Statistische Region",,Insgesamt,,Insgesamt,2107
-495,3241,"      Region Hannover, Landkreis",,Insgesamt,,Insgesamt,1139
-510,3241001,"      Hannover, Landeshauptstadt",,Insgesamt,,Insgesamt,529
-525,3251,"      Diepholz, Landkreis",,Insgesamt,,Insgesamt,213
-540,3252,"      Hameln-Pyrmont, Landkreis",,Insgesamt,,Insgesamt,147
-555,3254,"      Hildesheim, Landkreis",,Insgesamt,,Insgesamt,271
-570,3255,"      Holzminden, Landkreis",,Insgesamt,,Insgesamt,69
-585,3256,"      Nienburg (Weser), Landkreis",,Insgesamt,,Insgesamt,116
-600,3257,"      Schaumburg, Landkreis",,Insgesamt,,Insgesamt,153
-615,33,"    Lüneburg, Statistische Region",,Insgesamt,,Insgesamt,1679
-630,3351,"      Celle, Landkreis",,Insgesamt,,Insgesamt,173
-645,3352,"      Cuxhaven, Landkreis",,Insgesamt,,Insgesamt,195
-660,3353,"      Harburg, Landkreis",,Insgesamt,,Insgesamt,251
+435,3157,"      Peine, Landkreis",,Insgesamt,,Insgesamt,130.0
+450,3158,"      Wolfenbüttel, Landkreis",,Insgesamt,,Insgesamt,118.0
+465,3159,"      Göttingen, Landkreis",,Insgesamt,,Insgesamt,321.0
+480,32,"    Hannover, Statistische Region",,Insgesamt,,Insgesamt,2107.0
+495,3241,"      Region Hannover, Landkreis",,Insgesamt,,Insgesamt,1139.0
+510,3241001,"      Hannover, Landeshauptstadt",,Insgesamt,,Insgesamt,529.0
+525,3251,"      Diepholz, Landkreis",,Insgesamt,,Insgesamt,213.0
+540,3252,"      Hameln-Pyrmont, Landkreis",,Insgesamt,,Insgesamt,147.0
+555,3254,"      Hildesheim, Landkreis",,Insgesamt,,Insgesamt,271.0
+570,3255,"      Holzminden, Landkreis",,Insgesamt,,Insgesamt,69.0
+585,3256,"      Nienburg (Weser), Landkreis",,Insgesamt,,Insgesamt,116.0
+600,3257,"      Schaumburg, Landkreis",,Insgesamt,,Insgesamt,153.0
+615,33,"    Lüneburg, Statistische Region",,Insgesamt,,Insgesamt,1679.0
+630,3351,"      Celle, Landkreis",,Insgesamt,,Insgesamt,173.0
+645,3352,"      Cuxhaven, Landkreis",,Insgesamt,,Insgesamt,195.0
+660,3353,"      Harburg, Landkreis",,Insgesamt,,Insgesamt,251.0
 675,3354,"      Lüchow-Dannenberg, Landkreis",,Insgesamt,,Insgesamt,
-690,3355,"      Lüneburg, Landkreis",,Insgesamt,,Insgesamt,179
-705,3356,"      Osterholz, Landkreis",,Insgesamt,,Insgesamt,112
-720,3357,"      Rotenburg (Wümme), Landkreis",,Insgesamt,,Insgesamt,162
-735,3358,      Heidekreis,,Insgesamt,,Insgesamt,135
-750,3359,"      Stade, Landkreis",,Insgesamt,,Insgesamt,202
+690,3355,"      Lüneburg, Landkreis",,Insgesamt,,Insgesamt,179.0
+705,3356,"      Osterholz, Landkreis",,Insgesamt,,Insgesamt,112.0
+720,3357,"      Rotenburg (Wümme), Landkreis",,Insgesamt,,Insgesamt,162.0
+735,3358,      Heidekreis,,Insgesamt,,Insgesamt,135.0
+750,3359,"      Stade, Landkreis",,Insgesamt,,Insgesamt,202.0
 765,3360,"      Uelzen, Landkreis",,Insgesamt,,Insgesamt,
-780,3361,"      Verden, Landkreis",,Insgesamt,,Insgesamt,135
-795,34,"    Weser-Ems, Statistische Region",,Insgesamt,,Insgesamt,2495
-810,3401,"      Delmenhorst, kreisfreie Stadt",,Insgesamt,,Insgesamt,77
+780,3361,"      Verden, Landkreis",,Insgesamt,,Insgesamt,135.0
+795,34,"    Weser-Ems, Statistische Region",,Insgesamt,,Insgesamt,2495.0
+810,3401,"      Delmenhorst, kreisfreie Stadt",,Insgesamt,,Insgesamt,77.0
 825,3402,"      Emden, kreisfreie Stadt",,Insgesamt,,Insgesamt,
-840,3403,"      Oldenburg (Oldenburg), kreisfreie Stadt",,Insgesamt,,Insgesamt,166
-855,3404,"      Osnabrück, kreisfreie Stadt",,Insgesamt,,Insgesamt,161
-870,3405,"      Wilhelmshaven, kreisfreie Stadt",,Insgesamt,,Insgesamt,73
-885,3451,"      Ammerland, Landkreis",,Insgesamt,,Insgesamt,123
-900,3452,"      Aurich, Landkreis",,Insgesamt,,Insgesamt,188
-915,3453,"      Cloppenburg, Landkreis",,Insgesamt,,Insgesamt,170
-930,3454,"      Emsland, Landkreis",,Insgesamt,,Insgesamt,320
+840,3403,"      Oldenburg (Oldenburg), kreisfreie Stadt",,Insgesamt,,Insgesamt,166.0
+855,3404,"      Osnabrück, kreisfreie Stadt",,Insgesamt,,Insgesamt,161.0
+870,3405,"      Wilhelmshaven, kreisfreie Stadt",,Insgesamt,,Insgesamt,73.0
+885,3451,"      Ammerland, Landkreis",,Insgesamt,,Insgesamt,123.0
+900,3452,"      Aurich, Landkreis",,Insgesamt,,Insgesamt,188.0
+915,3453,"      Cloppenburg, Landkreis",,Insgesamt,,Insgesamt,170.0
+930,3454,"      Emsland, Landkreis",,Insgesamt,,Insgesamt,320.0
 945,3455,"      Friesland, Landkreis",,Insgesamt,,Insgesamt,
-960,3456,"      Grafschaft Bentheim, Landkreis",,Insgesamt,,Insgesamt,134
+960,3456,"      Grafschaft Bentheim, Landkreis",,Insgesamt,,Insgesamt,134.0
 975,3457,"      Leer, Landkreis",,Insgesamt,,Insgesamt,
-990,3458,"      Oldenburg, Landkreis",,Insgesamt,,Insgesamt,131
-1005,3459,"      Osnabrück, Landkreis",,Insgesamt,,Insgesamt,352
-1020,3460,"      Vechta, Landkreis",,Insgesamt,,Insgesamt,140
-1035,3461,"      Wesermarsch, Landkreis",,Insgesamt,,Insgesamt,89
+990,3458,"      Oldenburg, Landkreis",,Insgesamt,,Insgesamt,131.0
+1005,3459,"      Osnabrück, Landkreis",,Insgesamt,,Insgesamt,352.0
+1020,3460,"      Vechta, Landkreis",,Insgesamt,,Insgesamt,140.0
+1035,3461,"      Wesermarsch, Landkreis",,Insgesamt,,Insgesamt,89.0
 1050,3462,"      Wittmund, Landkreis",,Insgesamt,,Insgesamt,
-1065,4,  Bremen,,Insgesamt,,Insgesamt,676
+1065,4,  Bremen,,Insgesamt,,Insgesamt,676.0
 1080,4011,"      Bremen, kreisfreie Stadt",,Insgesamt,,Insgesamt,
 1095,4012,"      Bremerhaven, kreisfreie Stadt",,Insgesamt,,Insgesamt,
-1110,5,  Nordrhein-Westfalen,,Insgesamt,,Insgesamt,17665
-1125,51,"    Düsseldorf, Regierungsbezirk",,Insgesamt,,Insgesamt,5122
-1140,5111,"      Düsseldorf, kreisfreie Stadt",,Insgesamt,,Insgesamt,611
-1155,5112,"      Duisburg, kreisfreie Stadt",,Insgesamt,,Insgesamt,493
-1170,5113,"      Essen, kreisfreie Stadt",,Insgesamt,,Insgesamt,574
-1185,5114,"      Krefeld, kreisfreie Stadt",,Insgesamt,,Insgesamt,221
-1200,5116,"      Mönchengladbach, kreisfreie Stadt",,Insgesamt,,Insgesamt,257
-1215,5117,"      Mülheim an der Ruhr, kreisfreie Stadt",,Insgesamt,,Insgesamt,168
-1230,5119,"      Oberhausen, kreisfreie Stadt",,Insgesamt,,Insgesamt,209
-1245,5120,"      Remscheid, kreisfreie Stadt",,Insgesamt,,Insgesamt,109
-1260,5122,"      Solingen, kreisfreie Stadt",,Insgesamt,,Insgesamt,154
-1275,5124,"      Wuppertal, kreisfreie Stadt",,Insgesamt,,Insgesamt,350
-1290,5154,"      Kleve, Kreis",,Insgesamt,,Insgesamt,304
-1305,5158,"      Mettmann, Kreis",,Insgesamt,,Insgesamt,480
-1320,5162,      Rhein-Kreis Neuss,,Insgesamt,,Insgesamt,447
-1335,5166,"      Viersen, Kreis",,Insgesamt,,Insgesamt,291
-1350,5170,"      Wesel, Kreis",,Insgesamt,,Insgesamt,453
-1365,53,"    Köln, Regierungsbezirk",,Insgesamt,,Insgesamt,4399
-1380,5314,"      Bonn, kreisfreie Stadt",,Insgesamt,,Insgesamt,325
-1395,5315,"      Köln, kreisfreie Stadt",,Insgesamt,,Insgesamt,1065
-1410,5316,"      Leverkusen, kreisfreie Stadt",,Insgesamt,,Insgesamt,161
-1425,5334,"      Städteregion Aachen, Kreis",,Insgesamt,,Insgesamt,547
+1110,5,  Nordrhein-Westfalen,,Insgesamt,,Insgesamt,17665.0
+1125,51,"    Düsseldorf, Regierungsbezirk",,Insgesamt,,Insgesamt,5122.0
+1140,5111,"      Düsseldorf, kreisfreie Stadt",,Insgesamt,,Insgesamt,611.0
+1155,5112,"      Duisburg, kreisfreie Stadt",,Insgesamt,,Insgesamt,493.0
+1170,5113,"      Essen, kreisfreie Stadt",,Insgesamt,,Insgesamt,574.0
+1185,5114,"      Krefeld, kreisfreie Stadt",,Insgesamt,,Insgesamt,221.0
+1200,5116,"      Mönchengladbach, kreisfreie Stadt",,Insgesamt,,Insgesamt,257.0
+1215,5117,"      Mülheim an der Ruhr, kreisfreie Stadt",,Insgesamt,,Insgesamt,168.0
+1230,5119,"      Oberhausen, kreisfreie Stadt",,Insgesamt,,Insgesamt,209.0
+1245,5120,"      Remscheid, kreisfreie Stadt",,Insgesamt,,Insgesamt,109.0
+1260,5122,"      Solingen, kreisfreie Stadt",,Insgesamt,,Insgesamt,154.0
+1275,5124,"      Wuppertal, kreisfreie Stadt",,Insgesamt,,Insgesamt,350.0
+1290,5154,"      Kleve, Kreis",,Insgesamt,,Insgesamt,304.0
+1305,5158,"      Mettmann, Kreis",,Insgesamt,,Insgesamt,480.0
+1320,5162,      Rhein-Kreis Neuss,,Insgesamt,,Insgesamt,447.0
+1335,5166,"      Viersen, Kreis",,Insgesamt,,Insgesamt,291.0
+1350,5170,"      Wesel, Kreis",,Insgesamt,,Insgesamt,453.0
+1365,53,"    Köln, Regierungsbezirk",,Insgesamt,,Insgesamt,4399.0
+1380,5314,"      Bonn, kreisfreie Stadt",,Insgesamt,,Insgesamt,325.0
+1395,5315,"      Köln, kreisfreie Stadt",,Insgesamt,,Insgesamt,1065.0
+1410,5316,"      Leverkusen, kreisfreie Stadt",,Insgesamt,,Insgesamt,161.0
+1425,5334,"      Städteregion Aachen, Kreis",,Insgesamt,,Insgesamt,547.0
 1440,5334002,"      Aachen, kreisfreie Stadt",,Insgesamt,,Insgesamt,
 1455,5354,"      Aachen, Kreis",,Insgesamt,,Insgesamt,
-1470,5358,"      Düren, Kreis",,Insgesamt,,Insgesamt,257
-1485,5362,      Rhein-Erft-Kreis,,Insgesamt,,Insgesamt,466
-1500,5366,"      Euskirchen, Kreis",,Insgesamt,,Insgesamt,188
-1515,5370,"      Heinsberg, Kreis",,Insgesamt,,Insgesamt,252
-1530,5374,      Oberbergischer Kreis,,Insgesamt,,Insgesamt,267
-1545,5378,      Rheinisch-Bergischer Kreis,,Insgesamt,,Insgesamt,283
-1560,5382,      Rhein-Sieg-Kreis,,Insgesamt,,Insgesamt,589
-1575,55,"    Münster, Regierungsbezirk",,Insgesamt,,Insgesamt,2591
-1590,5512,"      Bottrop, kreisfreie Stadt",,Insgesamt,,Insgesamt,117
-1605,5513,"      Gelsenkirchen, kreisfreie Stadt",,Insgesamt,,Insgesamt,258
-1620,5515,"      Münster, kreisfreie Stadt",,Insgesamt,,Insgesamt,309
-1635,5554,"      Borken, Kreis",,Insgesamt,,Insgesamt,363
-1650,5558,"      Coesfeld, Kreis",,Insgesamt,,Insgesamt,217
-1665,5562,"      Recklinghausen, Kreis",,Insgesamt,,Insgesamt,605
-1680,5566,"      Steinfurt, Kreis",,Insgesamt,,Insgesamt,445
-1695,5570,"      Warendorf, Kreis",,Insgesamt,,Insgesamt,276
-1710,57,"    Detmold, Regierungsbezirk",,Insgesamt,,Insgesamt,2024
-1725,5711,"      Bielefeld, kreisfreie Stadt",,Insgesamt,,Insgesamt,333
-1740,5754,"      Gütersloh, Kreis",,Insgesamt,,Insgesamt,357
-1755,5758,"      Herford, Kreis",,Insgesamt,,Insgesamt,243
-1770,5762,"      Höxter, Kreis",,Insgesamt,,Insgesamt,139
-1785,5766,"      Lippe, Kreis",,Insgesamt,,Insgesamt,343
-1800,5770,"      Minden-Lübbecke, Kreis",,Insgesamt,,Insgesamt,304
-1815,5774,"      Paderborn, Kreis",,Insgesamt,,Insgesamt,305
-1830,59,"    Arnsberg, Regierungsbezirk",,Insgesamt,,Insgesamt,3529
-1845,5911,"      Bochum, kreisfreie Stadt",,Insgesamt,,Insgesamt,358
-1860,5913,"      Dortmund, kreisfreie Stadt",,Insgesamt,,Insgesamt,582
-1875,5914,"      Hagen, kreisfreie Stadt",,Insgesamt,,Insgesamt,187
-1890,5915,"      Hamm, kreisfreie Stadt",,Insgesamt,,Insgesamt,176
-1905,5916,"      Herne, kreisfreie Stadt",,Insgesamt,,Insgesamt,154
-1920,5954,      Ennepe-Ruhr-Kreis,,Insgesamt,,Insgesamt,317
-1935,5958,      Hochsauerlandkreis,,Insgesamt,,Insgesamt,259
-1950,5962,      Märkischer Kreis,,Insgesamt,,Insgesamt,406
-1965,5966,"      Olpe, Kreis",,Insgesamt,,Insgesamt,134
-1980,5970,"      Siegen-Wittgenstein, Kreis",,Insgesamt,,Insgesamt,274
-1995,5974,"      Soest, Kreis",,Insgesamt,,Insgesamt,295
-2010,5978,"      Unna, Kreis",,Insgesamt,,Insgesamt,387
-2025,6,  Hessen,,Insgesamt,,Insgesamt,6201
-2040,64,"    Darmstadt, Regierungsbezirk",,Insgesamt,,Insgesamt,3974
-2055,6411,"      Darmstadt, kreisfreie Stadt, Wissenschaftsstadt",,Insgesamt,,Insgesamt,158
-2070,6412,"      Frankfurt am Main, kreisfreie Stadt",,Insgesamt,,Insgesamt,753
-2085,6413,"      Offenbach am Main, kreisfreie Stadt",,Insgesamt,,Insgesamt,129
-2100,6414,"      Wiesbaden, kreisfreie Stadt, Landeshauptstadt",,Insgesamt,,Insgesamt,273
-2115,6431,"      Bergstraße, Landkreis",,Insgesamt,,Insgesamt,266
-2130,6432,"      Darmstadt-Dieburg, Landkreis",,Insgesamt,,Insgesamt,298
-2145,6433,"      Groß-Gerau, Landkreis",,Insgesamt,,Insgesamt,271
-2160,6434,      Hochtaunuskreis,,Insgesamt,,Insgesamt,235
-2175,6435,      Main-Kinzig-Kreis,,Insgesamt,,Insgesamt,416
-2190,6436,      Main-Taunus-Kreis,,Insgesamt,,Insgesamt,238
-2205,6437,      Odenwaldkreis,,Insgesamt,,Insgesamt,96
-2220,6438,"      Offenbach, Landkreis",,Insgesamt,,Insgesamt,353
-2235,6439,      Rheingau-Taunus-Kreis,,Insgesamt,,Insgesamt,183
-2250,6440,      Wetteraukreis,,Insgesamt,,Insgesamt,306
-2265,65,"    Gießen, Regierungsbezirk",,Insgesamt,,Insgesamt,1029
-2280,6531,"      Gießen, Landkreis",,Insgesamt,,Insgesamt,266
-2295,6532,      Lahn-Dill-Kreis,,Insgesamt,,Insgesamt,246
-2310,6533,"      Limburg-Weilburg, Landkreis",,Insgesamt,,Insgesamt,171
-2325,6534,"      Marburg-Biedenkopf, Landkreis",,Insgesamt,,Insgesamt,244
-2340,6535,      Vogelsbergkreis,,Insgesamt,,Insgesamt,102
-2355,66,"    Kassel, Regierungsbezirk",,Insgesamt,,Insgesamt,1197
-2370,6611,"      Kassel, kreisfreie Stadt, documenta-Stadt",,Insgesamt,,Insgesamt,198
-2385,6631,"      Fulda, Landkreis",,Insgesamt,,Insgesamt,217
-2400,6632,"      Hersfeld-Rotenburg, Landkreis",,Insgesamt,,Insgesamt,121
-2415,6633,"      Kassel, Landkreis",,Insgesamt,,Insgesamt,231
-2430,6634,      Schwalm-Eder-Kreis,,Insgesamt,,Insgesamt,177
-2445,6635,"      Waldeck-Frankenberg, Landkreis",,Insgesamt,,Insgesamt,153
-2460,6636,      Werra-Meißner-Kreis,,Insgesamt,,Insgesamt,100
-2475,7,  Rheinland-Pfalz,,Insgesamt,,Insgesamt,4017
-2490,71,"    Koblenz, Statistische Region",,Insgesamt,,Insgesamt,1465
+1470,5358,"      Düren, Kreis",,Insgesamt,,Insgesamt,257.0
+1485,5362,      Rhein-Erft-Kreis,,Insgesamt,,Insgesamt,466.0
+1500,5366,"      Euskirchen, Kreis",,Insgesamt,,Insgesamt,188.0
+1515,5370,"      Heinsberg, Kreis",,Insgesamt,,Insgesamt,252.0
+1530,5374,      Oberbergischer Kreis,,Insgesamt,,Insgesamt,267.0
+1545,5378,      Rheinisch-Bergischer Kreis,,Insgesamt,,Insgesamt,283.0
+1560,5382,      Rhein-Sieg-Kreis,,Insgesamt,,Insgesamt,589.0
+1575,55,"    Münster, Regierungsbezirk",,Insgesamt,,Insgesamt,2591.0
+1590,5512,"      Bottrop, kreisfreie Stadt",,Insgesamt,,Insgesamt,117.0
+1605,5513,"      Gelsenkirchen, kreisfreie Stadt",,Insgesamt,,Insgesamt,258.0
+1620,5515,"      Münster, kreisfreie Stadt",,Insgesamt,,Insgesamt,309.0
+1635,5554,"      Borken, Kreis",,Insgesamt,,Insgesamt,363.0
+1650,5558,"      Coesfeld, Kreis",,Insgesamt,,Insgesamt,217.0
+1665,5562,"      Recklinghausen, Kreis",,Insgesamt,,Insgesamt,605.0
+1680,5566,"      Steinfurt, Kreis",,Insgesamt,,Insgesamt,445.0
+1695,5570,"      Warendorf, Kreis",,Insgesamt,,Insgesamt,276.0
+1710,57,"    Detmold, Regierungsbezirk",,Insgesamt,,Insgesamt,2024.0
+1725,5711,"      Bielefeld, kreisfreie Stadt",,Insgesamt,,Insgesamt,333.0
+1740,5754,"      Gütersloh, Kreis",,Insgesamt,,Insgesamt,357.0
+1755,5758,"      Herford, Kreis",,Insgesamt,,Insgesamt,243.0
+1770,5762,"      Höxter, Kreis",,Insgesamt,,Insgesamt,139.0
+1785,5766,"      Lippe, Kreis",,Insgesamt,,Insgesamt,343.0
+1800,5770,"      Minden-Lübbecke, Kreis",,Insgesamt,,Insgesamt,304.0
+1815,5774,"      Paderborn, Kreis",,Insgesamt,,Insgesamt,305.0
+1830,59,"    Arnsberg, Regierungsbezirk",,Insgesamt,,Insgesamt,3529.0
+1845,5911,"      Bochum, kreisfreie Stadt",,Insgesamt,,Insgesamt,358.0
+1860,5913,"      Dortmund, kreisfreie Stadt",,Insgesamt,,Insgesamt,582.0
+1875,5914,"      Hagen, kreisfreie Stadt",,Insgesamt,,Insgesamt,187.0
+1890,5915,"      Hamm, kreisfreie Stadt",,Insgesamt,,Insgesamt,176.0
+1905,5916,"      Herne, kreisfreie Stadt",,Insgesamt,,Insgesamt,154.0
+1920,5954,      Ennepe-Ruhr-Kreis,,Insgesamt,,Insgesamt,317.0
+1935,5958,      Hochsauerlandkreis,,Insgesamt,,Insgesamt,259.0
+1950,5962,      Märkischer Kreis,,Insgesamt,,Insgesamt,406.0
+1965,5966,"      Olpe, Kreis",,Insgesamt,,Insgesamt,134.0
+1980,5970,"      Siegen-Wittgenstein, Kreis",,Insgesamt,,Insgesamt,274.0
+1995,5974,"      Soest, Kreis",,Insgesamt,,Insgesamt,295.0
+2010,5978,"      Unna, Kreis",,Insgesamt,,Insgesamt,387.0
+2025,6,  Hessen,,Insgesamt,,Insgesamt,6201.0
+2040,64,"    Darmstadt, Regierungsbezirk",,Insgesamt,,Insgesamt,3974.0
+2055,6411,"      Darmstadt, kreisfreie Stadt, Wissenschaftsstadt",,Insgesamt,,Insgesamt,158.0
+2070,6412,"      Frankfurt am Main, kreisfreie Stadt",,Insgesamt,,Insgesamt,753.0
+2085,6413,"      Offenbach am Main, kreisfreie Stadt",,Insgesamt,,Insgesamt,129.0
+2100,6414,"      Wiesbaden, kreisfreie Stadt, Landeshauptstadt",,Insgesamt,,Insgesamt,273.0
+2115,6431,"      Bergstraße, Landkreis",,Insgesamt,,Insgesamt,266.0
+2130,6432,"      Darmstadt-Dieburg, Landkreis",,Insgesamt,,Insgesamt,298.0
+2145,6433,"      Groß-Gerau, Landkreis",,Insgesamt,,Insgesamt,271.0
+2160,6434,      Hochtaunuskreis,,Insgesamt,,Insgesamt,235.0
+2175,6435,      Main-Kinzig-Kreis,,Insgesamt,,Insgesamt,416.0
+2190,6436,      Main-Taunus-Kreis,,Insgesamt,,Insgesamt,238.0
+2205,6437,      Odenwaldkreis,,Insgesamt,,Insgesamt,96.0
+2220,6438,"      Offenbach, Landkreis",,Insgesamt,,Insgesamt,353.0
+2235,6439,      Rheingau-Taunus-Kreis,,Insgesamt,,Insgesamt,183.0
+2250,6440,      Wetteraukreis,,Insgesamt,,Insgesamt,306.0
+2265,65,"    Gießen, Regierungsbezirk",,Insgesamt,,Insgesamt,1029.0
+2280,6531,"      Gießen, Landkreis",,Insgesamt,,Insgesamt,266.0
+2295,6532,      Lahn-Dill-Kreis,,Insgesamt,,Insgesamt,246.0
+2310,6533,"      Limburg-Weilburg, Landkreis",,Insgesamt,,Insgesamt,171.0
+2325,6534,"      Marburg-Biedenkopf, Landkreis",,Insgesamt,,Insgesamt,244.0
+2340,6535,      Vogelsbergkreis,,Insgesamt,,Insgesamt,102.0
+2355,66,"    Kassel, Regierungsbezirk",,Insgesamt,,Insgesamt,1197.0
+2370,6611,"      Kassel, kreisfreie Stadt, documenta-Stadt",,Insgesamt,,Insgesamt,198.0
+2385,6631,"      Fulda, Landkreis",,Insgesamt,,Insgesamt,217.0
+2400,6632,"      Hersfeld-Rotenburg, Landkreis",,Insgesamt,,Insgesamt,121.0
+2415,6633,"      Kassel, Landkreis",,Insgesamt,,Insgesamt,231.0
+2430,6634,      Schwalm-Eder-Kreis,,Insgesamt,,Insgesamt,177.0
+2445,6635,"      Waldeck-Frankenberg, Landkreis",,Insgesamt,,Insgesamt,153.0
+2460,6636,      Werra-Meißner-Kreis,,Insgesamt,,Insgesamt,100.0
+2475,7,  Rheinland-Pfalz,,Insgesamt,,Insgesamt,4017.0
+2490,71,"    Koblenz, Statistische Region",,Insgesamt,,Insgesamt,1465.0
 2505,7111,"      Koblenz, kreisfreie Stadt",,Insgesamt,,Insgesamt,
 2520,7131,"      Ahrweiler, Landkreis",,Insgesamt,,Insgesamt,
 2535,7132,"      Altenkirchen (Westerwald), Landkreis",,Insgesamt,,Insgesamt,
@@ -177,13 +177,13 @@
 2625,7140,      Rhein-Hunsrück-Kreis,,Insgesamt,,Insgesamt,
 2640,7141,      Rhein-Lahn-Kreis,,Insgesamt,,Insgesamt,
 2655,7143,      Westerwaldkreis,,Insgesamt,,Insgesamt,
-2670,72,"    Trier, Statistische Region",,Insgesamt,,Insgesamt,522
+2670,72,"    Trier, Statistische Region",,Insgesamt,,Insgesamt,522.0
 2685,7211,"      Trier, kreisfreie Stadt",,Insgesamt,,Insgesamt,
 2700,7231,"      Bernkastel-Wittlich, Landkreis",,Insgesamt,,Insgesamt,
 2715,7232,      Eifelkreis Bitburg-Prüm,,Insgesamt,,Insgesamt,
 2730,7233,"      Vulkaneifel, Landkreis",,Insgesamt,,Insgesamt,
 2745,7235,"      Trier-Saarburg, Landkreis",,Insgesamt,,Insgesamt,
-2760,73,"    Rheinhessen-Pfalz, Statistische Region",,Insgesamt,,Insgesamt,2029
+2760,73,"    Rheinhessen-Pfalz, Statistische Region",,Insgesamt,,Insgesamt,2029.0
 2775,7311,"      Frankenthal (Pfalz), kreisfreie Stadt",,Insgesamt,,Insgesamt,
 2790,7312,"      Kaiserslautern, kreisfreie Stadt",,Insgesamt,,Insgesamt,
 2805,7313,"      Landau in der Pfalz, kreisfreie Stadt",,Insgesamt,,Insgesamt,
@@ -204,8 +204,8 @@
 3030,7338,      Rhein-Pfalz-Kreis,,Insgesamt,,Insgesamt,
 3045,7339,"      Mainz-Bingen, Landkreis",,Insgesamt,,Insgesamt,
 3060,7340,"      Südwestpfalz, Landkreis",,Insgesamt,,Insgesamt,
-3075,8,  Baden-Württemberg,,Insgesamt,,Insgesamt,10963
-3090,81,"    Stuttgart, Regierungsbezirk",,Insgesamt,,Insgesamt,4111
+3075,8,  Baden-Württemberg,,Insgesamt,,Insgesamt,10963.0
+3090,81,"    Stuttgart, Regierungsbezirk",,Insgesamt,,Insgesamt,4111.0
 3105,8111,"      Stuttgart, Stadtkreis",,Insgesamt,,Insgesamt,
 3120,8115,"      Böblingen, Landkreis",,Insgesamt,,Insgesamt,
 3135,8116,"      Esslingen, Landkreis",,Insgesamt,,Insgesamt,
@@ -219,7 +219,7 @@
 3255,8128,"      Main-Tauber-Kreis, Landkreis",,Insgesamt,,Insgesamt,
 3270,8135,"      Heidenheim, Landkreis",,Insgesamt,,Insgesamt,
 3285,8136,"      Ostalbkreis, Landkreis",,Insgesamt,,Insgesamt,
-3300,82,"    Karlsruhe, Regierungsbezirk",,Insgesamt,,Insgesamt,2776
+3300,82,"    Karlsruhe, Regierungsbezirk",,Insgesamt,,Insgesamt,2776.0
 3315,8211,"      Baden-Baden, Stadtkreis",,Insgesamt,,Insgesamt,
 3330,8212,"      Karlsruhe, Stadtkreis",,Insgesamt,,Insgesamt,
 3345,8215,"      Karlsruhe, Landkreis",,Insgesamt,,Insgesamt,
@@ -232,7 +232,7 @@
 3450,8235,"      Calw, Landkreis",,Insgesamt,,Insgesamt,
 3465,8236,"      Enzkreis, Landkreis",,Insgesamt,,Insgesamt,
 3480,8237,"      Freudenstadt, Landkreis",,Insgesamt,,Insgesamt,
-3495,83,"    Freiburg, Regierungsbezirk",,Insgesamt,,Insgesamt,2242
+3495,83,"    Freiburg, Regierungsbezirk",,Insgesamt,,Insgesamt,2242.0
 3510,8311,"      Freiburg im Breisgau, Stadtkreis",,Insgesamt,,Insgesamt,
 3525,8315,"      Breisgau-Hochschwarzwald, Landkreis",,Insgesamt,,Insgesamt,
 3540,8316,"      Emmendingen, Landkreis",,Insgesamt,,Insgesamt,
@@ -243,7 +243,7 @@
 3615,8335,"      Konstanz, Landkreis",,Insgesamt,,Insgesamt,
 3630,8336,"      Lörrach, Landkreis",,Insgesamt,,Insgesamt,
 3645,8337,"      Waldshut, Landkreis",,Insgesamt,,Insgesamt,
-3660,84,"    Tübingen, Regierungsbezirk",,Insgesamt,,Insgesamt,1833
+3660,84,"    Tübingen, Regierungsbezirk",,Insgesamt,,Insgesamt,1833.0
 3675,8415,"      Reutlingen, Landkreis",,Insgesamt,,Insgesamt,
 3690,8416,"      Tübingen, Landkreis",,Insgesamt,,Insgesamt,
 3705,8417,"      Zollernalbkreis, Landkreis",,Insgesamt,,Insgesamt,
@@ -253,8 +253,8 @@
 3765,8435,"      Bodenseekreis, Landkreis",,Insgesamt,,Insgesamt,
 3780,8436,"      Ravensburg, Landkreis",,Insgesamt,,Insgesamt,
 3795,8437,"      Sigmaringen, Landkreis",,Insgesamt,,Insgesamt,
-3810,9,  Bayern,,Insgesamt,,Insgesamt,12907
-3825,91,"    Oberbayern, Regierungsbezirk",,Insgesamt,,Insgesamt,4643
+3810,9,  Bayern,,Insgesamt,,Insgesamt,12907.0
+3825,91,"    Oberbayern, Regierungsbezirk",,Insgesamt,,Insgesamt,4643.0
 3840,9161,"      Ingolstadt, kreisfreie Stadt",,Insgesamt,,Insgesamt,
 3855,9162,"      München, kreisfreie Stadt",,Insgesamt,,Insgesamt,
 3870,9163,"      Rosenheim, kreisfreie Stadt",,Insgesamt,,Insgesamt,
@@ -278,7 +278,7 @@
 4140,9188,"      Starnberg, Landkreis",,Insgesamt,,Insgesamt,
 4155,9189,"      Traunstein, Landkreis",,Insgesamt,,Insgesamt,
 4170,9190,"      Weilheim-Schongau, Landkreis",,Insgesamt,,Insgesamt,
-4185,92,"    Niederbayern, Regierungsbezirk",,Insgesamt,,Insgesamt,1219
+4185,92,"    Niederbayern, Regierungsbezirk",,Insgesamt,,Insgesamt,1219.0
 4200,9261,"      Landshut, kreisfreie Stadt",,Insgesamt,,Insgesamt,
 4215,9262,"      Passau, kreisfreie Stadt",,Insgesamt,,Insgesamt,
 4230,9263,"      Straubing, kreisfreie Stadt",,Insgesamt,,Insgesamt,
@@ -291,7 +291,7 @@
 4335,9277,"      Rottal-Inn, Landkreis",,Insgesamt,,Insgesamt,
 4350,9278,"      Straubing-Bogen, Landkreis",,Insgesamt,,Insgesamt,
 4365,9279,"      Dingolfing-Landau, Landkreis",,Insgesamt,,Insgesamt,
-4380,93,"    Oberpfalz, Regierungsbezirk",,Insgesamt,,Insgesamt,1080
+4380,93,"    Oberpfalz, Regierungsbezirk",,Insgesamt,,Insgesamt,1080.0
 4395,9361,"      Amberg, kreisfreie Stadt",,Insgesamt,,Insgesamt,
 4410,9362,"      Regensburg, kreisfreie Stadt",,Insgesamt,,Insgesamt,
 4425,9363,"      Weiden i.d.OPf., kreisfreie Stadt",,Insgesamt,,Insgesamt,
@@ -302,7 +302,7 @@
 4500,9375,"      Regensburg, Landkreis",,Insgesamt,,Insgesamt,
 4515,9376,"      Schwandorf, Landkreis",,Insgesamt,,Insgesamt,
 4530,9377,"      Tirschenreuth, Landkreis",,Insgesamt,,Insgesamt,
-4545,94,"    Oberfranken, Regierungsbezirk",,Insgesamt,,Insgesamt,1056
+4545,94,"    Oberfranken, Regierungsbezirk",,Insgesamt,,Insgesamt,1056.0
 4560,9461,"      Bamberg, kreisfreie Stadt",,Insgesamt,,Insgesamt,
 4575,9462,"      Bayreuth, kreisfreie Stadt",,Insgesamt,,Insgesamt,
 4590,9463,"      Coburg, kreisfreie Stadt",,Insgesamt,,Insgesamt,
@@ -316,7 +316,7 @@
 4710,9477,"      Kulmbach, Landkreis",,Insgesamt,,Insgesamt,
 4725,9478,"      Lichtenfels, Landkreis",,Insgesamt,,Insgesamt,
 4740,9479,"      Wunsiedel i.Fichtelgebirge, Landkreis",,Insgesamt,,Insgesamt,
-4755,95,"    Mittelfranken, Regierungsbezirk",,Insgesamt,,Insgesamt,1746
+4755,95,"    Mittelfranken, Regierungsbezirk",,Insgesamt,,Insgesamt,1746.0
 4770,9561,"      Ansbach, kreisfreie Stadt",,Insgesamt,,Insgesamt,
 4785,9562,"      Erlangen, kreisfreie Stadt",,Insgesamt,,Insgesamt,
 4800,9563,"      Fürth, kreisfreie Stadt",,Insgesamt,,Insgesamt,
@@ -329,7 +329,7 @@
 4905,9575,"      Neustadt a.d.Aisch-Bad Windsheim, Landkreis",,Insgesamt,,Insgesamt,
 4920,9576,"      Roth, Landkreis",,Insgesamt,,Insgesamt,
 4935,9577,"      Weißenburg-Gunzenhausen, Landkreis",,Insgesamt,,Insgesamt,
-4950,96,"    Unterfranken, Regierungsbezirk",,Insgesamt,,Insgesamt,1299
+4950,96,"    Unterfranken, Regierungsbezirk",,Insgesamt,,Insgesamt,1299.0
 4965,9661,"      Aschaffenburg, kreisfreie Stadt",,Insgesamt,,Insgesamt,
 4980,9662,"      Schweinfurt, kreisfreie Stadt",,Insgesamt,,Insgesamt,
 4995,9663,"      Würzburg, kreisfreie Stadt",,Insgesamt,,Insgesamt,
@@ -342,7 +342,7 @@
 5100,9677,"      Main-Spessart, Landkreis",,Insgesamt,,Insgesamt,
 5115,9678,"      Schweinfurt, Landkreis",,Insgesamt,,Insgesamt,
 5130,9679,"      Würzburg, Landkreis",,Insgesamt,,Insgesamt,
-5145,97,"    Schwaben, Regierungsbezirk",,Insgesamt,,Insgesamt,1865
+5145,97,"    Schwaben, Regierungsbezirk",,Insgesamt,,Insgesamt,1865.0
 5160,9761,"      Augsburg, kreisfreie Stadt",,Insgesamt,,Insgesamt,
 5175,9762,"      Kaufbeuren, kreisfreie Stadt",,Insgesamt,,Insgesamt,
 5190,9763,"      Kempten (Allgäu), kreisfreie Stadt",,Insgesamt,,Insgesamt,
@@ -357,51 +357,51 @@
 5325,9778,"      Unterallgäu, Landkreis",,Insgesamt,,Insgesamt,
 5340,9779,"      Donau-Ries, Landkreis",,Insgesamt,,Insgesamt,
 5355,9780,"      Oberallgäu, Landkreis",,Insgesamt,,Insgesamt,
-5370,10,  Saarland,,Insgesamt,,Insgesamt,972
-5385,10041,"      Saarbrücken, Regionalverband",,Insgesamt,,Insgesamt,322
+5370,10,  Saarland,,Insgesamt,,Insgesamt,972.0
+5385,10041,"      Saarbrücken, Regionalverband",,Insgesamt,,Insgesamt,322.0
 5400,10041100,"      Saarbrücken, Landeshauptstadt",,Insgesamt,,Insgesamt,
-5415,10042,"      Merzig-Wadern, Landkreis",,Insgesamt,,Insgesamt,102
-5430,10043,"      Neunkirchen, Landkreis",,Insgesamt,,Insgesamt,130
-5445,10044,"      Saarlouis, Landkreis",,Insgesamt,,Insgesamt,192
-5460,10045,      Saarpfalz-Kreis,,Insgesamt,,Insgesamt,140
-5475,10046,"      St. Wendel, Landkreis",,Insgesamt,,Insgesamt,86
-5490,11,  Berlin,,Insgesamt,,Insgesamt,3604
-5505,11001001,      Berlin-Mitte,,Insgesamt,,Insgesamt,375
-5520,11002002,      Berlin-Friedrichshain-Kreuzberg,,Insgesamt,,Insgesamt,275
-5535,11003003,      Berlin-Pankow,,Insgesamt,,Insgesamt,395
-5550,11004004,      Berlin-Charlottenburg-Wilmersdorf,,Insgesamt,,Insgesamt,317
-5565,11005005,      Berlin-Spandau,,Insgesamt,,Insgesamt,237
-5580,11006006,      Berlin-Steglitz-Zehlendorf,,Insgesamt,,Insgesamt,290
-5595,11007007,      Berlin-Tempelhof-Schöneberg,,Insgesamt,,Insgesamt,340
-5610,11008008,      Berlin-Neukölln,,Insgesamt,,Insgesamt,318
-5625,11009009,      Berlin-Treptow-Köpenick,,Insgesamt,,Insgesamt,265
-5640,11010010,      Berlin-Marzahn-Hellersdorf,,Insgesamt,,Insgesamt,256
-5655,11011011,      Berlin-Lichtenberg,,Insgesamt,,Insgesamt,279
-5670,11012012,      Berlin-Reinickendorf,,Insgesamt,,Insgesamt,256
-5685,12,  Brandenburg,,Insgesamt,,Insgesamt,2471
-5700,12051,"      Brandenburg an der Havel, kreisfreie Stadt",,Insgesamt,,Insgesamt,70
-5715,12052,"      Cottbus, kreisfreie Stadt",,Insgesamt,,Insgesamt,95
-5730,12053,"      Frankfurt (Oder), kreisfreie Stadt",,Insgesamt,,Insgesamt,57
-5745,12054,"      Potsdam, kreisfreie Stadt",,Insgesamt,,Insgesamt,176
-5760,12060,"      Barnim, Landkreis",,Insgesamt,,Insgesamt,179
-5775,12061,"      Dahme-Spreewald, Landkreis",,Insgesamt,,Insgesamt,167
-5790,12062,"      Elbe-Elster, Landkreis",,Insgesamt,,Insgesamt,102
-5805,12063,"      Havelland, Landkreis",,Insgesamt,,Insgesamt,160
-5820,12064,"      Märkisch-Oderland, Landkreis",,Insgesamt,,Insgesamt,186
-5835,12065,"      Oberhavel, Landkreis",,Insgesamt,,Insgesamt,208
-5850,12066,"      Oberspreewald-Lausitz, Landkreis",,Insgesamt,,Insgesamt,110
-5865,12067,"      Oder-Spree, Landkreis",,Insgesamt,,Insgesamt,174
-5880,12068,"      Ostprignitz-Ruppin, Landkreis",,Insgesamt,,Insgesamt,98
-5895,12069,"      Potsdam-Mittelmark, Landkreis",,Insgesamt,,Insgesamt,214
-5910,12070,"      Prignitz, Landkreis",,Insgesamt,,Insgesamt,75
-5925,12071,"      Spree-Neiße, Landkreis",,Insgesamt,,Insgesamt,112
-5940,12072,"      Teltow-Fläming, Landkreis",,Insgesamt,,Insgesamt,167
-5955,12073,"      Uckermark, Landkreis",,Insgesamt,,Insgesamt,119
-5970,13,  Mecklenburg-Vorpommern,,Insgesamt,,Insgesamt,1580
+5415,10042,"      Merzig-Wadern, Landkreis",,Insgesamt,,Insgesamt,102.0
+5430,10043,"      Neunkirchen, Landkreis",,Insgesamt,,Insgesamt,130.0
+5445,10044,"      Saarlouis, Landkreis",,Insgesamt,,Insgesamt,192.0
+5460,10045,      Saarpfalz-Kreis,,Insgesamt,,Insgesamt,140.0
+5475,10046,"      St. Wendel, Landkreis",,Insgesamt,,Insgesamt,86.0
+5490,11,  Berlin,,Insgesamt,,Insgesamt,3604.0
+5505,11001001,      Berlin-Mitte,,Insgesamt,,Insgesamt,375.0
+5520,11002002,      Berlin-Friedrichshain-Kreuzberg,,Insgesamt,,Insgesamt,275.0
+5535,11003003,      Berlin-Pankow,,Insgesamt,,Insgesamt,395.0
+5550,11004004,      Berlin-Charlottenburg-Wilmersdorf,,Insgesamt,,Insgesamt,317.0
+5565,11005005,      Berlin-Spandau,,Insgesamt,,Insgesamt,237.0
+5580,11006006,      Berlin-Steglitz-Zehlendorf,,Insgesamt,,Insgesamt,290.0
+5595,11007007,      Berlin-Tempelhof-Schöneberg,,Insgesamt,,Insgesamt,340.0
+5610,11008008,      Berlin-Neukölln,,Insgesamt,,Insgesamt,318.0
+5625,11009009,      Berlin-Treptow-Köpenick,,Insgesamt,,Insgesamt,265.0
+5640,11010010,      Berlin-Marzahn-Hellersdorf,,Insgesamt,,Insgesamt,256.0
+5655,11011011,      Berlin-Lichtenberg,,Insgesamt,,Insgesamt,279.0
+5670,11012012,      Berlin-Reinickendorf,,Insgesamt,,Insgesamt,256.0
+5685,12,  Brandenburg,,Insgesamt,,Insgesamt,2471.0
+5700,12051,"      Brandenburg an der Havel, kreisfreie Stadt",,Insgesamt,,Insgesamt,70.0
+5715,12052,"      Cottbus, kreisfreie Stadt",,Insgesamt,,Insgesamt,95.0
+5730,12053,"      Frankfurt (Oder), kreisfreie Stadt",,Insgesamt,,Insgesamt,57.0
+5745,12054,"      Potsdam, kreisfreie Stadt",,Insgesamt,,Insgesamt,176.0
+5760,12060,"      Barnim, Landkreis",,Insgesamt,,Insgesamt,179.0
+5775,12061,"      Dahme-Spreewald, Landkreis",,Insgesamt,,Insgesamt,167.0
+5790,12062,"      Elbe-Elster, Landkreis",,Insgesamt,,Insgesamt,102.0
+5805,12063,"      Havelland, Landkreis",,Insgesamt,,Insgesamt,160.0
+5820,12064,"      Märkisch-Oderland, Landkreis",,Insgesamt,,Insgesamt,186.0
+5835,12065,"      Oberhavel, Landkreis",,Insgesamt,,Insgesamt,208.0
+5850,12066,"      Oberspreewald-Lausitz, Landkreis",,Insgesamt,,Insgesamt,110.0
+5865,12067,"      Oder-Spree, Landkreis",,Insgesamt,,Insgesamt,174.0
+5880,12068,"      Ostprignitz-Ruppin, Landkreis",,Insgesamt,,Insgesamt,98.0
+5895,12069,"      Potsdam-Mittelmark, Landkreis",,Insgesamt,,Insgesamt,214.0
+5910,12070,"      Prignitz, Landkreis",,Insgesamt,,Insgesamt,75.0
+5925,12071,"      Spree-Neiße, Landkreis",,Insgesamt,,Insgesamt,112.0
+5940,12072,"      Teltow-Fläming, Landkreis",,Insgesamt,,Insgesamt,167.0
+5955,12073,"      Uckermark, Landkreis",,Insgesamt,,Insgesamt,119.0
+5970,13,  Mecklenburg-Vorpommern,,Insgesamt,,Insgesamt,1580.0
 5985,13001,"      Greifswald, Hansestadt, kreisfreie Stadt",,Insgesamt,,Insgesamt,
 6000,13002,"      Neubrandenburg, Stadt,  kreisfreie Stadt",,Insgesamt,,Insgesamt,
-6015,13003,"      Rostock, kreisfreie Stadt",,Insgesamt,,Insgesamt,207
-6030,13004,"      Schwerin, kreisfreie Stadt",,Insgesamt,,Insgesamt,94
+6015,13003,"      Rostock, kreisfreie Stadt",,Insgesamt,,Insgesamt,207.0
+6030,13004,"      Schwerin, kreisfreie Stadt",,Insgesamt,,Insgesamt,94.0
 6045,13005,"      Stralsund, Hansestadt,  kreisfreie Stadt",,Insgesamt,,Insgesamt,
 6060,13006,"      Wismar, Hansestadt,  kreisfreie Stadt",,Insgesamt,,Insgesamt,
 6075,13051,"      Bad Doberan, Landkreis",,Insgesamt,,Insgesamt,
@@ -416,13 +416,13 @@
 6210,13060,      Landkreis Parchim,,Insgesamt,,Insgesamt,
 6225,13061,"      Rügen, Landkreis",,Insgesamt,,Insgesamt,
 6240,13062,      Landkreis Uecker-Randow,,Insgesamt,,Insgesamt,
-6255,13071,"      Mecklenburgische Seenplatte, Landkreis",,Insgesamt,,Insgesamt,251
-6270,13072,      Landkreis Rostock,,Insgesamt,,Insgesamt,209
-6285,13073,"      Vorpommern-Rügen, Landkreis",,Insgesamt,,Insgesamt,223
-6300,13074,"      Nordwestmecklenburg, Landkreis",,Insgesamt,,Insgesamt,155
-6315,13075,"      Vorpommern-Greifswald, Landkreis",,Insgesamt,,Insgesamt,233
-6330,13076,"      Ludwigslust-Parchim, Landkreis",,Insgesamt,,Insgesamt,210
-6345,14,  Sachsen,,Insgesamt,,Insgesamt,4007
+6255,13071,"      Mecklenburgische Seenplatte, Landkreis",,Insgesamt,,Insgesamt,251.0
+6270,13072,      Landkreis Rostock,,Insgesamt,,Insgesamt,209.0
+6285,13073,"      Vorpommern-Rügen, Landkreis",,Insgesamt,,Insgesamt,223.0
+6300,13074,"      Nordwestmecklenburg, Landkreis",,Insgesamt,,Insgesamt,155.0
+6315,13075,"      Vorpommern-Greifswald, Landkreis",,Insgesamt,,Insgesamt,233.0
+6330,13076,"      Ludwigslust-Parchim, Landkreis",,Insgesamt,,Insgesamt,210.0
+6345,14,  Sachsen,,Insgesamt,,Insgesamt,4007.0
 6360,141,"    Chemnitz, Regierungsbezirk",,Insgesamt,,Insgesamt,
 6375,14161,"      Chemnitz, kreisfreie Stadt",,Insgesamt,,Insgesamt,
 6390,14166,"      Plauen, kreisfreie Stadt",,Insgesamt,,Insgesamt,
@@ -455,37 +455,37 @@
 6795,14379,"      Leipziger Land, Landkreis",,Insgesamt,,Insgesamt,
 6810,14383,      Muldentalkreis,,Insgesamt,,Insgesamt,
 6825,14389,"      Torgau-Oschatz, Landkreis",,Insgesamt,,Insgesamt,
-6840,145,"    Chemnitz, Statistische Region",,Insgesamt,,Insgesamt,1409
-6855,14511,"      Chemnitz, kreisfreie Stadt",,Insgesamt,,Insgesamt,244
-6870,14521,      Erzgebirgskreis,,Insgesamt,,Insgesamt,331
-6885,14522,"      Mittelsachsen, Landkreis",,Insgesamt,,Insgesamt,298
-6900,14523,      Vogtlandkreis,,Insgesamt,,Insgesamt,223
-6915,14524,"      Zwickau, Landkreis",,Insgesamt,,Insgesamt,313
-6930,146,"    Dresden, Statistische Region",,Insgesamt,,Insgesamt,1565
-6945,14612,"      Dresden, kreisfreie Stadt",,Insgesamt,,Insgesamt,545
-6960,14625,"      Bautzen, Landkreis",,Insgesamt,,Insgesamt,295
-6975,14626,"      Görlitz, Landkreis",,Insgesamt,,Insgesamt,245
-6990,14627,"      Meißen, Landkreis",,Insgesamt,,Insgesamt,236
-7005,14628,"      Sächsische Schweiz-Osterzgebirge, Landkreis",,Insgesamt,,Insgesamt,242
-7020,147,"    Leipzig, Statistische Region",,Insgesamt,,Insgesamt,1033
-7035,14713,"      Leipzig, kreisfreie Stadt",,Insgesamt,,Insgesamt,583
-7050,14729,"      Leipzig, Landkreis",,Insgesamt,,Insgesamt,256
-7065,14730,"      Nordsachsen, Landkreis",,Insgesamt,,Insgesamt,194
-7080,15,  Sachsen-Anhalt,,Insgesamt,,Insgesamt,2159
-7095,15001,"      Dessau-Roßlau, kreisfreie Stadt",,Insgesamt,,Insgesamt,81
-7110,15002,"      Halle (Saale), kreisfreie Stadt",,Insgesamt,,Insgesamt,235
-7125,15003,"      Magdeburg, kreisfreie Stadt, Landeshauptstadt",,Insgesamt,,Insgesamt,233
-7140,15081,      Altmarkkreis Salzwedel,,Insgesamt,,Insgesamt,82
-7155,15082,"      Anhalt-Bitterfeld, Landkreis",,Insgesamt,,Insgesamt,156
-7170,15083,"      Börde, Landkreis",,Insgesamt,,Insgesamt,170
-7185,15084,      Burgenlandkreis,,Insgesamt,,Insgesamt,176
-7200,15085,"      Harz, Landkreis",,Insgesamt,,Insgesamt,208
-7215,15086,"      Jerichower Land, Landkreis",,Insgesamt,,Insgesamt,88
-7230,15087,"      Mansfeld-Südharz, Landkreis",,Insgesamt,,Insgesamt,130
-7245,15088,      Saalekreis,,Insgesamt,,Insgesamt,183
-7260,15089,      Salzlandkreis,,Insgesamt,,Insgesamt,184
-7275,15090,"      Stendal, Landkreis",,Insgesamt,,Insgesamt,108
-7290,15091,"      Wittenberg, Landkreis",,Insgesamt,,Insgesamt,124
+6840,145,"    Chemnitz, Statistische Region",,Insgesamt,,Insgesamt,1409.0
+6855,14511,"      Chemnitz, kreisfreie Stadt",,Insgesamt,,Insgesamt,244.0
+6870,14521,      Erzgebirgskreis,,Insgesamt,,Insgesamt,331.0
+6885,14522,"      Mittelsachsen, Landkreis",,Insgesamt,,Insgesamt,298.0
+6900,14523,      Vogtlandkreis,,Insgesamt,,Insgesamt,223.0
+6915,14524,"      Zwickau, Landkreis",,Insgesamt,,Insgesamt,313.0
+6930,146,"    Dresden, Statistische Region",,Insgesamt,,Insgesamt,1565.0
+6945,14612,"      Dresden, kreisfreie Stadt",,Insgesamt,,Insgesamt,545.0
+6960,14625,"      Bautzen, Landkreis",,Insgesamt,,Insgesamt,295.0
+6975,14626,"      Görlitz, Landkreis",,Insgesamt,,Insgesamt,245.0
+6990,14627,"      Meißen, Landkreis",,Insgesamt,,Insgesamt,236.0
+7005,14628,"      Sächsische Schweiz-Osterzgebirge, Landkreis",,Insgesamt,,Insgesamt,242.0
+7020,147,"    Leipzig, Statistische Region",,Insgesamt,,Insgesamt,1033.0
+7035,14713,"      Leipzig, kreisfreie Stadt",,Insgesamt,,Insgesamt,583.0
+7050,14729,"      Leipzig, Landkreis",,Insgesamt,,Insgesamt,256.0
+7065,14730,"      Nordsachsen, Landkreis",,Insgesamt,,Insgesamt,194.0
+7080,15,  Sachsen-Anhalt,,Insgesamt,,Insgesamt,2159.0
+7095,15001,"      Dessau-Roßlau, kreisfreie Stadt",,Insgesamt,,Insgesamt,81.0
+7110,15002,"      Halle (Saale), kreisfreie Stadt",,Insgesamt,,Insgesamt,235.0
+7125,15003,"      Magdeburg, kreisfreie Stadt, Landeshauptstadt",,Insgesamt,,Insgesamt,233.0
+7140,15081,      Altmarkkreis Salzwedel,,Insgesamt,,Insgesamt,82.0
+7155,15082,"      Anhalt-Bitterfeld, Landkreis",,Insgesamt,,Insgesamt,156.0
+7170,15083,"      Börde, Landkreis",,Insgesamt,,Insgesamt,170.0
+7185,15084,      Burgenlandkreis,,Insgesamt,,Insgesamt,176.0
+7200,15085,"      Harz, Landkreis",,Insgesamt,,Insgesamt,208.0
+7215,15086,"      Jerichower Land, Landkreis",,Insgesamt,,Insgesamt,88.0
+7230,15087,"      Mansfeld-Südharz, Landkreis",,Insgesamt,,Insgesamt,130.0
+7245,15088,      Saalekreis,,Insgesamt,,Insgesamt,183.0
+7260,15089,      Salzlandkreis,,Insgesamt,,Insgesamt,184.0
+7275,15090,"      Stendal, Landkreis",,Insgesamt,,Insgesamt,108.0
+7290,15091,"      Wittenberg, Landkreis",,Insgesamt,,Insgesamt,124.0
 7305,151,"    Dessau, Statistische Region",,Insgesamt,,Insgesamt,
 7320,15101,"      Dessau, kreisfreie Stadt",,Insgesamt,,Insgesamt,
 7335,15151,"      Anhalt-Zerbst, Kreis",,Insgesamt,,Insgesamt,
@@ -513,27 +513,27 @@
 7665,15367,"      Schönebeck, Kreis",,Insgesamt,,Insgesamt,
 7680,15369,"      Wernigerode, Kreis",,Insgesamt,,Insgesamt,
 7695,15370,"      Altmarkkreis Salzwedel, Kreis",,Insgesamt,,Insgesamt,
-7710,16,  Thüringen,,Insgesamt,,Insgesamt,2102
-7725,16051,"      Erfurt, kreisfreie Stadt",,Insgesamt,,Insgesamt,211
-7740,16052,"      Gera, kreisfreie Stadt",,Insgesamt,,Insgesamt,92
-7755,16053,"      Jena, kreisfreie Stadt",,Insgesamt,,Insgesamt,111
-7770,16054,"      Suhl, kreisfreie Stadt",,Insgesamt,,Insgesamt,36
-7785,16055,"      Weimar, kreisfreie Stadt",,Insgesamt,,Insgesamt,65
-7800,16056,"      Eisenach, kreisfreie Stadt",,Insgesamt,,Insgesamt,41
-7815,16061,"      Eichsfeld, Landkreis",,Insgesamt,,Insgesamt,96
-7830,16062,"      Nordhausen, Landkreis",,Insgesamt,,Insgesamt,83
-7845,16063,      Wartburgkreis,,Insgesamt,,Insgesamt,121
-7860,16064,      Unstrut-Hainich-Kreis,,Insgesamt,,Insgesamt,100
-7875,16065,      Kyffhäuserkreis,,Insgesamt,,Insgesamt,75
-7890,16066,"      Schmalkalden-Meiningen, Landkreis",,Insgesamt,,Insgesamt,122
-7905,16067,"      Gotha, Landkreis",,Insgesamt,,Insgesamt,134
-7920,16068,"      Sömmerda, Landkreis",,Insgesamt,,Insgesamt,69
-7935,16069,"      Hildburghausen, Landkreis",,Insgesamt,,Insgesamt,63
-7950,16070,      Ilm-Kreis,,Insgesamt,,Insgesamt,103
-7965,16071,"      Weimarer Land, Landkreis",,Insgesamt,,Insgesamt,79
-7980,16072,"      Sonneberg, Landkreis",,Insgesamt,,Insgesamt,56
-7995,16073,"      Saalfeld-Rudolstadt, Landkreis",,Insgesamt,,Insgesamt,101
-8010,16074,      Saale-Holzland-Kreis,,Insgesamt,,Insgesamt,81
-8025,16075,      Saale-Orla-Kreis,,Insgesamt,,Insgesamt,78
-8040,16076,"      Greiz, Landkreis",,Insgesamt,,Insgesamt,95
-8055,16077,"      Altenburger Land, Landkreis",,Insgesamt,,Insgesamt,90
+7710,16,  Thüringen,,Insgesamt,,Insgesamt,2102.0
+7725,16051,"      Erfurt, kreisfreie Stadt",,Insgesamt,,Insgesamt,211.0
+7740,16052,"      Gera, kreisfreie Stadt",,Insgesamt,,Insgesamt,92.0
+7755,16053,"      Jena, kreisfreie Stadt",,Insgesamt,,Insgesamt,111.0
+7770,16054,"      Suhl, kreisfreie Stadt",,Insgesamt,,Insgesamt,36.0
+7785,16055,"      Weimar, kreisfreie Stadt",,Insgesamt,,Insgesamt,65.0
+7800,16056,"      Eisenach, kreisfreie Stadt",,Insgesamt,,Insgesamt,41.0
+7815,16061,"      Eichsfeld, Landkreis",,Insgesamt,,Insgesamt,96.0
+7830,16062,"      Nordhausen, Landkreis",,Insgesamt,,Insgesamt,83.0
+7845,16063,      Wartburgkreis,,Insgesamt,,Insgesamt,121.0
+7860,16064,      Unstrut-Hainich-Kreis,,Insgesamt,,Insgesamt,100.0
+7875,16065,      Kyffhäuserkreis,,Insgesamt,,Insgesamt,75.0
+7890,16066,"      Schmalkalden-Meiningen, Landkreis",,Insgesamt,,Insgesamt,122.0
+7905,16067,"      Gotha, Landkreis",,Insgesamt,,Insgesamt,134.0
+7920,16068,"      Sömmerda, Landkreis",,Insgesamt,,Insgesamt,69.0
+7935,16069,"      Hildburghausen, Landkreis",,Insgesamt,,Insgesamt,63.0
+7950,16070,      Ilm-Kreis,,Insgesamt,,Insgesamt,103.0
+7965,16071,"      Weimarer Land, Landkreis",,Insgesamt,,Insgesamt,79.0
+7980,16072,"      Sonneberg, Landkreis",,Insgesamt,,Insgesamt,56.0
+7995,16073,"      Saalfeld-Rudolstadt, Landkreis",,Insgesamt,,Insgesamt,101.0
+8010,16074,      Saale-Holzland-Kreis,,Insgesamt,,Insgesamt,81.0
+8025,16075,      Saale-Orla-Kreis,,Insgesamt,,Insgesamt,78.0
+8040,16076,"      Greiz, Landkreis",,Insgesamt,,Insgesamt,95.0
+8055,16077,"      Altenburger Land, Landkreis",,Insgesamt,,Insgesamt,90.0
