@@ -2,8 +2,7 @@ import sys
 import os
 import pandas as pd
 
-sys.path.insert(0, os.path.abspath('..'))
-from src.data_preparation_utils import select_columns, rename_columns, remove_leading_zeros, standardize_kfz_categories
+from data_preparation_utils import select_columns, rename_columns, remove_leading_zeros, standardize_kfz_categories
 #from src.data_exploration_utils import *
 
 
