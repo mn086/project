@@ -20,13 +20,15 @@ df_svu = pd.read_csv(os.path.join(root_raw, data_svu), sep=";", decimal='.', enc
 
 # Relevante Spaltennamen, Beschreibungen und Umbenennungen in den Rohdatensätzen
 relevant_cols = [
-    # Gemeinsam
+    # kfz
     {'name': '1_variable_attribute_code', 'description': 'Landkreis ID', 'rename': 'landkreis_id'},
     {'name': '1_variable_attribute_label', 'description': 'Landkreis Name', 'rename': 'landkreis'},
-    # kfz
     {'name': '2_variable_attribute_code', 'description': 'Kraftstoffarten -> Antriebe', 'rename': 'antrieb'},
     {'name': '3_variable_attribute_code', 'description': 'Emissionsgruppen', 'rename': 'emissionsgruppen'},
     {'name': 'value', 'description': 'Anzahl der Fahrzeuge', 'rename': 'anzahl_fahrzeuge'},
+    # Gemeinsam pop, vee, svu
+    {'name': '1_Auspraegung_Code', 'description': 'Landkreis ID', 'rename': 'landkreis_id'},
+    {'name': '1_Auspraegung_Label', 'description': 'Landkreis Name', 'rename': 'landkreis'},
     # pop
     {'name': '2_Auspraegung_Code', 'description': 'Alter ID', 'rename': 'alter_id'},
     {'name': '2_Auspraegung_Label', 'description': 'Altersklasse', 'rename': 'alter'},
@@ -100,7 +102,7 @@ def create_info_figure(df: pd.DataFrame, description: str = 'Beschreibung der Da
     
     # Reduzierter Faktor für die dynamische Höhenberechnung
     fig_height = len(info_df) * 0.25
-    fig, ax = plt.subplots(figsize=(10, fig_height))
+    fig, ax = plt.subplots(figsize=(15, fig_height))  # Breite auf 15 erhöht
     ax.axis('tight')
     ax.axis('off')
     
@@ -108,6 +110,28 @@ def create_info_figure(df: pd.DataFrame, description: str = 'Beschreibung der Da
                     colLabels=info_df.columns,
                     loc='center',
                     cellLoc='left')
+    
+    # Setze die Schriftgröße der Tabelle auf 10
+    table.auto_set_font_size(False)
+    table.set_fontsize(10)
+    
+    # Optimierte Spaltenbreiten basierend auf Header und Inhalt
+    col_widths = {
+        'Spalte': 0.25,
+        'Datentyp': 0.1,
+        'Anzahl_Werte': 0.12,
+        'Anzahl_NULL': 0.12,
+        'Anzahl_Ausprägungen': 0.15,
+        'Beschreibung': 0.26
+    }
+    
+    # Passe die Spaltenbreite und Zelleneigenschaften an
+    for (row, col), cell in table.get_celld().items():
+        cell.set_width(col_widths[info_df.columns[col]])
+        cell.PAD = 0.01  # Noch kleinerer Innenabstand
+        cell.set_text_props(wrap=True)
+        if row == 0:  # Kopfzeile
+            cell.set_height(0.06)  # Höhere Kopfzeile für Umbrüche
     
     plt.tight_layout()
     plt.figtext(0.5, 0.02, description, wrap=True, horizontalalignment='center', fontsize=10)
