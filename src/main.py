@@ -86,8 +86,34 @@ def main():
         # Zusammengesetzen aufbereiteten Datensatz speichern
         df_merged.to_csv(os.path.join(root_processed, 'kfz_kombiniert.csv'), index=False, encoding='utf-8')
 
-            
-        print(df_merged.info())
+        # Gliederung der Daten zur explorativen Analyse, Normierung und Modellerstellung
+        list_kfz_aggr_antriebe = ["benzin", "diesel", "elektro", "gas", "hybrid", "pih", "sonstigeantriebe"]
+        list_kfz_aggr_eg = ["euro1", "euro2", "euro3", "euro4", "euro5", "euro6", "euro6dt", "euro6d", "sonstigeemissionsgruppen"]
+
+        df_antriebe = df_merged[['landkreis'] + list_kfz_aggr_antriebe]
+        df_eg = df_merged[['landkreis'] + list_kfz_aggr_eg]
+
+        df_antriebe_prozent = df_antriebe.copy()
+        df_antriebe_prozent[list_kfz_aggr_antriebe] = df_antriebe[list_kfz_aggr_antriebe].apply(lambda x: x / x.sum() * 100, axis=1)
+        df_eg_prozent = df_eg.copy()
+        df_eg_prozent[list_kfz_aggr_eg] = df_eg[list_kfz_aggr_eg].apply(lambda x: x / x.sum() * 100, axis=1)
+
+        # Dataframe für die Korrelation erstellen
+        df_corr = pd.DataFrame(pd.concat([df_merged[['anzahl_personen_1000', 'vee', 'anzahl_kfz', 'anzahl_kfz_je_person', 'unfaelle_je_10k_kfz']],
+                                          df_antriebe_prozent[list_kfz_aggr_antriebe],
+                                          df_eg_prozent[list_kfz_aggr_eg]], axis=1))
+        df_corr = df_corr[['anzahl_personen_1000', 'vee', 'anzahl_kfz_je_person', 'unfaelle_je_10k_kfz',
+                                    'elektro', 'pih',
+                                    'euro2', 'euro3', 'euro4', 'euro6', 'euro6dt']]
+        
+        # Datensätze speichern
+        df_antriebe.to_csv(os.path.join(root_interim, 'antriebe.csv'), index=False, encoding='utf-8')
+        df_antriebe_prozent.to_csv(os.path.join(root_interim, 'antriebe_prozent.csv'), index=False, encoding='utf-8')
+        df_eg.to_csv(os.path.join(root_interim, 'emissionsgruppen.csv'), index=False, encoding='utf-8')
+        df_eg_prozent.to_csv(os.path.join(root_interim, 'emissionsgruppen_prozent.csv'), index=False, encoding='utf-8')
+        df_corr.to_csv(os.path.join(root_processed, 'regression_data.csv'), index=False, encoding='utf-8')
+
+        print(df_corr.info())
         print("Programm erfolgreich beendet!")
     except Exception as e:
         print(f"Ein Fehler ist aufgetreten: {e}")
