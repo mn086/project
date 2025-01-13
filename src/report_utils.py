@@ -3,8 +3,8 @@ import os
 import pandas as pd
 
 sys.path.insert(0, os.path.abspath('..'))
-from src.data_preparation_utils import root_raw, root_processed, data_kfz, data_pop, data_vee, data_svu, relevant_cols
-from src.data_exploration_utils import create_table_figure
+from src.data_preparation_utils import root_raw, root_interim, root_processed, data_kfz, data_pop, data_vee, data_svu, relevant_cols
+from src.data_exploration_utils import create_table_figure, create_stacked_bar_chart
 
 
 # Dataframes der Rohdaten
@@ -15,6 +15,13 @@ df_svu = pd.read_csv(os.path.join(root_raw, data_svu), sep=";", decimal='.', enc
 
 # Dataframe der zusammengesetzen aufbereiteten Daten
 df_merged = pd.read_csv(os.path.join(root_processed, 'kfz_kombiniert.csv'))
+
+# gruppierte und normierte Dataframes (abgeleitet aus df_merged)
+df_antriebe = pd.read_csv(os.path.join(root_interim, 'antriebe.csv'))
+df_antriebe_prozent = pd.read_csv(os.path.join(root_interim, 'antriebe_prozent.csv'))
+df_eg = pd.read_csv(os.path.join(root_interim, 'emissionsgruppen.csv'))
+df_eg_prozent = pd.read_csv(os.path.join(root_interim, 'emissionsgruppen_prozent.csv'))
+df_regr = pd.read_csv(os.path.join(root_processed, 'regression_data.csv'))
 
 def create_info_table(df: pd.DataFrame) -> pd.DataFrame:
     """
@@ -75,3 +82,12 @@ def create_info_figure(df: pd.DataFrame, description: str = 'Beschreibung der Da
     info_df = add_description_column(info_df, relevant_cols)
     create_table_figure(info_df, description)
 
+# Fahrzeugbestand nach Antriebsart und Landkreis
+chart_antriebe = create_stacked_bar_chart(
+    df=df_antriebe,
+    id_vars=['landkreis'],
+    var_name='antriebsart',
+    value_name='Anzahl',
+    x_axis_title='Landkreis',
+    chart_title='Fahrzeugbestand nach Antriebsart und Landkreis'
+)

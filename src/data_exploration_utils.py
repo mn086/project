@@ -1,5 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import altair as alt
 
 
 def create_table_figure_matplotlib(df: pd.DataFrame, description: str = '') -> None:
@@ -106,3 +107,40 @@ def create_table_figure(df: pd.DataFrame, description: str = '', use_pandas: boo
         create_table_figure_pandas(df, description)
     else:
         create_table_figure_matplotlib(df, description)
+
+def create_stacked_bar_chart(df, id_vars, var_name, value_name, x_axis_title, chart_title):
+    """
+    Erstellt ein gestapeltes Balkendiagramm aus einem DataFrame.
+
+    Parameter:
+    df (pd.DataFrame): Der DataFrame, der die Daten enthält
+    id_vars (list): Liste der Spalten, die als Identifikatoren verwendet werden
+    var_name (str): Name der Spalte, die die Kategorien enthält
+    value_name (str): Name der Spalte, die die Werte enthält
+    x_axis_title (str): Titel der x-Achse
+    chart_title (str): Titel des Diagramms
+
+    Rückgabewert:
+    alt.Chart: Das erstellte gestapelte Balkendiagramm
+    """
+    
+    # Den DataFrame schmelzen, um Motortypen in eine einzelne Spalte zu konvertieren
+    df_melted = df.melt(
+        id_vars=id_vars, 
+        var_name=var_name, 
+        value_name=value_name
+    )
+
+    # Gestapeltes Balkendiagramm erstellen
+    chart = alt.Chart(df_melted).mark_bar().encode(
+        x=alt.X(f'{id_vars[0]}:N', axis=alt.Axis(labels=False, title=x_axis_title)),  # Labels aufgrund der großen Anzahl ausblenden
+        y=alt.Y(f'{value_name}:Q', stack='zero'),
+        color=f'{var_name}:N',
+        tooltip=[id_vars[0], var_name, value_name]
+    ).properties(
+        width=800,
+        height=400,
+        title=chart_title
+    )
+    
+    return chart
