@@ -5,6 +5,8 @@ import pandas as pd
 # Absoluter Pfad zum Skriptverzeichnis und Datenordner
 script_dir = os.path.dirname(os.path.abspath(__file__))
 root_raw = os.path.join(script_dir, '..', 'data', 'raw')
+root_interim = os.path.join(script_dir, '..', 'data', 'interim')
+root_processed = os.path.join(script_dir, '..', 'data', 'processed')
 
 # Rohdaten
 data_kfz = '46251-0021_de_2020_flat.csv' # Daten über Fahrzeugbestand
