@@ -15,7 +15,7 @@ def main():
         df_vee = pd.read_csv(os.path.join(root_raw, data_vee), sep=";", decimal='.', encoding='ISO-8859-1') # Einkommen
         df_svu = pd.read_csv(os.path.join(root_raw, data_svu), sep=";", decimal='.', encoding='ISO-8859-1') # Straßenverkehrsunfälle
 
-        # Spalten auswählen und umbenennen
+        # Daten vorverarbeiten
         df_kfz = select_columns(df_kfz, relevant_cols)
         df_kfz = rename_columns(df_kfz, relevant_cols)
         df_kfz = standardize_kfz_categories(df_kfz)
@@ -32,6 +32,17 @@ def main():
         df_svu = select_columns(df_svu, relevant_cols)
         df_svu = rename_columns(df_svu, relevant_cols)
         df_svu = remove_leading_zeros(df_svu)
+
+        # Daten auschließen
+        df_kfz = df_kfz.dropna() # aggregierte Zeilen haben NaN in den Spalten 'antriebe' und 'emissionsgruppen'
+        df_kfz = df_kfz[~df_kfz['landkreis'].str.contains(r'\)\s*$', na=False)] # Ausschluss von Landkreisen mit Gebietsreform, diese enden beispielsweise mit "(bis 03.09.2011)"
+
+        df_pop = df_pop[df_pop['alter_id'].isna()] # Nur aggregierte Zeilen behalten (alter_id ist NaN)
+        df_pop = df_pop[df_pop['geschlecht_id'].isna()] # Nur aggregierte Zeilen behalten (geschlecht_id ist NaN), übrig bleiben Zeilen der Gesamteinwohnerzahl
+
+        # Pivotierung und Summierung des KFZ-DataFrame
+        df_kfz = transform_kfz_data(df_kfz)
+
 
         print(df_kfz)
         print("Programm erfolgreich beendet!")

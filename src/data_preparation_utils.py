@@ -137,3 +137,56 @@ def standardize_kfz_categories(df: pd.DataFrame) -> pd.DataFrame:
     )
     
     return df
+
+
+def transform_kfz_data(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Transformiert den KFZ-DataFrame durch Pivotierung und Summierung.
+    
+    Args:
+        df: DataFrame mit den Spalten 'landkreis_id', 'landkreis', 'antrieb', 
+            'emissionsgruppen' und 'anzahl_fahrzeuge'
+        
+    Returns:
+        Transformierter DataFrame mit:
+        - Pivotierten Spalten für Antrieb-Emissions-Kombinationen
+        - Summen für einzelne Antriebsarten und Emissionsgruppen
+        - Gesamtanzahl der Fahrzeuge
+    """
+    # Pivotieren des DataFrame
+    df = df.pivot_table(
+        index=['landkreis_id', 'landkreis'], 
+        columns=['antrieb', 'emissionsgruppen'], 
+        values='anzahl_fahrzeuge', 
+        fill_value=0)
+    
+    # MultiIndex der Spalten flach machen
+    df.columns = [f"{antrieb.lower()}_{emission.lower()}" for antrieb, emission in df.columns]
+    
+    # Konvertiere alle pivotierten Spalten zu int
+    df = df.astype(int)
+    
+    # Gesamtanzahl der Fahrzeuge berechnen
+    df['gesamt'] = df.sum(axis=1).astype(int)
+    
+    # Spaltennamen-Extraktion
+    antriebe = df.columns.str.extract(r"^(\w+)_")[0].dropna().unique()
+    emissionen = df.columns.str.extract(r"_(\w+)$")[0].dropna().unique()
+    
+    # Summen für Antriebsarten berechnen
+    for antrieb in antriebe:
+        antrieb_spalten = [col for col in df.columns if col.startswith(f"{antrieb}_")]
+        df[antrieb] = df[antrieb_spalten].sum(axis=1).astype(int)
+    
+    # Summen für Emissionsgruppen berechnen
+    for emission in emissionen:
+        emission_spalten = [col for col in df.columns if col.endswith(f"_{emission}")]
+        df[emission] = df[emission_spalten].sum(axis=1).astype(int)
+    
+    # MultiIndex in Spalten umwandeln
+    df = df.reset_index()
+    
+    # Spalte 'gesamt' umbenennen
+    df = df.rename(columns={'gesamt': 'anzahl_kfz'})
+    
+    return df
