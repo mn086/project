@@ -70,8 +70,11 @@ def main():
         df_svu.to_csv(os.path.join(root_interim, 'svu.csv'))
 
         # Zusammenführen der Dataframes
-
-        print(df_kfz)
+        df_merged = df_kfz.merge(df_vee[['landkreis_id', 'vee']], on='landkreis_id', how='left')
+        df_merged = df_merged.merge(df_pop[['landkreis_id', 'anzahl_personen_1000']], on='landkreis_id', how='left')
+        df_merged = df_merged.merge(df_svu[['landkreis_id', 'unfaelle_je_10k_kfz']], on='landkreis_id', how='left')
+        
+        print(df_merged.info())
         print("Programm erfolgreich beendet!")
     except Exception as e:
         print(f"Ein Fehler ist aufgetreten: {e}")
