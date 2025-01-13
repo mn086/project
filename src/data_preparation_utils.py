@@ -192,3 +192,61 @@ def transform_kfz_data(df: pd.DataFrame) -> pd.DataFrame:
     df = df.rename(columns={'gesamt': 'anzahl_kfz'})
     
     return df
+
+def fix_missing_values(df_combined: pd.DataFrame, df_reference: pd.DataFrame, column_name: str, verbose: bool = False) -> pd.DataFrame:
+    """
+    Korrigiert fehlende Werte in einem DataFrame durch Nachschlagen von Werten aus einem Referenz-DataFrame.
+    
+    Diese Funktion wird verwendet, um fehlende oder ungültige Werte (NaN oder <= 0) in einer bestimmten Spalte
+    des kombinierten DataFrames zu korrigieren, indem entsprechende Werte aus einem Referenz-DataFrame nachgeschlagen werden.
+    Die Zuordnung erfolgt über die landkreis_id.
+    
+    Args:
+        df_combined (pd.DataFrame): DataFrame mit zu korrigierenden fehlenden Werten
+        df_reference (pd.DataFrame): Referenz-DataFrame mit korrekten Werten
+        column_name (str): Name der zu korrigierenden Spalte
+        verbose (bool, optional): Wenn True, werden detaillierte Ausgaben gedruckt. Defaults to False.
+    
+    Returns:
+        pd.DataFrame: DataFrame mit korrigierten Werten
+    
+    Hinweise:
+        - Funktion prüft auf NaN-Werte und Werte <= 0
+        - Führende Nullen in landkreis_id werden beim Matching entfernt
+        - Das Korrekturergebnis wird protokolliert, wenn verbose=True
+    """
+    # Prüfe auf fehlende Werte
+    missing_values = df_combined[df_combined[column_name].isna()]
+    
+    if not missing_values.empty:
+        if verbose:
+            print(f"Gefunden: {len(missing_values)} fehlende '{column_name}' Werte")
+        
+        # Iteriere durch Zeilen mit fehlenden Werten
+        for index, row in missing_values.iterrows():
+            # Entferne Nullen am Ende der landkreis_id für die Suche
+            landkreis_id_trans = str(row['landkreis_id']).rstrip('0')
+            
+            # Suche nach passendem Eintrag im Referenz-DataFrame
+            matching_row = df_reference[df_reference['landkreis_id'] == landkreis_id_trans]
+            
+            if not matching_row.empty:
+                df_combined.loc[index, column_name] = matching_row[column_name].values[0]
+                if verbose:
+                    print(f"Fehlender Wert für '{row['landkreis']}' wurde ersetzt mit '{column_name}' Wert: {matching_row[column_name].values[0]}")
+            else:
+                if verbose:
+                    print(f"Kein passender '{column_name}' Wert gefunden für '{row['landkreis']}'")
+    elif verbose:
+        print(f"Alle '{column_name}' Werte sind gültig und vorhanden.")
+
+    # Abschließende Prüfung auf verbleibende fehlende Werte
+    still_missing = df_combined[df_combined[column_name].isna()]
+    if still_missing.empty:
+        if verbose:
+            print(f"Alle fehlenden '{column_name}' Werte wurden erfolgreich korrigiert.")
+    elif verbose:
+        print(f"Es gibt noch Landkreise mit fehlenden '{column_name}' Werten:")
+        print(still_missing[['landkreis_id', 'landkreis']])
+    
+    return df_combined

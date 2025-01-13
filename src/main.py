@@ -69,11 +69,24 @@ def main():
         df_pop.to_csv(os.path.join(root_interim, 'pop.csv'))
         df_svu.to_csv(os.path.join(root_interim, 'svu.csv'))
 
-        # Zusammenführen der Dataframes
+        # Zusammenführen der Dataframes mit Hilfe der landkreis_id
         df_merged = df_kfz.merge(df_vee[['landkreis_id', 'vee']], on='landkreis_id', how='left')
         df_merged = df_merged.merge(df_pop[['landkreis_id', 'anzahl_personen_1000']], on='landkreis_id', how='left')
         df_merged = df_merged.merge(df_svu[['landkreis_id', 'unfaelle_je_10k_kfz']], on='landkreis_id', how='left')
         
+        # Suche nach Daten, die aufgrund inkonsistenter `landkreis_id` nicht gemerged werden konnten
+        # (es verbleiben Landkreise, zu denen keine Daten in df_pop gefunden werden können -> Ausgabe mit verbose=True )
+        df_merged = fix_missing_values(df_merged, df_vee, 'vee')
+        df_merged = fix_missing_values(df_merged, df_pop, 'anzahl_personen_1000')
+        df_merged = fix_missing_values(df_merged, df_svu, 'unfaelle_je_10k_kfz')
+
+        # Feature Engineering: Neue Spalte 'anzahl_kfz_je_person' erstellen
+        df_merged['anzahl_kfz_je_person'] = df_merged['anzahl_kfz'] / (df_merged['anzahl_personen_1000'] * 1000)
+
+        # Zusammengesetzen aufbereiteten Datensatz speichern
+        df_merged.to_csv(os.path.join(root_processed, 'kfz_kombiniert.csv'), index=False, encoding='utf-8')
+
+            
         print(df_merged.info())
         print("Programm erfolgreich beendet!")
     except Exception as e:
