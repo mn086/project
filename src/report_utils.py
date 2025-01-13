@@ -3,7 +3,7 @@ import os
 import pandas as pd
 
 sys.path.insert(0, os.path.abspath('..'))
-from src.data_preparation_utils import root_raw, data_kfz, data_pop, data_vee, data_svu, relevant_cols, rename_columns
+from src.data_preparation_utils import root_raw, root_processed, data_kfz, data_pop, data_vee, data_svu, relevant_cols
 from src.data_exploration_utils import create_table_figure
 
 
@@ -13,6 +13,8 @@ df_pop = pd.read_csv(os.path.join(root_raw, data_pop), sep=";", decimal='.', enc
 df_vee = pd.read_csv(os.path.join(root_raw, data_vee), sep=";", decimal='.', encoding='ISO-8859-1') # Einkommen
 df_svu = pd.read_csv(os.path.join(root_raw, data_svu), sep=";", decimal='.', encoding='ISO-8859-1') # Straßenverkehrsunfälle
 
+# Dataframe der zusammengesetzen aufbereiteten Daten
+df_merged = pd.read_csv(os.path.join(root_processed, 'kfz_kombiniert.csv'))
 
 def create_info_table(df: pd.DataFrame) -> pd.DataFrame:
     """
