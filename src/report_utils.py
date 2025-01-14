@@ -91,3 +91,23 @@ chart_antriebe = create_stacked_bar_chart(
     x_axis_title='Landkreis',
     chart_title='Fahrzeugbestand nach Antriebsart und Landkreis'
 )
+
+# Fahrzeugbestand nach Antriebsart und Landkreis (normiert)
+chart_antriebe_prozent = create_stacked_bar_chart(
+    df=df_antriebe_prozent,
+    id_vars=['landkreis'],
+    var_name='antriebsart',
+    value_name='Anteil %',
+    x_axis_title='Landkreis',
+    chart_title='Fahrzeugbestand nach Antriebsart und Landkreis'
+)
+
+# Fahrzeugbestand nach Emissionsgruppe und Landkreis (normiert)
+chart_eg_prozent = create_stacked_bar_chart(
+    df=df_eg_prozent,
+    id_vars=['landkreis'],
+    var_name='Emissiongruppe',
+    value_name='Anteil %',
+    x_axis_title='Landkreis',
+    chart_title='Fahrzeugbestand nach Emissionsgruppe und Landkreis'
+)
