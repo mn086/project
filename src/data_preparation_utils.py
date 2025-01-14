@@ -34,7 +34,7 @@ relevant_cols = [
     # vee
     {'name': 'ID0002__Verfuegbares_Einkommen_je_EW__EUR', 'description': 'Verfügbares Einkommen je Einwohner in EUR', 'rename': 'vee', 'dtype': 'float64'},
     # svu
-    {'name': 'AI1303__Strassenverkehrsunfaelle_je_10.000_Kfz__Anzahl', 'description': 'Unfaelle je 10000 Kfz.', 'rename': 'unfaelle_je_10k_kfz', 'dtype': 'float64'}
+    {'name': 'AI1303__Strassenverkehrsunfaelle_je_10.000_Kfz__Anzahl', 'description': 'Unfaelle je 10000 Kfz', 'rename': 'unfaelle_je_10k_kfz', 'dtype': 'float64'}
 ]
 
 
