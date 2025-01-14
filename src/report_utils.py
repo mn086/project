@@ -4,7 +4,7 @@ import pandas as pd
 
 sys.path.insert(0, os.path.abspath('..'))
 from src.data_preparation_utils import root_raw, root_interim, root_processed, data_kfz, data_pop, data_vee, data_svu, relevant_cols
-from src.data_exploration_utils import create_table_figure, create_stacked_bar_chart, create_distribution_plot, create_density_plot, create_scatterplot_grid
+from src.data_exploration_utils import create_table_figure, create_stacked_bar_chart, create_distribution_plot, create_density_plot, create_scatterplot_grid, plot_regression_and_residuals
 from src.data_modelling_utils import *
 
 
@@ -102,6 +102,7 @@ data_dict = {
 df_data_dictionary = pd.DataFrame.from_dict(data_dict, orient='index').reset_index()
 df_data_dictionary.columns = ["Name", "Beschreibung", "Rolle", "Typ", "Format"]
 
+
 def create_info_table(df: pd.DataFrame) -> pd.DataFrame:
     """
     Erstellt eine Übersichtstabelle mit Informationen zu allen Spalten eines DataFrames.
@@ -190,3 +191,7 @@ chart_eg_prozent = create_stacked_bar_chart(
     x_axis_title='Landkreis',
     chart_title='Fahrzeugbestand nach Emissionsgruppe und Landkreis'
 )
+
+X = df_regr[features]
+y = df_regr[y_label]
+srr_plot = plot_regression_and_residuals(X, y)

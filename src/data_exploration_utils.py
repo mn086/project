@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 import matplotlib.pyplot as plt
 import altair as alt
 from typing import List, Optional
@@ -304,3 +305,72 @@ def create_scatterplot_grid(df: pd.DataFrame,
         column=list_col
     )
     return chart
+
+def plot_regression_and_residuals(X, y):
+    plots = []
+    for feature in X.columns:
+        # Berechne Steigung und Achsenabschnitt für einfache lineare Regression
+        X_feature = X[[feature]]
+        slope = np.cov(X_feature[feature], y)[0,1] / np.var(X_feature[feature])
+        intercept = y.mean() - slope * X_feature[feature].mean()
+        y_pred = intercept + slope * X_feature[feature]
+        
+        # Erstelle DataFrame für beide Plots
+        df_plot = pd.DataFrame({
+            feature: X_feature[feature],
+            'y': y,
+            'y_pred': y_pred,
+            'residuals': y - y_pred
+        })
+        
+        # Scatterplot mit Regressionsgerade
+        base_scatter = alt.Chart(df_plot).encode(
+            x=alt.X(feature, title=None)
+        )
+        
+        scatter = base_scatter.mark_point().encode(
+            y=alt.Y('y', title='y')
+        ) + base_scatter.mark_line(color='red').encode(
+            y=alt.Y('y_pred', title='y_pred')
+        ).properties(
+            height=200
+        )
+        
+        # Geradengleichung als Text - mit verbesserter Darstellung für negative Steigung
+        equation_text = f'y = {intercept:.2f} {"+" if slope >= 0 else "-"} {abs(slope):.2f} * x'
+        text = alt.Chart(pd.DataFrame({
+            feature: [X_feature[feature].min() + (X_feature[feature].max() - X_feature[feature].min()) * 0.1],
+            'y': [y.max() - (y.max() - y.min()) * 0.1],
+            'text': [equation_text]
+        })).mark_text(align='left', baseline='top').encode(
+            x=feature,
+            y='y',
+            text='text'
+        )
+        
+        scatter = scatter + text
+        
+        # Residuenplot
+        base_residual = alt.Chart(df_plot).encode(
+            x=alt.X(feature, title=feature)
+        )
+        
+        residual_plot = base_residual.mark_point().encode(
+            y=alt.Y('residuals', title='Residuen')
+        ).properties(
+            height=75
+        )
+        
+        # Kombiniere Plots vertikal mit gemeinsamer x-Achse
+        combined_plot = alt.vconcat(scatter, residual_plot).resolve_scale(
+            x='shared'
+        )
+        plots.append(combined_plot)
+    
+    # Anordnung der Plots in einem Raster mit 3 Spalten
+    rows = []
+    for i in range(0, len(plots), 3):
+        row = alt.hconcat(*plots[i:i+3])
+        rows.append(row)
+    
+    return alt.vconcat(*rows)
