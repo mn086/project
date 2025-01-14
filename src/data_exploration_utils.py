@@ -144,3 +144,111 @@ def create_stacked_bar_chart(df, id_vars, var_name, value_name, x_axis_title, ch
     )
     
     return chart
+
+def create_distribution_plot(df: pd.DataFrame, column_name: str, observation_label: str, 
+                           xmin: float = None, xmax: float = None, width: int = 400) -> alt.VConcatChart:
+    """
+    Erstellt eine kombinierte Visualisierung aus Histogramm und Boxplot.
+    
+    Args:
+    df (pd.DataFrame): DataFrame mit den zu visualisierenden Daten
+    column_name (str): Name der zu visualisierenden Spalte
+    observation_label (str): Bezeichnung der beobachteten Einheiten (z.B. "Landkreise", "Städte")
+    xmin (float, optional): Minimumwert der x-Achse. Bei None wird Auto-Skalierung verwendet
+    xmax (float, optional): Maximumwert der x-Achse. Bei None wird Auto-Skalierung verwendet
+    width (int): Breite der Diagramme in Pixeln
+    
+    Returns:
+        alt.VConcatChart: Kombiniertes Diagramm aus Histogramm und Boxplot
+    """
+    if column_name not in df.columns:
+        raise ValueError(f"Spalte {column_name} nicht im DataFrame gefunden")
+    
+    if xmin is None:
+        xmin = df[column_name].min()
+    if xmax is None:
+        xmax = df[column_name].max()
+    
+    histogram = alt.Chart(df).mark_bar().encode(
+        x=alt.X(f'{column_name}:Q',
+                bin=alt.Bin(maxbins=30),
+                title='',
+                axis=alt.Axis(grid=True),
+                scale=alt.Scale(domain=[xmin, xmax])),
+        y=alt.Y('count():Q',
+                title=f'Anzahl {observation_label}')
+    ).properties(
+        width=width,
+        height=200
+    )
+
+    boxplot = alt.Chart(df).mark_boxplot(
+        median={'color': 'white'},
+        color='#57A44C'
+    ).encode(
+        x=alt.X(f'{column_name}:Q',
+                title=f'{column_name} (%)',
+                axis=alt.Axis(grid=True),
+                scale=alt.Scale(domain=[xmin, xmax]))
+    ).properties(
+        width=width,
+        height=50
+    )
+
+    combined_chart = alt.vconcat(histogram, boxplot).properties(
+        title={
+            'text': f'Verteilung der {column_name} nach {observation_label}',
+            'anchor': 'middle',
+            'fontSize': 16
+        }
+    )
+    
+    return combined_chart
+
+def create_density_plot(df: pd.DataFrame, column_name: str, observation_label: str, 
+                       xmin: float = None, xmax: float = None, width: int = 400) -> alt.Chart:
+    """
+    Erstellt eine Visualisierung der Dichteverteilung (KDE-Plot).
+    
+    Args:
+        df: DataFrame mit den zu visualisierenden Daten
+        column_name: Name der zu visualisierenden Spalte
+        observation_label: Bezeichnung der beobachteten Einheiten (z.B. "Landkreise", "Städte")
+        xmin: Minimumwert der x-Achse. Bei None wird Auto-Skalierung verwendet
+        xmax: Maximumwert der x-Achse. Bei None wird Auto-Skalierung verwendet
+        width: Breite des Diagramms in Pixeln
+    
+    Returns:
+        alt.Chart: Dichteverteilungsdiagramm
+    """
+    if column_name not in df.columns:
+        raise ValueError(f"Spalte {column_name} nicht im DataFrame gefunden")
+    
+    if xmin is None:
+        xmin = df[column_name].min()
+    if xmax is None:
+        xmax = df[column_name].max()
+    
+    density_plot = alt.Chart(df).transform_density(
+        column_name,
+        as_=[column_name, 'density']
+    ).mark_area(
+        opacity=0.7,
+        color='#57A44C'
+    ).encode(
+        x=alt.X(f'{column_name}:Q',
+                title=f'{observation_label}',
+                scale=alt.Scale(domain=[xmin, xmax])),
+        y=alt.Y('density:Q',
+                title='Wahrscheinlichkeitsdichte'),
+        tooltip=[
+            alt.Tooltip(f'{column_name}:Q', title=observation_label, format='.1f'),
+            alt.Tooltip('density:Q', title='Dichte', format='.4f')
+        ]
+    ).properties(
+        width=width,
+        height=300,
+        title=f'Dichteverteilung der {observation_label}'
+    )
+    
+    return density_plot
