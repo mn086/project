@@ -1,6 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import altair as alt
+from typing import List, Optional
 
 
 def create_table_figure_matplotlib(df: pd.DataFrame, description: str = '') -> None:
@@ -252,3 +253,54 @@ def create_density_plot(df: pd.DataFrame, column_name: str, observation_label: s
     )
     
     return density_plot
+
+def create_scatterplot_grid(df: pd.DataFrame, 
+                          list_row: Optional[List[str]] = None, 
+                          list_col: Optional[List[str]] = None, 
+                          width: int = 150, 
+                          height: int = 150) -> alt.Chart:
+    """
+    Erstellt ein Raster von Streudiagrammen für die angegebenen Spalten eines DataFrames.
+    Diese Funktion generiert ein Grid von Streudiagrammen unter Verwendung von Altair, 
+    wobei jedes Diagramm die Beziehung zwischen zwei Variablen darstellt.
+
+    Args:
+        df: Der DataFrame, der die zu plottenden Daten enthält
+        list_row: Liste der Spaltennamen für die Y-Achsen. 
+                 Wenn None, werden alle Spalten des DataFrames verwendet
+        list_col: Liste der Spaltennamen für die X-Achsen.
+                 Wenn None, werden alle Spalten des DataFrames verwendet
+        width: Breite jedes einzelnen Plots in Pixeln (Standard: 150)
+        height: Höhe jedes einzelnen Plots in Pixeln (Standard: 150)
+
+    Returns:
+        Ein Altair-Chart-Objekt, das das Raster von Streudiagrammen darstellt
+
+    Beispiel:
+        >>> df = pd.DataFrame({'a': [1,2,3], 'b': [4,5,6]})
+        >>> chart = create_scatterplot_grid(df)
+        >>> chart.save('scatterplot_grid.html')
+    """
+    # Standardmäßig alle Spaltennamen verwenden, wenn keine Listen angegeben sind
+    if list_row is None:
+        list_row = df.columns.tolist()
+    if list_col is None:
+        list_col = df.columns.tolist()
+    
+    chart = alt.Chart(df).mark_circle().encode(
+        x=alt.X(alt.repeat("column"),
+                type='quantitative',
+                scale=alt.Scale(zero=False)
+                ),
+        y=alt.Y(alt.repeat("row"),
+                type='quantitative',
+                scale=alt.Scale(zero=False)
+                )
+    ).properties(
+        width=width,
+        height=height
+    ).repeat(
+        row=list_row,
+        column=list_col
+    )
+    return chart

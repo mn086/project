@@ -4,7 +4,7 @@ import pandas as pd
 
 sys.path.insert(0, os.path.abspath('..'))
 from src.data_preparation_utils import root_raw, root_interim, root_processed, data_kfz, data_pop, data_vee, data_svu, relevant_cols
-from src.data_exploration_utils import create_table_figure, create_stacked_bar_chart, create_distribution_plot, create_density_plot
+from src.data_exploration_utils import create_table_figure, create_stacked_bar_chart, create_distribution_plot, create_density_plot, create_scatterplot_grid
 
 
 # Dataframes der Rohdaten
