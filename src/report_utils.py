@@ -23,6 +23,84 @@ df_eg = pd.read_csv(os.path.join(root_interim, 'emissionsgruppen.csv'))
 df_eg_prozent = pd.read_csv(os.path.join(root_interim, 'emissionsgruppen_prozent.csv'))
 df_regr = pd.read_csv(os.path.join(root_processed, 'regression_data.csv'))
 
+# Datenwörterbuch
+data_dict = {
+    "landkreis_id": {
+        "Beschreibung": "Landkreis ID",
+        "Rolle": "ID",
+        "Typ": "",
+        "Format": "String"
+    },
+    "anzahl_personen_1000": {
+        "Beschreibung": "Bevölkerungsanzahl in Tausend",
+        "Rolle": "Prädiktor",
+        "Typ": "numerisch",
+        "Format": "Float"
+    },
+    "vee": {
+        "Beschreibung": "Verfügbares Einkommen je Einwohner in EUR",
+        "Rolle": "Prädiktor",
+        "Typ": "numerisch",
+        "Format": "Float"
+    },
+    "anzahl_kfz_je_person": {
+        "Beschreibung": "Anzahl der Kraftfahrzeuge pro Person",
+        "Rolle": "Prädiktor",
+        "Typ": "numerisch",
+        "Format": "Float"
+    },
+    "unfaelle_je_10k_kfz": {
+        "Beschreibung": "Unfaelle je 10000 Kfz",
+        "Rolle": "Prädiktor",
+        "Typ": "numerisch",
+        "Format": "Float"
+    },
+    "elektro": {
+        "Beschreibung": "Anteil der Elektrofahrzeuge",
+        "Rolle": "Prädiktor",
+        "Typ": "numerisch",
+        "Format": "Float"
+    },
+    "pih": {
+        "Beschreibung": "Anteil der Plug-in-Hybridfahrzeuge",
+        "Rolle": "Prädiktor",
+        "Typ": "numerisch",
+        "Format": "Float"
+    },
+    "euro2": {
+        "Beschreibung": "Anteil der Fahrzeuge mit EURO 2 Norm",
+        "Rolle": "Prädiktor",
+        "Typ": "numerisch",
+        "Format": "Float"
+    },
+    "euro3": {
+        "Beschreibung": "Anteil der Fahrzeuge mit EURO 3 Norm",
+        "Rolle": "Prädiktor",
+        "Typ": "numerisch",
+        "Format": "Float"
+    },
+    "euro4": {
+        "Beschreibung": "Anteil der Fahrzeuge mit EURO 4 Norm",
+        "Rolle": "Antwort",
+        "Typ": "numerisch",
+        "Format": "Float"
+    },
+    "euro6": {
+        "Beschreibung": "Anteil der Fahrzeuge mit EURO 6 Norm",
+        "Rolle": "Prädiktor",
+        "Typ": "numerisch",
+        "Format": "Float"
+    },
+    "euro6dt": {
+        "Beschreibung": "Anteil der Fahrzeuge mit EURO 6d-TEMP Norm",
+        "Rolle": "Prädiktor",
+        "Typ": "numerisch",
+        "Format": "Float"
+    }
+}
+df_data_dictionary = pd.DataFrame.from_dict(data_dict, orient='index').reset_index()
+df_data_dictionary.columns = ["Name", "Beschreibung", "Rolle", "Typ", "Format"]
+
 def create_info_table(df: pd.DataFrame) -> pd.DataFrame:
     """
     Erstellt eine Übersichtstabelle mit Informationen zu allen Spalten eines DataFrames.
