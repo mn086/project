@@ -195,3 +195,7 @@ chart_eg_prozent = create_stacked_bar_chart(
 X = df_regr[features]
 y = df_regr[y_label]
 srr_plot = plot_regression_and_residuals(X, y)
+srr_plot_elektro_with_outliers = plot_regression_and_residuals(X[['elektro']], y)
+filtered_X = X[X['elektro'] <= 2]
+filtered_y = y[filtered_X.index]
+srr_plot_elektro_without_outliers = plot_regression_and_residuals(filtered_X[['elektro']], filtered_y)
