@@ -34,5 +34,7 @@
 │   └── figures        <- Generated graphics and figures to be used in reporting
 │
 ├── requirements       <- The requirements file for reproducing the analysis environment, e.g. a `environment.yml` file
+│
+├── src                <- Python scripts, main file and utils for main and report.ipynb
 
 ```    
